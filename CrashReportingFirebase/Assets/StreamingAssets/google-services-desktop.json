@@ -1,0 +1,37 @@
+{
+  "client": [
+    {
+      "services": {
+        "appinvite_service": {
+          "status": 1
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "825100065460-oivrv5buu4gqudrjb8o9s1iftg5unopr.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoKDxtvS5d07B03eoS3ViUMtgMLNOi1mQ"
+        }
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:825100065460:ios:5a27d442c400b833fed5e1", 
+        "android_client_info": {
+          "package_name": "com.softengi.xgrowring"
+        }
+      }
+    }
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "crashreportingtest-2f64a.appspot.com", 
+    "project_id": "crashreportingtest-2f64a", 
+    "firebase_url": "https://crashreportingtest-2f64a.firebaseio.com", 
+    "project_number": "825100065460"
+  }
+}
