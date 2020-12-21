@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: ff51b2aa74693ad409c73c279b5edae4
+timeCreated: 1492095673
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Creation Curves
+    100002: Cutting Objects
+    100004: Default
+    100006: Diamond_Baguette Straight
+    100008: Diamond_Baguette Straight_2
+    100010: Diamond_Radiant
+    100012: Diamond_Radiant_2
+    100014: Diamond_Radiant_3
+    100016: Finger Sizes
+    100018: Gem
+    100020: Gem 01
+    100022: Gem 02
+    100024: Gem 03
+    100026: Gem 04
+    100028: Heads
+    100030: Lights
+    100032: Metal 01
+    100034: Metal 02
+    100036: Metal 03
+    100038: Metal 04
+    100040: Object_2
+    100042: //RootNode
+    100044: User Layer 01
+    100046: User Layer 02
+    100048: User Layer 03
+    100050: User Layer 04
+    100052: User Layer 17
+    100054: User Layer 18
+    100056: User Layer 19
+    100058: User Layer 20
+    100060: User Layer 21
+    100062: User Layer 22
+    100064: User Layer 23
+    100066: User Layer 24
+    100068: User Layer 25
+    100070: User Layer 26
+    100072: User Layer 27
+    100074: User Layer 28
+    100076: User Layer 29
+    100078: User Layer 30
+    100080: User Layer 31
+    100082: User Layer 32
+    100084: Diamond_Emerald
+    100086: Diamond_Emerald_2
+    100088: Diamond_Emerald_3
+    100090: Diamond_Emerald_4
+    100092: Diamond_Emerald_5
+    100094: Object_1
+    400000: Creation Curves
+    400002: Cutting Objects
+    400004: Default
+    400006: Diamond_Baguette Straight
+    400008: Diamond_Baguette Straight_2
+    400010: Diamond_Radiant
+    400012: Diamond_Radiant_2
+    400014: Diamond_Radiant_3
+    400016: Finger Sizes
+    400018: Gem
+    400020: Gem 01
+    400022: Gem 02
+    400024: Gem 03
+    400026: Gem 04
+    400028: Heads
+    400030: Lights
+    400032: Metal 01
+    400034: Metal 02
+    400036: Metal 03
+    400038: Metal 04
+    400040: Object_2
+    400042: //RootNode
+    400044: User Layer 01
+    400046: User Layer 02
+    400048: User Layer 03
+    400050: User Layer 04
+    400052: User Layer 17
+    400054: User Layer 18
+    400056: User Layer 19
+    400058: User Layer 20
+    400060: User Layer 21
+    400062: User Layer 22
+    400064: User Layer 23
+    400066: User Layer 24
+    400068: User Layer 25
+    400070: User Layer 26
+    400072: User Layer 27
+    400074: User Layer 28
+    400076: User Layer 29
+    400078: User Layer 30
+    400080: User Layer 31
+    400082: User Layer 32
+    400084: Diamond_Emerald
+    400086: Diamond_Emerald_2
+    400088: Diamond_Emerald_3
+    400090: Diamond_Emerald_4
+    400092: Diamond_Emerald_5
+    400094: Object_1
+    2300000: Diamond_Baguette Straight
+    2300002: Diamond_Baguette Straight_2
+    2300004: Diamond_Radiant
+    2300006: Diamond_Radiant_2
+    2300008: Diamond_Radiant_3
+    2300010: Object_2
+    2300012: Diamond_Emerald
+    2300014: Diamond_Emerald_2
+    2300016: Diamond_Emerald_3
+    2300018: Diamond_Emerald_4
+    2300020: Diamond_Emerald_5
+    2300022: Object_1
+    3300000: Diamond_Baguette Straight
+    3300002: Diamond_Baguette Straight_2
+    3300004: Diamond_Radiant
+    3300006: Diamond_Radiant_2
+    3300008: Diamond_Radiant_3
+    3300010: Object_2
+    3300012: Diamond_Emerald
+    3300014: Diamond_Emerald_2
+    3300016: Diamond_Emerald_3
+    3300018: Diamond_Emerald_4
+    3300020: Diamond_Emerald_5
+    3300022: Object_1
+    4300000: Object_2
+    4300002: Diamond_Radiant_3
+    4300004: Diamond_Radiant_2
+    4300006: Diamond_Baguette Straight_2
+    4300008: Diamond_Radiant
+    4300010: Diamond_Baguette Straight
+    4300012: Object_1
+    4300014: Diamond_Emerald
+    4300016: Diamond_Emerald_2
+    4300018: Diamond_Emerald_3
+    4300020: Diamond_Emerald_4
+    4300022: Diamond_Emerald_5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

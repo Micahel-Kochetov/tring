@@ -1,0 +1,20 @@
+<linker>
+    <!-- The following assemblies contain namespaces that should be fully preserved
+         even when assembly stripping is used. Not excluding the assemblies below from
+         stripping can result in crashes or various exceptions. -->
+    <assembly fullname="Vuforia.UnityExtensions">
+        <namespace fullname="Vuforia" preserve="all"/>
+    </assembly>
+    <assembly fullname="System">
+        <namespace fullname="System.Runtime.InteropServices" preserve="all"/>
+        <namespace fullname="System.Collections.Generic;" preserve="all"/>
+        <namespace fullname="System.Linq;" preserve="all"/>
+        <namespace fullname="System.Text.RegularExpressions;" preserve="all"/>
+        <namespace fullname="System.IO;" preserve="all"/>
+        <namespace fullname="System;" preserve="all"/>
+		<type fullname="System.Net.Configuration.MailSettingsSectionGroup" preserve="all"/>
+		<type fullname="System.Net.Configuration.SmtpSection" preserve="all"/>
+		<type fullname="System.Net.Configuration.SmtpNetworkElement" preserve="all"/>
+		<type fullname="System.Net.Configuration.SmtpSpecifiedPickupDirectoryElement" preserve="all"/>	
+    </assembly>
+</linker>

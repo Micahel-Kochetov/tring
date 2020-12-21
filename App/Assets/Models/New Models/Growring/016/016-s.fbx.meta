@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 77cac12cdf827c3448c90550b4a3ee8f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Capa 01
+    100004: Curves
+    100006: Cutting Objects
+    100008: Default
+    100010: Done
+    100012: Front
+    100014: Gem
+    100016: Gem 01
+    100018: Gem 03
+    100020: Heart_03
+    100022: Layer 01
+    100024: Layer 02
+    100026: Layer 03
+    100028: Layer 04
+    100030: Layer 05
+    100032: Make2D
+    100034: Metal 01
+    100036: Object_1
+    100038: Object_3
+    100040: Object_4
+    100042: Octo_06
+    100044: Ova_01
+    100046: Ova_02
+    100048: Ova_03
+    100050: Ova_04
+    100052: Perspective
+    100054: Predeterminada
+    100056: Rds_01
+    100058: Right
+    100060: Square_05
+    100062: Square_11
+    100064: Square_13
+    100066: Top
+    100068: Tri_05
+    100070: Visible
+    400000: //RootNode
+    400002: Capa 01
+    400004: Curves
+    400006: Cutting Objects
+    400008: Default
+    400010: Done
+    400012: Front
+    400014: Gem
+    400016: Gem 01
+    400018: Gem 03
+    400020: Heart_03
+    400022: Layer 01
+    400024: Layer 02
+    400026: Layer 03
+    400028: Layer 04
+    400030: Layer 05
+    400032: Make2D
+    400034: Metal 01
+    400036: Object_1
+    400038: Object_3
+    400040: Object_4
+    400042: Octo_06
+    400044: Ova_01
+    400046: Ova_02
+    400048: Ova_03
+    400050: Ova_04
+    400052: Perspective
+    400054: Predeterminada
+    400056: Rds_01
+    400058: Right
+    400060: Square_05
+    400062: Square_11
+    400064: Square_13
+    400066: Top
+    400068: Tri_05
+    400070: Visible
+    2000000: Front
+    2000002: Perspective
+    2000004: Right
+    2000006: Top
+    2100000: Material_2
+    2300000: Object_1
+    2300002: Object_3
+    2300004: Object_4
+    3300000: Object_1
+    3300002: Object_3
+    3300004: Object_4
+    4300000: Object_1
+    4300002: Object_3
+    4300004: Object_4
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

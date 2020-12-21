@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: bd41da9115dd78545acc8c7224646ac9
+timeCreated: 1492327598
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - ChippewaFallsNF
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b057f2c82e9c1734d8d34dce0e02ed1d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

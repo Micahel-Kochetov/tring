@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1672545349858254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4219525359272870}
+  - component: {fileID: 114611987176887074}
+  - component: {fileID: 114854421083849582}
+  m_Layer: 0
+  m_Name: ARRing3DContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4219525359272870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672545349858254}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114611987176887074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672545349858254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89715ad69b973a14899afa2c6730b30b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers:
+  - {fileID: 114854421083849582}
+  _installerPrefabs: []
+  _autoRun: 1
+  OnPreInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPreResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  _parentNewObjectsUnderSceneContext: 0
+  _contractNames: []
+  _parentContractNames: []
+--- !u!114 &114854421083849582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672545349858254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d8ccf9d499c654c979ba68058e3e90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vuforiaMarkersView:
+    ringEventHandler: {fileID: 0}
+  showRingView:
+    modelsParent: {fileID: 0}
+    models:
+    - ringPrefabPath: Rings/Ring 001
+      price: 1000
+      name: 001
+      sprite: {fileID: 21300000, guid: f2d83a3d44f39314a93f1c7e23318081, type: 3}
+    - ringPrefabPath: Rings/Ring 002
+      price: 1000
+      name: 002
+      sprite: {fileID: 21300000, guid: 2cddb8d277714a943b712d92269a81be, type: 3}
+    - ringPrefabPath: Rings/Ring 003
+      price: 1000
+      name: 003
+      sprite: {fileID: 21300000, guid: 2f06df1239169a346bd112a4640691fc, type: 3}
+    - ringPrefabPath: Rings/Ring 004
+      price: 1000
+      name: 004
+      sprite: {fileID: 21300000, guid: e1f931a6dac454040a7fb896dba90d8c, type: 3}
+    - ringPrefabPath: Rings/Ring 005
+      price: 1000
+      name: 005
+      sprite: {fileID: 21300000, guid: b8070a3bad3dd9e429ad394dcd83cd94, type: 3}
+    - ringPrefabPath: Rings/Ring 006
+      price: 1000
+      name: 006
+      sprite: {fileID: 21300000, guid: 35eba2bab953f874787d0b246e02b75f, type: 3}
+    - ringPrefabPath: Rings/Ring 007
+      price: 1000
+      name: 007
+      sprite: {fileID: 21300000, guid: aa6d15f4b40e03840bcba20ceaa3ab7d, type: 3}
+    - ringPrefabPath: Rings/Ring 008
+      price: 1000
+      name: 008
+      sprite: {fileID: 21300000, guid: c1250c7747edce54ea6393578726ae44, type: 3}
+    - ringPrefabPath: Rings/Ring 009
+      price: 1000
+      name: 009
+      sprite: {fileID: 21300000, guid: 7d1c2aef11e93c340951cd27d01af424, type: 3}
+    - ringPrefabPath: Rings/Ring 010
+      price: 1000
+      name: 010
+      sprite: {fileID: 21300000, guid: d18f354fb22821a4bba6c5d2e7db0528, type: 3}
+    - ringPrefabPath: Rings/Ring 011
+      price: 1000
+      name: 011
+      sprite: {fileID: 21300000, guid: ddfec7ca2b179da43be2405c460f11c8, type: 3}
+    - ringPrefabPath: Rings/Ring 012
+      price: 1000
+      name: 012
+      sprite: {fileID: 21300000, guid: fe3d7f17b43ad7943bcf937e2e4c78e1, type: 3}
+    - ringPrefabPath: Rings/Ring 013
+      price: 1000
+      name: 013
+      sprite: {fileID: 21300000, guid: bf36551c65e9415439e66a0b2a4a7334, type: 3}
+    - ringPrefabPath: Rings/Ring 014
+      price: 1000
+      name: 014
+      sprite: {fileID: 21300000, guid: 761608405aa07e64eae5f1dcaf84bbb2, type: 3}
+    - ringPrefabPath: Rings/Ring 015
+      price: 1000
+      name: 015
+      sprite: {fileID: 21300000, guid: 1f6d1e5057801d446b7aef456af650fb, type: 3}
+    - ringPrefabPath: Rings/Ring 016
+      price: 1000
+      name: 016
+      sprite: {fileID: 21300000, guid: 338d6c37a0303b14582bed4a66169c24, type: 3}
+    - ringPrefabPath: Rings/Ring 017
+      price: 1000
+      name: 017
+      sprite: {fileID: 21300000, guid: 5e6f9e3e5be986448b8e36a22ec50479, type: 3}
+    - ringPrefabPath: Rings/Ring 018
+      price: 1000
+      name: 018
+      sprite: {fileID: 21300000, guid: 5465b94fc16ad3b47be55240060975df, type: 3}
+    arContent: {fileID: 0}
+  skinColorMonitor: {fileID: 0}

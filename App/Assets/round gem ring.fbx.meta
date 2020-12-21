@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 41820448d59d26e42941dd035d1518de
+timeCreated: 1505450506
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Creation Curves
+    100002: Cutting Objects
+    100004: Diamond_Oval
+    100006: Diamond_Round
+    100008: Diamond_Round_10
+    100010: Diamond_Round_11
+    100012: Diamond_Round_12
+    100014: Diamond_Round_13
+    100016: Diamond_Round_14
+    100018: Diamond_Round_15
+    100020: Diamond_Round_16
+    100022: Diamond_Round_17
+    100024: Diamond_Round_18
+    100026: Diamond_Round_19
+    100028: Diamond_Round_2
+    100030: Diamond_Round_20
+    100032: Diamond_Round_21
+    100034: Diamond_Round_22
+    100036: Diamond_Round_23
+    100038: Diamond_Round_24
+    100040: Diamond_Round_25
+    100042: Diamond_Round_26
+    100044: Diamond_Round_27
+    100046: Diamond_Round_28
+    100048: Diamond_Round_29
+    100050: Diamond_Round_3
+    100052: Diamond_Round_30
+    100054: Diamond_Round_31
+    100056: Diamond_Round_32
+    100058: Diamond_Round_33
+    100060: Diamond_Round_34
+    100062: Diamond_Round_35
+    100064: Diamond_Round_36
+    100066: Diamond_Round_37
+    100068: Diamond_Round_38
+    100070: Diamond_Round_39
+    100072: Diamond_Round_4
+    100074: Diamond_Round_40
+    100076: Diamond_Round_41
+    100078: Diamond_Round_42
+    100080: Diamond_Round_5
+    100082: Diamond_Round_6
+    100084: Diamond_Round_7
+    100086: Diamond_Round_8
+    100088: Diamond_Round_9
+    100090: Done
+    100092: Finger Sizes
+    100094: Gem
+    100096: Gem 01
+    100098: Gem 02
+    100100: Gem 03
+    100102: Gem 04
+    100104: Heads
+    100106: Layer 05
+    100108: Layer 08
+    100110: Lights
+    100112: Metal 01
+    100114: Metal 02
+    100116: Metal 03
+    100118: Metal 04
+    100120: Object_1
+    100122: Object_10
+    100124: Object_11
+    100126: Object_12
+    100128: Object_13
+    100130: Object_15
+    100132: Object_16
+    100134: Object_3
+    100136: Object_4
+    100138: Object_5
+    100140: Object_6
+    100142: Object_7
+    100144: Object_8
+    100146: Object_9
+    100148: //RootNode
+    100150: User Layer 01
+    100152: User Layer 02
+    100154: User Layer 03
+    100156: User Layer 04
+    100158: User Layer 20
+    100160: User Layer 21
+    100162: User Layer 22
+    100164: User Layer 23
+    100166: User Layer 24
+    100168: User Layer 25
+    100170: User Layer 26
+    100172: User Layer 27
+    100174: User Layer 28
+    100176: User Layer 29
+    100178: User Layer 30
+    100180: User Layer 31
+    100182: User Layer 32
+    400000: Creation Curves
+    400002: Cutting Objects
+    400004: Diamond_Oval
+    400006: Diamond_Round
+    400008: Diamond_Round_10
+    400010: Diamond_Round_11
+    400012: Diamond_Round_12
+    400014: Diamond_Round_13
+    400016: Diamond_Round_14
+    400018: Diamond_Round_15
+    400020: Diamond_Round_16
+    400022: Diamond_Round_17
+    400024: Diamond_Round_18
+    400026: Diamond_Round_19
+    400028: Diamond_Round_2
+    400030: Diamond_Round_20
+    400032: Diamond_Round_21
+    400034: Diamond_Round_22
+    400036: Diamond_Round_23
+    400038: Diamond_Round_24
+    400040: Diamond_Round_25
+    400042: Diamond_Round_26
+    400044: Diamond_Round_27
+    400046: Diamond_Round_28
+    400048: Diamond_Round_29
+    400050: Diamond_Round_3
+    400052: Diamond_Round_30
+    400054: Diamond_Round_31
+    400056: Diamond_Round_32
+    400058: Diamond_Round_33
+    400060: Diamond_Round_34
+    400062: Diamond_Round_35
+    400064: Diamond_Round_36
+    400066: Diamond_Round_37
+    400068: Diamond_Round_38
+    400070: Diamond_Round_39
+    400072: Diamond_Round_4
+    400074: Diamond_Round_40
+    400076: Diamond_Round_41
+    400078: Diamond_Round_42
+    400080: Diamond_Round_5
+    400082: Diamond_Round_6
+    400084: Diamond_Round_7
+    400086: Diamond_Round_8
+    400088: Diamond_Round_9
+    400090: Done
+    400092: Finger Sizes
+    400094: Gem
+    400096: Gem 01
+    400098: Gem 02
+    400100: Gem 03
+    400102: Gem 04
+    400104: Heads
+    400106: Layer 05
+    400108: Layer 08
+    400110: Lights
+    400112: Metal 01
+    400114: Metal 02
+    400116: Metal 03
+    400118: Metal 04
+    400120: Object_1
+    400122: Object_10
+    400124: Object_11
+    400126: Object_12
+    400128: Object_13
+    400130: Object_15
+    400132: Object_16
+    400134: Object_3
+    400136: Object_4
+    400138: Object_5
+    400140: Object_6
+    400142: Object_7
+    400144: Object_8
+    400146: Object_9
+    400148: //RootNode
+    400150: User Layer 01
+    400152: User Layer 02
+    400154: User Layer 03
+    400156: User Layer 04
+    400158: User Layer 20
+    400160: User Layer 21
+    400162: User Layer 22
+    400164: User Layer 23
+    400166: User Layer 24
+    400168: User Layer 25
+    400170: User Layer 26
+    400172: User Layer 27
+    400174: User Layer 28
+    400176: User Layer 29
+    400178: User Layer 30
+    400180: User Layer 31
+    400182: User Layer 32
+    2300000: Diamond_Oval
+    2300002: Diamond_Round
+    2300004: Diamond_Round_10
+    2300006: Diamond_Round_11
+    2300008: Diamond_Round_12
+    2300010: Diamond_Round_13
+    2300012: Diamond_Round_14
+    2300014: Diamond_Round_15
+    2300016: Diamond_Round_16
+    2300018: Diamond_Round_17
+    2300020: Diamond_Round_18
+    2300022: Diamond_Round_19
+    2300024: Diamond_Round_2
+    2300026: Diamond_Round_20
+    2300028: Diamond_Round_21
+    2300030: Diamond_Round_22
+    2300032: Diamond_Round_23
+    2300034: Diamond_Round_24
+    2300036: Diamond_Round_25
+    2300038: Diamond_Round_26
+    2300040: Diamond_Round_27
+    2300042: Diamond_Round_28
+    2300044: Diamond_Round_29
+    2300046: Diamond_Round_3
+    2300048: Diamond_Round_30
+    2300050: Diamond_Round_31
+    2300052: Diamond_Round_32
+    2300054: Diamond_Round_33
+    2300056: Diamond_Round_34
+    2300058: Diamond_Round_35
+    2300060: Diamond_Round_36
+    2300062: Diamond_Round_37
+    2300064: Diamond_Round_38
+    2300066: Diamond_Round_39
+    2300068: Diamond_Round_4
+    2300070: Diamond_Round_40
+    2300072: Diamond_Round_41
+    2300074: Diamond_Round_42
+    2300076: Diamond_Round_5
+    2300078: Diamond_Round_6
+    2300080: Diamond_Round_7
+    2300082: Diamond_Round_8
+    2300084: Diamond_Round_9
+    2300086: Object_1
+    2300088: Object_10
+    2300090: Object_11
+    2300092: Object_12
+    2300094: Object_13
+    2300096: Object_15
+    2300098: Object_16
+    2300100: Object_3
+    2300102: Object_4
+    2300104: Object_5
+    2300106: Object_6
+    2300108: Object_7
+    2300110: Object_8
+    2300112: Object_9
+    3300000: Diamond_Oval
+    3300002: Diamond_Round
+    3300004: Diamond_Round_10
+    3300006: Diamond_Round_11
+    3300008: Diamond_Round_12
+    3300010: Diamond_Round_13
+    3300012: Diamond_Round_14
+    3300014: Diamond_Round_15
+    3300016: Diamond_Round_16
+    3300018: Diamond_Round_17
+    3300020: Diamond_Round_18
+    3300022: Diamond_Round_19
+    3300024: Diamond_Round_2
+    3300026: Diamond_Round_20
+    3300028: Diamond_Round_21
+    3300030: Diamond_Round_22
+    3300032: Diamond_Round_23
+    3300034: Diamond_Round_24
+    3300036: Diamond_Round_25
+    3300038: Diamond_Round_26
+    3300040: Diamond_Round_27
+    3300042: Diamond_Round_28
+    3300044: Diamond_Round_29
+    3300046: Diamond_Round_3
+    3300048: Diamond_Round_30
+    3300050: Diamond_Round_31
+    3300052: Diamond_Round_32
+    3300054: Diamond_Round_33
+    3300056: Diamond_Round_34
+    3300058: Diamond_Round_35
+    3300060: Diamond_Round_36
+    3300062: Diamond_Round_37
+    3300064: Diamond_Round_38
+    3300066: Diamond_Round_39
+    3300068: Diamond_Round_4
+    3300070: Diamond_Round_40
+    3300072: Diamond_Round_41
+    3300074: Diamond_Round_42
+    3300076: Diamond_Round_5
+    3300078: Diamond_Round_6
+    3300080: Diamond_Round_7
+    3300082: Diamond_Round_8
+    3300084: Diamond_Round_9
+    3300086: Object_1
+    3300088: Object_10
+    3300090: Object_11
+    3300092: Object_12
+    3300094: Object_13
+    3300096: Object_15
+    3300098: Object_16
+    3300100: Object_3
+    3300102: Object_4
+    3300104: Object_5
+    3300106: Object_6
+    3300108: Object_7
+    3300110: Object_8
+    3300112: Object_9
+    4300000: Object_11
+    4300002: Object_8
+    4300004: Object_10
+    4300006: Object_1
+    4300008: Object_7
+    4300010: Object_3
+    4300012: Object_9
+    4300014: Object_13
+    4300016: Object_12
+    4300018: Object_5
+    4300020: Object_6
+    4300022: Object_4
+    4300024: Object_15
+    4300026: Object_16
+    4300028: Diamond_Oval
+    4300030: Diamond_Round
+    4300032: Diamond_Round_2
+    4300034: Diamond_Round_3
+    4300036: Diamond_Round_4
+    4300038: Diamond_Round_5
+    4300040: Diamond_Round_6
+    4300042: Diamond_Round_7
+    4300044: Diamond_Round_8
+    4300046: Diamond_Round_9
+    4300048: Diamond_Round_10
+    4300050: Diamond_Round_11
+    4300052: Diamond_Round_12
+    4300054: Diamond_Round_13
+    4300056: Diamond_Round_14
+    4300058: Diamond_Round_15
+    4300060: Diamond_Round_16
+    4300062: Diamond_Round_17
+    4300064: Diamond_Round_18
+    4300066: Diamond_Round_19
+    4300068: Diamond_Round_20
+    4300070: Diamond_Round_21
+    4300072: Diamond_Round_22
+    4300074: Diamond_Round_23
+    4300076: Diamond_Round_24
+    4300078: Diamond_Round_25
+    4300080: Diamond_Round_26
+    4300082: Diamond_Round_27
+    4300084: Diamond_Round_28
+    4300086: Diamond_Round_29
+    4300088: Diamond_Round_30
+    4300090: Diamond_Round_31
+    4300092: Diamond_Round_32
+    4300094: Diamond_Round_33
+    4300096: Diamond_Round_34
+    4300098: Diamond_Round_35
+    4300100: Diamond_Round_36
+    4300102: Diamond_Round_37
+    4300104: Diamond_Round_38
+    4300106: Diamond_Round_39
+    4300108: Diamond_Round_40
+    4300110: Diamond_Round_41
+    4300112: Diamond_Round_42
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

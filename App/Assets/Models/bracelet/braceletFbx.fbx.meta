@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: 9cbfec6988af86146b0c69094d3d0b8a
+timeCreated: 1491936955
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Creation Curves
+    100004: Cutting Objects
+    100006: Default
+    100008: Diamond_Princess
+    100010: Diamond_Princess_2
+    100012: Diamond_Princess_3
+    100014: Diamond_Princess_4
+    100016: Diamond_Princess_5
+    100018: Finger Sizes
+    100020: Gem
+    100022: Gem 01
+    100024: Gem 02
+    100026: Gem 03
+    100028: Gem 04
+    100030: Heads
+    100032: Lights
+    100034: Metal 01
+    100036: Metal 02
+    100038: Metal 03
+    100040: Metal 04
+    100042: Object_1
+    100044: Object_2
+    100046: Object_3
+    100048: Object_4
+    100050: Object_5
+    100052: Object_6
+    100054: User Layer 01
+    100056: User Layer 02
+    100058: User Layer 03
+    100060: User Layer 04
+    100062: User Layer 17
+    100064: User Layer 18
+    100066: User Layer 19
+    100068: User Layer 20
+    100070: User Layer 21
+    100072: User Layer 22
+    100074: User Layer 23
+    100076: User Layer 24
+    100078: User Layer 25
+    100080: User Layer 26
+    100082: User Layer 27
+    100084: User Layer 28
+    100086: User Layer 29
+    100088: User Layer 30
+    100090: User Layer 31
+    100092: User Layer 32
+    400000: //RootNode
+    400002: Creation Curves
+    400004: Cutting Objects
+    400006: Default
+    400008: Diamond_Princess
+    400010: Diamond_Princess_2
+    400012: Diamond_Princess_3
+    400014: Diamond_Princess_4
+    400016: Diamond_Princess_5
+    400018: Finger Sizes
+    400020: Gem
+    400022: Gem 01
+    400024: Gem 02
+    400026: Gem 03
+    400028: Gem 04
+    400030: Heads
+    400032: Lights
+    400034: Metal 01
+    400036: Metal 02
+    400038: Metal 03
+    400040: Metal 04
+    400042: Object_1
+    400044: Object_2
+    400046: Object_3
+    400048: Object_4
+    400050: Object_5
+    400052: Object_6
+    400054: User Layer 01
+    400056: User Layer 02
+    400058: User Layer 03
+    400060: User Layer 04
+    400062: User Layer 17
+    400064: User Layer 18
+    400066: User Layer 19
+    400068: User Layer 20
+    400070: User Layer 21
+    400072: User Layer 22
+    400074: User Layer 23
+    400076: User Layer 24
+    400078: User Layer 25
+    400080: User Layer 26
+    400082: User Layer 27
+    400084: User Layer 28
+    400086: User Layer 29
+    400088: User Layer 30
+    400090: User Layer 31
+    400092: User Layer 32
+    2300000: Diamond_Princess
+    2300002: Diamond_Princess_2
+    2300004: Diamond_Princess_3
+    2300006: Diamond_Princess_4
+    2300008: Diamond_Princess_5
+    2300010: Object_1
+    2300012: Object_2
+    2300014: Object_3
+    2300016: Object_4
+    2300018: Object_5
+    2300020: Object_6
+    3300000: Diamond_Princess
+    3300002: Diamond_Princess_2
+    3300004: Diamond_Princess_3
+    3300006: Diamond_Princess_4
+    3300008: Diamond_Princess_5
+    3300010: Object_1
+    3300012: Object_2
+    3300014: Object_3
+    3300016: Object_4
+    3300018: Object_5
+    3300020: Object_6
+    4300000: Object_1
+    4300002: Diamond_Princess_5
+    4300004: Diamond_Princess_4
+    4300006: Diamond_Princess_3
+    4300008: Diamond_Princess_2
+    4300010: Diamond_Princess
+    4300012: Object_6
+    4300014: Object_5
+    4300016: Object_4
+    4300018: Object_3
+    4300020: Object_2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

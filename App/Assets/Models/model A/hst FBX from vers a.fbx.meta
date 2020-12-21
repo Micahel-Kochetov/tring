@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: b4cc1fa241be45449b064ed67f9c968e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Active Camera
+    100002: Default
+    100004: //RootNode
+    100006: ZBrush
+    100008: ZBrush_0_Hst_0412EA52
+    100010: ZBrush_0_Hst_0412EA52 1
+    100012: ZBrush_0_Hst_0412EA52 1_MeshPart0
+    100014: ZBrush_0_Hst_0412EA52 1_MeshPart1
+    100016: ZBrush_0_Hst_0412EA52 1_MeshPart10
+    100018: ZBrush_0_Hst_0412EA52 1_MeshPart11
+    100020: ZBrush_0_Hst_0412EA52 1_MeshPart12
+    100022: ZBrush_0_Hst_0412EA52 1_MeshPart13
+    100024: ZBrush_0_Hst_0412EA52 1_MeshPart14
+    100026: ZBrush_0_Hst_0412EA52 1_MeshPart15
+    100028: ZBrush_0_Hst_0412EA52 1_MeshPart16
+    100030: ZBrush_0_Hst_0412EA52 1_MeshPart17
+    100032: ZBrush_0_Hst_0412EA52 1_MeshPart18
+    100034: ZBrush_0_Hst_0412EA52 1_MeshPart19
+    100036: ZBrush_0_Hst_0412EA52 1_MeshPart2
+    100038: ZBrush_0_Hst_0412EA52 1_MeshPart20
+    100040: ZBrush_0_Hst_0412EA52 1_MeshPart21
+    100042: ZBrush_0_Hst_0412EA52 1_MeshPart3
+    100044: ZBrush_0_Hst_0412EA52 1_MeshPart4
+    100046: ZBrush_0_Hst_0412EA52 1_MeshPart5
+    100048: ZBrush_0_Hst_0412EA52 1_MeshPart6
+    100050: ZBrush_0_Hst_0412EA52 1_MeshPart7
+    100052: ZBrush_0_Hst_0412EA52 1_MeshPart8
+    100054: ZBrush_0_Hst_0412EA52 1_MeshPart9
+    100056: ZBrush_0_Hsts_E6240D11
+    400000: Active Camera
+    400002: Default
+    400004: //RootNode
+    400006: ZBrush
+    400008: ZBrush_0_Hst_0412EA52
+    400010: ZBrush_0_Hst_0412EA52 1
+    400012: ZBrush_0_Hst_0412EA52 1_MeshPart0
+    400014: ZBrush_0_Hst_0412EA52 1_MeshPart1
+    400016: ZBrush_0_Hst_0412EA52 1_MeshPart10
+    400018: ZBrush_0_Hst_0412EA52 1_MeshPart11
+    400020: ZBrush_0_Hst_0412EA52 1_MeshPart12
+    400022: ZBrush_0_Hst_0412EA52 1_MeshPart13
+    400024: ZBrush_0_Hst_0412EA52 1_MeshPart14
+    400026: ZBrush_0_Hst_0412EA52 1_MeshPart15
+    400028: ZBrush_0_Hst_0412EA52 1_MeshPart16
+    400030: ZBrush_0_Hst_0412EA52 1_MeshPart17
+    400032: ZBrush_0_Hst_0412EA52 1_MeshPart18
+    400034: ZBrush_0_Hst_0412EA52 1_MeshPart19
+    400036: ZBrush_0_Hst_0412EA52 1_MeshPart2
+    400038: ZBrush_0_Hst_0412EA52 1_MeshPart20
+    400040: ZBrush_0_Hst_0412EA52 1_MeshPart21
+    400042: ZBrush_0_Hst_0412EA52 1_MeshPart3
+    400044: ZBrush_0_Hst_0412EA52 1_MeshPart4
+    400046: ZBrush_0_Hst_0412EA52 1_MeshPart5
+    400048: ZBrush_0_Hst_0412EA52 1_MeshPart6
+    400050: ZBrush_0_Hst_0412EA52 1_MeshPart7
+    400052: ZBrush_0_Hst_0412EA52 1_MeshPart8
+    400054: ZBrush_0_Hst_0412EA52 1_MeshPart9
+    400056: ZBrush_0_Hsts_E6240D11
+    2000000: Active Camera
+    2300000: ZBrush_0_Hst_0412EA52 1_MeshPart0
+    2300002: ZBrush_0_Hst_0412EA52 1_MeshPart1
+    2300004: ZBrush_0_Hst_0412EA52 1_MeshPart10
+    2300006: ZBrush_0_Hst_0412EA52 1_MeshPart11
+    2300008: ZBrush_0_Hst_0412EA52 1_MeshPart12
+    2300010: ZBrush_0_Hst_0412EA52 1_MeshPart13
+    2300012: ZBrush_0_Hst_0412EA52 1_MeshPart14
+    2300014: ZBrush_0_Hst_0412EA52 1_MeshPart15
+    2300016: ZBrush_0_Hst_0412EA52 1_MeshPart16
+    2300018: ZBrush_0_Hst_0412EA52 1_MeshPart17
+    2300020: ZBrush_0_Hst_0412EA52 1_MeshPart18
+    2300022: ZBrush_0_Hst_0412EA52 1_MeshPart19
+    2300024: ZBrush_0_Hst_0412EA52 1_MeshPart2
+    2300026: ZBrush_0_Hst_0412EA52 1_MeshPart20
+    2300028: ZBrush_0_Hst_0412EA52 1_MeshPart21
+    2300030: ZBrush_0_Hst_0412EA52 1_MeshPart3
+    2300032: ZBrush_0_Hst_0412EA52 1_MeshPart4
+    2300034: ZBrush_0_Hst_0412EA52 1_MeshPart5
+    2300036: ZBrush_0_Hst_0412EA52 1_MeshPart6
+    2300038: ZBrush_0_Hst_0412EA52 1_MeshPart7
+    2300040: ZBrush_0_Hst_0412EA52 1_MeshPart8
+    2300042: ZBrush_0_Hst_0412EA52 1_MeshPart9
+    2300044: ZBrush_0_Hsts_E6240D11
+    3300000: ZBrush_0_Hst_0412EA52 1_MeshPart0
+    3300002: ZBrush_0_Hst_0412EA52 1_MeshPart1
+    3300004: ZBrush_0_Hst_0412EA52 1_MeshPart10
+    3300006: ZBrush_0_Hst_0412EA52 1_MeshPart11
+    3300008: ZBrush_0_Hst_0412EA52 1_MeshPart12
+    3300010: ZBrush_0_Hst_0412EA52 1_MeshPart13
+    3300012: ZBrush_0_Hst_0412EA52 1_MeshPart14
+    3300014: ZBrush_0_Hst_0412EA52 1_MeshPart15
+    3300016: ZBrush_0_Hst_0412EA52 1_MeshPart16
+    3300018: ZBrush_0_Hst_0412EA52 1_MeshPart17
+    3300020: ZBrush_0_Hst_0412EA52 1_MeshPart18
+    3300022: ZBrush_0_Hst_0412EA52 1_MeshPart19
+    3300024: ZBrush_0_Hst_0412EA52 1_MeshPart2
+    3300026: ZBrush_0_Hst_0412EA52 1_MeshPart20
+    3300028: ZBrush_0_Hst_0412EA52 1_MeshPart21
+    3300030: ZBrush_0_Hst_0412EA52 1_MeshPart3
+    3300032: ZBrush_0_Hst_0412EA52 1_MeshPart4
+    3300034: ZBrush_0_Hst_0412EA52 1_MeshPart5
+    3300036: ZBrush_0_Hst_0412EA52 1_MeshPart6
+    3300038: ZBrush_0_Hst_0412EA52 1_MeshPart7
+    3300040: ZBrush_0_Hst_0412EA52 1_MeshPart8
+    3300042: ZBrush_0_Hst_0412EA52 1_MeshPart9
+    3300044: ZBrush_0_Hsts_E6240D11
+    4300000: ZBrush_0_Hsts_E6240D11
+    4300002: ZBrush_0_Hst_0412EA52_MeshPart0
+    4300004: ZBrush_0_Hst_0412EA52_MeshPart1
+    4300006: ZBrush_0_Hst_0412EA52_MeshPart2
+    4300008: ZBrush_0_Hst_0412EA52_MeshPart3
+    4300010: ZBrush_0_Hst_0412EA52_MeshPart4
+    4300012: ZBrush_0_Hst_0412EA52_MeshPart5
+    4300014: ZBrush_0_Hst_0412EA52_MeshPart6
+    4300016: ZBrush_0_Hst_0412EA52_MeshPart7
+    4300018: ZBrush_0_Hst_0412EA52_MeshPart8
+    4300020: ZBrush_0_Hst_0412EA52_MeshPart9
+    4300022: ZBrush_0_Hst_0412EA52_MeshPart10
+    4300024: ZBrush_0_Hst_0412EA52_MeshPart11
+    4300026: ZBrush_0_Hst_0412EA52_MeshPart12
+    4300028: ZBrush_0_Hst_0412EA52_MeshPart13
+    4300030: ZBrush_0_Hst_0412EA52_MeshPart14
+    4300032: ZBrush_0_Hst_0412EA52_MeshPart15
+    4300034: ZBrush_0_Hst_0412EA52_MeshPart16
+    4300036: ZBrush_0_Hst_0412EA52_MeshPart17
+    4300038: ZBrush_0_Hst_0412EA52_MeshPart18
+    4300040: ZBrush_0_Hst_0412EA52_MeshPart19
+    4300042: ZBrush_0_Hst_0412EA52_MeshPart20
+    4300044: ZBrush_0_Hst_0412EA52_MeshPart21
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminum Polished
+    second: {fileID: 2100000, guid: a32b6b926a6491b478d39f5304744ec3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gem Stone Diamond
+    second: {fileID: 2100000, guid: a7b517901b3383a4eb3fc214b589b507, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

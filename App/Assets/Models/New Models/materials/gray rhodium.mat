@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: gray rhodium
+  m_Shader: {fileID: 4800000, guid: 94153668f3f2fd44eabc30a62f8a914a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Texture2DAsset_63314913_Out:
+        m_Texture: {fileID: 2800000, guid: 43e04b54a5d06014b8f507b15e281d05, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_9454A637_Out:
+        m_Texture: {fileID: 2800000, guid: 43e04b54a5d06014b8f507b15e281d05, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1CA9D006: 0.772
+    - Vector1_5F2D53F3: 0
+    - Vector1_73FF20E6: 0.772
+    - Vector1_C17D699: 2.09
+    - Vector1_E428DF1F: 2.09
+    - Vector1_F4A1A577: 0
+    m_Colors:
+    - Color_464F6538: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 0}
+    - Color_99241ACA: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 0}
+    - Color_F3B0ECB0: {r: 0.6519326, g: 0.6792453, b: 0.4709861, a: 0}
+    - Color_F4C5B632: {r: 1, g: 1, b: 1, a: 0}

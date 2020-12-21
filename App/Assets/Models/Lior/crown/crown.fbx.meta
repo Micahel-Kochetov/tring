@@ -1,0 +1,698 @@
+fileFormatVersion: 2
+guid: 22e83984e31663e4eb8d4293fac5ab53
+timeCreated: 1503761283
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Creation Curves
+    100002: //RootNode
+    100004: Cutting Objects
+    100006: Diamond_Round
+    100008: Diamond_Round_10
+    100010: Diamond_Round_11
+    100012: Diamond_Round_12
+    100014: Diamond_Round_13
+    100016: Diamond_Round_14
+    100018: Diamond_Round_15
+    100020: Diamond_Round_16
+    100022: Diamond_Round_17
+    100024: Diamond_Round_18
+    100026: Diamond_Round_19
+    100028: Diamond_Round_2
+    100030: Diamond_Round_20
+    100032: Diamond_Round_21
+    100034: Diamond_Round_22
+    100036: Diamond_Round_23
+    100038: Diamond_Round_24
+    100040: Diamond_Round_25
+    100042: Diamond_Round_26
+    100044: Diamond_Round_27
+    100046: Diamond_Round_28
+    100048: Diamond_Round_29
+    100050: Diamond_Round_3
+    100052: Diamond_Round_30
+    100054: Diamond_Round_31
+    100056: Diamond_Round_4
+    100058: Diamond_Round_5
+    100060: Diamond_Round_6
+    100062: Diamond_Round_7
+    100064: Diamond_Round_8
+    100066: Diamond_Round_9
+    100068: Done
+    100070: Finger Sizes
+    100072: Gem 01
+    100074: Gem 02
+    100076: Gem 03
+    100078: Gem 04
+    100080: Heads
+    100082: Lights
+    100084: Metal 01
+    100086: Metal 02
+    100088: Metal 03
+    100090: Metal 04
+    100092: Object_1
+    100094: Object_10
+    100096: Object_11
+    100098: Object_12
+    100100: Object_3
+    100102: Object_4
+    100104: Object_5
+    100106: Object_6
+    100108: Object_7
+    100110: Object_8
+    100112: Object_9
+    100114: Prong On Surface
+    100116: Prong On Surface_10
+    100118: Prong On Surface_11
+    100120: Prong On Surface_12
+    100122: Prong On Surface_13
+    100124: Prong On Surface_14
+    100126: Prong On Surface_15
+    100128: Prong On Surface_16
+    100130: Prong On Surface_17
+    100132: Prong On Surface_18
+    100134: Prong On Surface_19
+    100136: Prong On Surface_2
+    100138: Prong On Surface_20
+    100140: Prong On Surface_21
+    100142: Prong On Surface_22
+    100144: Prong On Surface_23
+    100146: Prong On Surface_24
+    100148: Prong On Surface_25
+    100150: Prong On Surface_26
+    100152: Prong On Surface_27
+    100154: Prong On Surface_28
+    100156: Prong On Surface_29
+    100158: Prong On Surface_3
+    100160: Prong On Surface_30
+    100162: Prong On Surface_31
+    100164: Prong On Surface_32
+    100166: Prong On Surface_33
+    100168: Prong On Surface_34
+    100170: Prong On Surface_35
+    100172: Prong On Surface_36
+    100174: Prong On Surface_37
+    100176: Prong On Surface_38
+    100178: Prong On Surface_39
+    100180: Prong On Surface_4
+    100182: Prong On Surface_40
+    100184: Prong On Surface_41
+    100186: Prong On Surface_42
+    100188: Prong On Surface_43
+    100190: Prong On Surface_44
+    100192: Prong On Surface_45
+    100194: Prong On Surface_46
+    100196: Prong On Surface_47
+    100198: Prong On Surface_48
+    100200: Prong On Surface_49
+    100202: Prong On Surface_5
+    100204: Prong On Surface_50
+    100206: Prong On Surface_51
+    100208: Prong On Surface_52
+    100210: Prong On Surface_53
+    100212: Prong On Surface_54
+    100214: Prong On Surface_55
+    100216: Prong On Surface_56
+    100218: Prong On Surface_57
+    100220: Prong On Surface_58
+    100222: Prong On Surface_59
+    100224: Prong On Surface_6
+    100226: Prong On Surface_60
+    100228: Prong On Surface_61
+    100230: Prong On Surface_62
+    100232: Prong On Surface_63
+    100234: Prong On Surface_64
+    100236: Prong On Surface_65
+    100238: Prong On Surface_66
+    100240: Prong On Surface_67
+    100242: Prong On Surface_68
+    100244: Prong On Surface_69
+    100246: Prong On Surface_7
+    100248: Prong On Surface_8
+    100250: Prong On Surface_9
+    100252: User Layer 01
+    100254: User Layer 02
+    100256: User Layer 03
+    100258: User Layer 04
+    100260: User Layer 18
+    100262: User Layer 19
+    100264: User Layer 20
+    100266: User Layer 21
+    100268: User Layer 22
+    100270: User Layer 23
+    100272: User Layer 24
+    100274: User Layer 25
+    100276: User Layer 26
+    100278: User Layer 27
+    100280: User Layer 28
+    100282: User Layer 29
+    100284: User Layer 30
+    100286: User Layer 31
+    100288: User Layer 32
+    400000: Creation Curves
+    400002: //RootNode
+    400004: Cutting Objects
+    400006: Diamond_Round
+    400008: Diamond_Round_10
+    400010: Diamond_Round_11
+    400012: Diamond_Round_12
+    400014: Diamond_Round_13
+    400016: Diamond_Round_14
+    400018: Diamond_Round_15
+    400020: Diamond_Round_16
+    400022: Diamond_Round_17
+    400024: Diamond_Round_18
+    400026: Diamond_Round_19
+    400028: Diamond_Round_2
+    400030: Diamond_Round_20
+    400032: Diamond_Round_21
+    400034: Diamond_Round_22
+    400036: Diamond_Round_23
+    400038: Diamond_Round_24
+    400040: Diamond_Round_25
+    400042: Diamond_Round_26
+    400044: Diamond_Round_27
+    400046: Diamond_Round_28
+    400048: Diamond_Round_29
+    400050: Diamond_Round_3
+    400052: Diamond_Round_30
+    400054: Diamond_Round_31
+    400056: Diamond_Round_4
+    400058: Diamond_Round_5
+    400060: Diamond_Round_6
+    400062: Diamond_Round_7
+    400064: Diamond_Round_8
+    400066: Diamond_Round_9
+    400068: Done
+    400070: Finger Sizes
+    400072: Gem 01
+    400074: Gem 02
+    400076: Gem 03
+    400078: Gem 04
+    400080: Heads
+    400082: Lights
+    400084: Metal 01
+    400086: Metal 02
+    400088: Metal 03
+    400090: Metal 04
+    400092: Object_1
+    400094: Object_10
+    400096: Object_11
+    400098: Object_12
+    400100: Object_3
+    400102: Object_4
+    400104: Object_5
+    400106: Object_6
+    400108: Object_7
+    400110: Object_8
+    400112: Object_9
+    400114: Prong On Surface
+    400116: Prong On Surface_10
+    400118: Prong On Surface_11
+    400120: Prong On Surface_12
+    400122: Prong On Surface_13
+    400124: Prong On Surface_14
+    400126: Prong On Surface_15
+    400128: Prong On Surface_16
+    400130: Prong On Surface_17
+    400132: Prong On Surface_18
+    400134: Prong On Surface_19
+    400136: Prong On Surface_2
+    400138: Prong On Surface_20
+    400140: Prong On Surface_21
+    400142: Prong On Surface_22
+    400144: Prong On Surface_23
+    400146: Prong On Surface_24
+    400148: Prong On Surface_25
+    400150: Prong On Surface_26
+    400152: Prong On Surface_27
+    400154: Prong On Surface_28
+    400156: Prong On Surface_29
+    400158: Prong On Surface_3
+    400160: Prong On Surface_30
+    400162: Prong On Surface_31
+    400164: Prong On Surface_32
+    400166: Prong On Surface_33
+    400168: Prong On Surface_34
+    400170: Prong On Surface_35
+    400172: Prong On Surface_36
+    400174: Prong On Surface_37
+    400176: Prong On Surface_38
+    400178: Prong On Surface_39
+    400180: Prong On Surface_4
+    400182: Prong On Surface_40
+    400184: Prong On Surface_41
+    400186: Prong On Surface_42
+    400188: Prong On Surface_43
+    400190: Prong On Surface_44
+    400192: Prong On Surface_45
+    400194: Prong On Surface_46
+    400196: Prong On Surface_47
+    400198: Prong On Surface_48
+    400200: Prong On Surface_49
+    400202: Prong On Surface_5
+    400204: Prong On Surface_50
+    400206: Prong On Surface_51
+    400208: Prong On Surface_52
+    400210: Prong On Surface_53
+    400212: Prong On Surface_54
+    400214: Prong On Surface_55
+    400216: Prong On Surface_56
+    400218: Prong On Surface_57
+    400220: Prong On Surface_58
+    400222: Prong On Surface_59
+    400224: Prong On Surface_6
+    400226: Prong On Surface_60
+    400228: Prong On Surface_61
+    400230: Prong On Surface_62
+    400232: Prong On Surface_63
+    400234: Prong On Surface_64
+    400236: Prong On Surface_65
+    400238: Prong On Surface_66
+    400240: Prong On Surface_67
+    400242: Prong On Surface_68
+    400244: Prong On Surface_69
+    400246: Prong On Surface_7
+    400248: Prong On Surface_8
+    400250: Prong On Surface_9
+    400252: User Layer 01
+    400254: User Layer 02
+    400256: User Layer 03
+    400258: User Layer 04
+    400260: User Layer 18
+    400262: User Layer 19
+    400264: User Layer 20
+    400266: User Layer 21
+    400268: User Layer 22
+    400270: User Layer 23
+    400272: User Layer 24
+    400274: User Layer 25
+    400276: User Layer 26
+    400278: User Layer 27
+    400280: User Layer 28
+    400282: User Layer 29
+    400284: User Layer 30
+    400286: User Layer 31
+    400288: User Layer 32
+    2300000: Diamond_Round
+    2300002: Diamond_Round_10
+    2300004: Diamond_Round_11
+    2300006: Diamond_Round_12
+    2300008: Diamond_Round_13
+    2300010: Diamond_Round_14
+    2300012: Diamond_Round_15
+    2300014: Diamond_Round_16
+    2300016: Diamond_Round_17
+    2300018: Diamond_Round_18
+    2300020: Diamond_Round_19
+    2300022: Diamond_Round_2
+    2300024: Diamond_Round_20
+    2300026: Diamond_Round_21
+    2300028: Diamond_Round_22
+    2300030: Diamond_Round_23
+    2300032: Diamond_Round_24
+    2300034: Diamond_Round_25
+    2300036: Diamond_Round_26
+    2300038: Diamond_Round_27
+    2300040: Diamond_Round_28
+    2300042: Diamond_Round_29
+    2300044: Diamond_Round_3
+    2300046: Diamond_Round_30
+    2300048: Diamond_Round_31
+    2300050: Diamond_Round_4
+    2300052: Diamond_Round_5
+    2300054: Diamond_Round_6
+    2300056: Diamond_Round_7
+    2300058: Diamond_Round_8
+    2300060: Diamond_Round_9
+    2300062: Object_1
+    2300064: Object_10
+    2300066: Object_11
+    2300068: Object_12
+    2300070: Object_3
+    2300072: Object_4
+    2300074: Object_5
+    2300076: Object_6
+    2300078: Object_7
+    2300080: Object_8
+    2300082: Object_9
+    2300084: Prong On Surface
+    2300086: Prong On Surface_10
+    2300088: Prong On Surface_11
+    2300090: Prong On Surface_12
+    2300092: Prong On Surface_13
+    2300094: Prong On Surface_14
+    2300096: Prong On Surface_15
+    2300098: Prong On Surface_16
+    2300100: Prong On Surface_17
+    2300102: Prong On Surface_18
+    2300104: Prong On Surface_19
+    2300106: Prong On Surface_2
+    2300108: Prong On Surface_20
+    2300110: Prong On Surface_21
+    2300112: Prong On Surface_22
+    2300114: Prong On Surface_23
+    2300116: Prong On Surface_24
+    2300118: Prong On Surface_25
+    2300120: Prong On Surface_26
+    2300122: Prong On Surface_27
+    2300124: Prong On Surface_28
+    2300126: Prong On Surface_29
+    2300128: Prong On Surface_3
+    2300130: Prong On Surface_30
+    2300132: Prong On Surface_31
+    2300134: Prong On Surface_32
+    2300136: Prong On Surface_33
+    2300138: Prong On Surface_34
+    2300140: Prong On Surface_35
+    2300142: Prong On Surface_36
+    2300144: Prong On Surface_37
+    2300146: Prong On Surface_38
+    2300148: Prong On Surface_39
+    2300150: Prong On Surface_4
+    2300152: Prong On Surface_40
+    2300154: Prong On Surface_41
+    2300156: Prong On Surface_42
+    2300158: Prong On Surface_43
+    2300160: Prong On Surface_44
+    2300162: Prong On Surface_45
+    2300164: Prong On Surface_46
+    2300166: Prong On Surface_47
+    2300168: Prong On Surface_48
+    2300170: Prong On Surface_49
+    2300172: Prong On Surface_5
+    2300174: Prong On Surface_50
+    2300176: Prong On Surface_51
+    2300178: Prong On Surface_52
+    2300180: Prong On Surface_53
+    2300182: Prong On Surface_54
+    2300184: Prong On Surface_55
+    2300186: Prong On Surface_56
+    2300188: Prong On Surface_57
+    2300190: Prong On Surface_58
+    2300192: Prong On Surface_59
+    2300194: Prong On Surface_6
+    2300196: Prong On Surface_60
+    2300198: Prong On Surface_61
+    2300200: Prong On Surface_62
+    2300202: Prong On Surface_63
+    2300204: Prong On Surface_64
+    2300206: Prong On Surface_65
+    2300208: Prong On Surface_66
+    2300210: Prong On Surface_67
+    2300212: Prong On Surface_68
+    2300214: Prong On Surface_69
+    2300216: Prong On Surface_7
+    2300218: Prong On Surface_8
+    2300220: Prong On Surface_9
+    3300000: Diamond_Round
+    3300002: Diamond_Round_10
+    3300004: Diamond_Round_11
+    3300006: Diamond_Round_12
+    3300008: Diamond_Round_13
+    3300010: Diamond_Round_14
+    3300012: Diamond_Round_15
+    3300014: Diamond_Round_16
+    3300016: Diamond_Round_17
+    3300018: Diamond_Round_18
+    3300020: Diamond_Round_19
+    3300022: Diamond_Round_2
+    3300024: Diamond_Round_20
+    3300026: Diamond_Round_21
+    3300028: Diamond_Round_22
+    3300030: Diamond_Round_23
+    3300032: Diamond_Round_24
+    3300034: Diamond_Round_25
+    3300036: Diamond_Round_26
+    3300038: Diamond_Round_27
+    3300040: Diamond_Round_28
+    3300042: Diamond_Round_29
+    3300044: Diamond_Round_3
+    3300046: Diamond_Round_30
+    3300048: Diamond_Round_31
+    3300050: Diamond_Round_4
+    3300052: Diamond_Round_5
+    3300054: Diamond_Round_6
+    3300056: Diamond_Round_7
+    3300058: Diamond_Round_8
+    3300060: Diamond_Round_9
+    3300062: Object_1
+    3300064: Object_10
+    3300066: Object_11
+    3300068: Object_12
+    3300070: Object_3
+    3300072: Object_4
+    3300074: Object_5
+    3300076: Object_6
+    3300078: Object_7
+    3300080: Object_8
+    3300082: Object_9
+    3300084: Prong On Surface
+    3300086: Prong On Surface_10
+    3300088: Prong On Surface_11
+    3300090: Prong On Surface_12
+    3300092: Prong On Surface_13
+    3300094: Prong On Surface_14
+    3300096: Prong On Surface_15
+    3300098: Prong On Surface_16
+    3300100: Prong On Surface_17
+    3300102: Prong On Surface_18
+    3300104: Prong On Surface_19
+    3300106: Prong On Surface_2
+    3300108: Prong On Surface_20
+    3300110: Prong On Surface_21
+    3300112: Prong On Surface_22
+    3300114: Prong On Surface_23
+    3300116: Prong On Surface_24
+    3300118: Prong On Surface_25
+    3300120: Prong On Surface_26
+    3300122: Prong On Surface_27
+    3300124: Prong On Surface_28
+    3300126: Prong On Surface_29
+    3300128: Prong On Surface_3
+    3300130: Prong On Surface_30
+    3300132: Prong On Surface_31
+    3300134: Prong On Surface_32
+    3300136: Prong On Surface_33
+    3300138: Prong On Surface_34
+    3300140: Prong On Surface_35
+    3300142: Prong On Surface_36
+    3300144: Prong On Surface_37
+    3300146: Prong On Surface_38
+    3300148: Prong On Surface_39
+    3300150: Prong On Surface_4
+    3300152: Prong On Surface_40
+    3300154: Prong On Surface_41
+    3300156: Prong On Surface_42
+    3300158: Prong On Surface_43
+    3300160: Prong On Surface_44
+    3300162: Prong On Surface_45
+    3300164: Prong On Surface_46
+    3300166: Prong On Surface_47
+    3300168: Prong On Surface_48
+    3300170: Prong On Surface_49
+    3300172: Prong On Surface_5
+    3300174: Prong On Surface_50
+    3300176: Prong On Surface_51
+    3300178: Prong On Surface_52
+    3300180: Prong On Surface_53
+    3300182: Prong On Surface_54
+    3300184: Prong On Surface_55
+    3300186: Prong On Surface_56
+    3300188: Prong On Surface_57
+    3300190: Prong On Surface_58
+    3300192: Prong On Surface_59
+    3300194: Prong On Surface_6
+    3300196: Prong On Surface_60
+    3300198: Prong On Surface_61
+    3300200: Prong On Surface_62
+    3300202: Prong On Surface_63
+    3300204: Prong On Surface_64
+    3300206: Prong On Surface_65
+    3300208: Prong On Surface_66
+    3300210: Prong On Surface_67
+    3300212: Prong On Surface_68
+    3300214: Prong On Surface_69
+    3300216: Prong On Surface_7
+    3300218: Prong On Surface_8
+    3300220: Prong On Surface_9
+    4300000: Diamond_Round
+    4300002: Diamond_Round_2
+    4300004: Diamond_Round_3
+    4300006: Diamond_Round_4
+    4300008: Diamond_Round_5
+    4300010: Diamond_Round_6
+    4300012: Diamond_Round_7
+    4300014: Diamond_Round_8
+    4300016: Diamond_Round_9
+    4300018: Diamond_Round_10
+    4300020: Diamond_Round_11
+    4300022: Diamond_Round_12
+    4300024: Diamond_Round_13
+    4300026: Diamond_Round_14
+    4300028: Diamond_Round_15
+    4300030: Diamond_Round_16
+    4300032: Diamond_Round_17
+    4300034: Diamond_Round_18
+    4300036: Diamond_Round_19
+    4300038: Diamond_Round_20
+    4300040: Diamond_Round_21
+    4300042: Diamond_Round_22
+    4300044: Diamond_Round_23
+    4300046: Diamond_Round_24
+    4300048: Diamond_Round_25
+    4300050: Diamond_Round_26
+    4300052: Diamond_Round_27
+    4300054: Diamond_Round_28
+    4300056: Diamond_Round_29
+    4300058: Diamond_Round_30
+    4300060: Diamond_Round_31
+    4300062: Object_1
+    4300064: Object_3
+    4300066: Object_4
+    4300068: Object_5
+    4300070: Object_6
+    4300072: Object_7
+    4300074: Object_8
+    4300076: Object_9
+    4300078: Object_10
+    4300080: Object_11
+    4300082: Object_12
+    4300084: Prong On Surface
+    4300086: Prong On Surface_2
+    4300088: Prong On Surface_3
+    4300090: Prong On Surface_4
+    4300092: Prong On Surface_5
+    4300094: Prong On Surface_6
+    4300096: Prong On Surface_7
+    4300098: Prong On Surface_8
+    4300100: Prong On Surface_9
+    4300102: Prong On Surface_10
+    4300104: Prong On Surface_11
+    4300106: Prong On Surface_12
+    4300108: Prong On Surface_13
+    4300110: Prong On Surface_14
+    4300112: Prong On Surface_15
+    4300114: Prong On Surface_16
+    4300116: Prong On Surface_17
+    4300118: Prong On Surface_18
+    4300120: Prong On Surface_19
+    4300122: Prong On Surface_20
+    4300124: Prong On Surface_21
+    4300126: Prong On Surface_22
+    4300128: Prong On Surface_23
+    4300130: Prong On Surface_24
+    4300132: Prong On Surface_25
+    4300134: Prong On Surface_26
+    4300136: Prong On Surface_27
+    4300138: Prong On Surface_28
+    4300140: Prong On Surface_29
+    4300142: Prong On Surface_30
+    4300144: Prong On Surface_31
+    4300146: Prong On Surface_32
+    4300148: Prong On Surface_33
+    4300150: Prong On Surface_34
+    4300152: Prong On Surface_35
+    4300154: Prong On Surface_36
+    4300156: Prong On Surface_37
+    4300158: Prong On Surface_38
+    4300160: Prong On Surface_39
+    4300162: Prong On Surface_40
+    4300164: Prong On Surface_41
+    4300166: Prong On Surface_42
+    4300168: Prong On Surface_43
+    4300170: Prong On Surface_44
+    4300172: Prong On Surface_45
+    4300174: Prong On Surface_46
+    4300176: Prong On Surface_47
+    4300178: Prong On Surface_48
+    4300180: Prong On Surface_49
+    4300182: Prong On Surface_50
+    4300184: Prong On Surface_51
+    4300186: Prong On Surface_52
+    4300188: Prong On Surface_53
+    4300190: Prong On Surface_54
+    4300192: Prong On Surface_55
+    4300194: Prong On Surface_56
+    4300196: Prong On Surface_57
+    4300198: Prong On Surface_58
+    4300200: Prong On Surface_59
+    4300202: Prong On Surface_60
+    4300204: Prong On Surface_61
+    4300206: Prong On Surface_62
+    4300208: Prong On Surface_63
+    4300210: Prong On Surface_64
+    4300212: Prong On Surface_65
+    4300214: Prong On Surface_66
+    4300216: Prong On Surface_67
+    4300218: Prong On Surface_68
+    4300220: Prong On Surface_69
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

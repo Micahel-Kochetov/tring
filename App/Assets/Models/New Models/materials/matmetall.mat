@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: matmetall
+  m_Shader: {fileID: 4800000, guid: 25f92bd3fa6d2c3418ae3c3ef2f33968, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Texture2DAsset_63314913_Out:
+        m_Texture: {fileID: 2800000, guid: 72f27c80ede0f894e9f5f20681ebb80d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_63314913_Out_0:
+        m_Texture: {fileID: 2800000, guid: 72f27c80ede0f894e9f5f20681ebb80d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_9454A637_Out:
+        m_Texture: {fileID: 2800000, guid: 72f27c80ede0f894e9f5f20681ebb80d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1CA9D006: 0.374
+    - Vector1_5F2D53F3: 2.74
+    - Vector1_73FF20E6: 0.374
+    - Vector1_C17D699: 6.35
+    - Vector1_E428DF1F: 6.35
+    - Vector1_F4A1A577: 2.74
+    m_Colors:
+    - Color_464F6538: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 0}
+    - Color_99241ACA: {r: 0.6784314, g: 0.6784314, b: 0.6784314, a: 0}
+    - Color_F3B0ECB0: {r: 0.6519326, g: 0.6792453, b: 0.4709861, a: 0}
+    - Color_F4C5B632: {r: 0.6519326, g: 0.6792453, b: 0.4709861, a: 0}

@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 9b65a6ffee31b7146a7e0ff85f7fd381
+timeCreated: 1492095667
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Creation Curves
+    100002: Cutting Objects
+    100004: Default
+    100006: Diamond_Round
+    100008: Diamond_Round_2
+    100010: Diamond_Round_3
+    100012: Diamond_Round_4
+    100014: Diamond_Round_5
+    100016: Diamond_Round_6
+    100018: Finger Sizes
+    100020: Gem
+    100022: Gem 01
+    100024: Gem 02
+    100026: Gem 03
+    100028: Gem 04
+    100030: Heads
+    100032: Lights
+    100034: Metal 01
+    100036: Metal 02
+    100038: Metal 03
+    100040: Metal 04
+    100042: Object_2
+    100044: Object_2_MeshPart0
+    100046: Object_2_MeshPart1
+    100048: //RootNode
+    100050: User Layer 01
+    100052: User Layer 02
+    100054: User Layer 03
+    100056: User Layer 04
+    100058: User Layer 17
+    100060: User Layer 18
+    100062: User Layer 19
+    100064: User Layer 20
+    100066: User Layer 21
+    100068: User Layer 22
+    100070: User Layer 23
+    100072: User Layer 24
+    100074: User Layer 25
+    100076: User Layer 26
+    100078: User Layer 27
+    100080: User Layer 28
+    100082: User Layer 29
+    100084: User Layer 30
+    100086: User Layer 31
+    100088: User Layer 32
+    400000: Creation Curves
+    400002: Cutting Objects
+    400004: Default
+    400006: Diamond_Round
+    400008: Diamond_Round_2
+    400010: Diamond_Round_3
+    400012: Diamond_Round_4
+    400014: Diamond_Round_5
+    400016: Diamond_Round_6
+    400018: Finger Sizes
+    400020: Gem
+    400022: Gem 01
+    400024: Gem 02
+    400026: Gem 03
+    400028: Gem 04
+    400030: Heads
+    400032: Lights
+    400034: Metal 01
+    400036: Metal 02
+    400038: Metal 03
+    400040: Metal 04
+    400042: Object_2
+    400044: Object_2_MeshPart0
+    400046: Object_2_MeshPart1
+    400048: //RootNode
+    400050: User Layer 01
+    400052: User Layer 02
+    400054: User Layer 03
+    400056: User Layer 04
+    400058: User Layer 17
+    400060: User Layer 18
+    400062: User Layer 19
+    400064: User Layer 20
+    400066: User Layer 21
+    400068: User Layer 22
+    400070: User Layer 23
+    400072: User Layer 24
+    400074: User Layer 25
+    400076: User Layer 26
+    400078: User Layer 27
+    400080: User Layer 28
+    400082: User Layer 29
+    400084: User Layer 30
+    400086: User Layer 31
+    400088: User Layer 32
+    2300000: Diamond_Round
+    2300002: Diamond_Round_2
+    2300004: Diamond_Round_3
+    2300006: Diamond_Round_4
+    2300008: Diamond_Round_5
+    2300010: Diamond_Round_6
+    2300012: Object_2_MeshPart0
+    2300014: Object_2_MeshPart1
+    2300016: Object_2
+    3300000: Diamond_Round
+    3300002: Diamond_Round_2
+    3300004: Diamond_Round_3
+    3300006: Diamond_Round_4
+    3300008: Diamond_Round_5
+    3300010: Diamond_Round_6
+    3300012: Object_2_MeshPart0
+    3300014: Object_2_MeshPart1
+    3300016: Object_2
+    4300000: Object_2_MeshPart0
+    4300002: Object_2_MeshPart1
+    4300004: Diamond_Round_6
+    4300006: Diamond_Round_5
+    4300008: Diamond_Round_4
+    4300010: Diamond_Round_3
+    4300012: Diamond_Round_2
+    4300014: Diamond_Round
+    4300016: Object_2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
