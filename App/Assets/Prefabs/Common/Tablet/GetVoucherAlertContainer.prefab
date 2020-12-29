@@ -242,7 +242,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Please\n approach our representative."
+  m_Text: Please approach our representative.
 --- !u!1 &6688911617416856797
 GameObject:
   m_ObjectHideFlags: 0
