@@ -11,7 +11,7 @@ namespace Assets.Scripts.FirebaseSDK.Storage
     public class FileUploadService : IFileUploadService, IDisposable
     {
         bool isAuthenticated;
-        string storageUrl = "gs://growring-test.appspot.com";
+        string storageUrl = "gs://tring-ffa8b.appspot.com";
         string UriFileScheme = Uri.UriSchemeFile + "://";
 
         public FileUploadService()

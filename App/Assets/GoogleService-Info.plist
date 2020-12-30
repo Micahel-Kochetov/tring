@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>197376452543-8frphnmq5gtvfo6vrb29gabboknlbv49.apps.googleusercontent.com</string>
+	<string>771731049179-hfosgoh4tv9g54bpntitja804i7tbm2e.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.197376452543-8frphnmq5gtvfo6vrb29gabboknlbv49</string>
+	<string>com.googleusercontent.apps.771731049179-hfosgoh4tv9g54bpntitja804i7tbm2e</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCc44hez_f03QSiaP5ciFasYgUYieZnYYE</string>
+	<string>AIzaSyBkTw29m9WaHWNR2ChOS_6efDfzfkZiXHM</string>
 	<key>GCM_SENDER_ID</key>
-	<string>197376452543</string>
+	<string>771731049179</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.growring.app</string>
+	<string>com.tring.com</string>
 	<key>PROJECT_ID</key>
-	<string>growring-test</string>
+	<string>tring-ffa8b</string>
 	<key>STORAGE_BUCKET</key>
-	<string>growring-test.appspot.com</string>
+	<string>tring-ffa8b.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:197376452543:ios:0be752de605a829425a30a</string>
-	<key>DATABASE_URL</key>
-	<string>https://growring-test.firebaseio.com</string>
+	<string>1:771731049179:ios:fd74cdff8cd5aba70f1afe</string>
 </dict>
 </plist>
