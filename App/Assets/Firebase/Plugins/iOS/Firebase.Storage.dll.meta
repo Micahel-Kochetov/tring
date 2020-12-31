@@ -2,7 +2,8 @@ fileFormatVersion: 2
 guid: de27b211436d433aa10506ee0aae104d
 labels:
 - gvh
-- gvh_version-6.9.0
+- gvh_version-7.0.2
+- gvhp_exportpath-Firebase/Plugins/iOS/Firebase.Storage.dll
 timeCreated: 1480838400
 PluginImporter:
   serializedVersion: 1
