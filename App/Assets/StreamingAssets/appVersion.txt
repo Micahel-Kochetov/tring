@@ -1,1 +1,1 @@
-{"Version":"4.3","BuildNumber":33,"BranchName":"develop"}
+{"Version":"0.1","BuildNumber":35,"BranchName":"fix/build_fix_update_version"}

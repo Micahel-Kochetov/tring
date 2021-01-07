@@ -15,22 +15,22 @@ MonoBehaviour:
   m_lastOpenedDateString: 
   m_applicationSettings:
     m_supportedFeatures:
-      m_usesAddressBook: 1
-      m_usesBilling: 1
-      m_usesCloudServices: 1
-      m_usesGameServices: 1
+      m_usesAddressBook: 0
+      m_usesBilling: 0
+      m_usesCloudServices: 0
+      m_usesGameServices: 0
       m_mediaLibrary:
         value: 1
         usesCamera: 1
         usesPhotoAlbum: 1
-      m_usesNetworkConnectivity: 1
+      m_usesNetworkConnectivity: 0
       m_notificationService:
-        value: 1
-        usesLocalNotification: 1
-        usesRemoteNotification: 1
+        value: 0
+        usesLocalNotification: 0
+        usesRemoteNotification: 0
       m_usesSharing: 1
-      m_usesTwitter: 1
-      m_usesWebView: 1
+      m_usesTwitter: 0
+      m_usesWebView: 0
     m_supportedAddonServices:
       m_usesSoomlaGrow: 0
       m_usesOneSignal: 0
