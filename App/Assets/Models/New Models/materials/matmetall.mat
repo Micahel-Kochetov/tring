@@ -27,8 +27,24 @@ Material:
         m_Texture: {fileID: 2800000, guid: 72f27c80ede0f894e9f5f20681ebb80d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_7f856ee5ff15428aaa706a0a222eb9d7_Out_0:
+        m_Texture: {fileID: 2800000, guid: 72f27c80ede0f894e9f5f20681ebb80d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_9454A637_Out:
         m_Texture: {fileID: 2800000, guid: 72f27c80ede0f894e9f5f20681ebb80d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -43,3 +59,4 @@ Material:
     - Color_99241ACA: {r: 0.6784314, g: 0.6784314, b: 0.6784314, a: 0}
     - Color_F3B0ECB0: {r: 0.6519326, g: 0.6792453, b: 0.4709861, a: 0}
     - Color_F4C5B632: {r: 0.6519326, g: 0.6792453, b: 0.4709861, a: 0}
+  m_BuildTextureStacks: []
