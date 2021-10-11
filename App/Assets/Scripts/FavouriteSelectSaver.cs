@@ -6,7 +6,7 @@ using Zenject;
 
 public class FavouriteSelectSaver
 {
-    private const int ringsCount = 21;
+    private const int ringsCount = 28;
 
     private bool[] isFavouriteRings;
 
