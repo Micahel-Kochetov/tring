@@ -5852,6 +5852,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 527235222}
     m_Modifications:
+    - target: {fileID: 1711813854401667602, guid: e654d3a2fa7cc2e47878fa2b5f14555e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 03b095607f69cd34589a2f40b0ee3229, type: 2}
     - target: {fileID: 2712752773362986348, guid: e654d3a2fa7cc2e47878fa2b5f14555e,
         type: 3}
       propertyPath: m_Name
@@ -8854,6 +8859,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ring 025
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940350094078823539, guid: 2d348d850bee5f749955ac9123f2dc29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d348d850bee5f749955ac9123f2dc29, type: 3}
