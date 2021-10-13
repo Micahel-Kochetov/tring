@@ -130,8 +130,8 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _SPECULAR_IOR: 1.29
-    - _SPECULAR_ROUGHNESS: 0.24
+    - _SPECULAR_IOR: 1
+    - _SPECULAR_ROUGHNESS: 0.26
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -141,10 +141,10 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BASE_COLOR: {r: 0.8666667, g: 0.6464354, b: 0.30588233, a: 0}
+    - _BASE_COLOR: {r: 0.9433962, g: 0.8052901, b: 0.4405482, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EMISSION_COLOR: {r: 0.1509434, g: 0.1457976, b: 0.11320755, a: 0}
+    - _EMISSION_COLOR: {r: 0.103773594, g: 0.085662164, b: 0.085662164, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SPECULAR_COLOR: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}

@@ -2538,6 +2538,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ring 002
       objectReference: {fileID: 0}
+    - target: {fileID: 1472624189945116, guid: 3d11e3698e8c2614b9a83d1d75123b6a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4657365580770300, guid: 3d11e3698e8c2614b9a83d1d75123b6a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2582,6 +2586,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23617340073224634, guid: 3d11e3698e8c2614b9a83d1d75123b6a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fabf6f9dddf03604a97623233b6bd2e2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d11e3698e8c2614b9a83d1d75123b6a, type: 3}
 --- !u!1 &607829019
