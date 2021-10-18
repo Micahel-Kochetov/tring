@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Assets.Scripts.States.ARRing.DTO
 {
     [Serializable]
-    class RingModelData
+    public class RingModelData
     {
         [SerializeField]
         string ringPrefabPath;

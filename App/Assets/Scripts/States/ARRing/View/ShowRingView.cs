@@ -2,6 +2,7 @@
 using System;
 using Assets.Scripts.States.ARRing.DTO;
 using System.Collections.Generic;
+using Assets.Scripts.States.Common;
 
 namespace Assets.Scripts.States.ARRing.View
 {
@@ -11,10 +12,18 @@ namespace Assets.Scripts.States.ARRing.View
         [SerializeField]
         Transform modelsParent;
         [SerializeField]
-        RingModelData[] models;
+        ApplicationSettingsSO applicationSettingsSO;
         [SerializeField]
         GameObject arContent;
         Dictionary<int, GameObject> ringInstances;
+
+        private List<RingModelData> Models
+        {
+            get
+            {
+                return applicationSettingsSO.RingsSetConfigSO.RingModelDatas;
+            }
+        }
 
         public void Init()
         {
@@ -31,18 +40,18 @@ namespace Assets.Scripts.States.ARRing.View
             UnloadModels(index);
             ShowARContent(true);
             index = index % RingsCount;
-            if (models.Length > index && index >= 0)
+            if (Models.Count > index && index >= 0)
             {
                 if (ringInstances.ContainsKey(index))
                 {
                     if (ringInstances[index] == null)
                     {
-                        ringInstances[index] = LoadModel(models[index], modelsParent);
+                        ringInstances[index] = LoadModel(Models[index], modelsParent);
                     }
                 }
                 else
                 {
-                    ringInstances[index] = LoadModel(models[index], modelsParent);
+                    ringInstances[index] = LoadModel(Models[index], modelsParent);
                 }
                 ringInstances[index].SetActive(true);
             }
@@ -110,15 +119,15 @@ namespace Assets.Scripts.States.ARRing.View
         {
             get
             {
-                return models.Length;
+                return Models.Count;
             }
         }
 
         public Sprite GetRingSprite(int index)
         {
-            if (models.Length > index && index >= 0)
+            if (Models.Count > index && index >= 0)
             {
-                var sprite = models[index].Sprite;
+                var sprite = Models[index].Sprite;
                 return sprite;
             }
             else
@@ -130,9 +139,9 @@ namespace Assets.Scripts.States.ARRing.View
 
         public float GetRingPrice(int index)
         {
-            if (models.Length > index && index >= 0)
+            if (Models.Count > index && index >= 0)
             {
-                var price = models[index].Price;
+                var price = Models[index].Price;
                 return price;
             }
             else
@@ -143,9 +152,9 @@ namespace Assets.Scripts.States.ARRing.View
 
         public string GetRingName(int index)
         {
-            if (models.Length > index && index >= 0)
+            if (Models.Count > index && index >= 0)
             {
-                var name = models[index].Name;
+                var name = Models[index].Name;
                 return name;
             }
             else

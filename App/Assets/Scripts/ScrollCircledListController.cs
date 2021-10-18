@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Assets.Scripts.States.ARRing.DTO;
+using Assets.Scripts.States.Common;
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -12,6 +15,8 @@ public class ScrollCircledListController : MonoBehaviour, IPointerDownHandler
     [SerializeField] private ScrollCircledListItem[] items;
     [SerializeField] private RectTransform[] itemRectTransforms;
     [SerializeField] private Toggle[] itemToggles;
+    [SerializeField] private ScrollCircledListItem templateRingItem;
+    [SerializeField] private ApplicationSettingsSO applicationSettingsSO;
     [SerializeField] private HorizontalLayoutGroup horizontalLayoutGroup;
     [Tooltip("Width of small item plus spacing")]
     [SerializeField] private float itemXOffset;
@@ -42,6 +47,8 @@ public class ScrollCircledListController : MonoBehaviour, IPointerDownHandler
 
     private void Start()
     {
+        RecreateRings();
+
         itemSelectedIndex = 0;
         itemRightIndex = itemRectTransforms.Length / 2;
         float itemWidth = itemRectTransforms[1].sizeDelta.x;
@@ -52,6 +59,61 @@ public class ScrollCircledListController : MonoBehaviour, IPointerDownHandler
         {
             item.OnScrollItemChanged += HandleScrollItemChanged;
         }
+    }
+
+    private void RecreateRings()
+    {
+        //remove old ring items
+        int childCount = contentPosCorrection.childCount;
+        for (int i = 0; i < childCount; i++)
+        {
+            DestroyImmediate(contentPosCorrection.GetChild(0).gameObject);
+        }
+
+        //create new ring items
+        List<RingModelData> ringModelDatas = applicationSettingsSO.RingsSetConfigSO.RingModelDatas;
+        int ringsCount = ringModelDatas.Count;
+        int centerIndex = ringsCount / 2;
+        int index = centerIndex;
+
+        items = new ScrollCircledListItem[ringsCount];
+        itemRectTransforms = new RectTransform[ringsCount];
+        itemToggles = new Toggle[ringsCount];
+
+        ToggleGroup toggleGroup = contentPosCorrection.GetComponent<ToggleGroup>();
+
+        do
+        {
+            RingModelData ringModelData = ringModelDatas[index];
+            ScrollCircledListItem newItem = (ScrollCircledListItem)Instantiate(templateRingItem, contentPosCorrection, false);
+            newItem.name = ringModelData.Name;
+            newItem.SetupItem(index, ringModelData.Sprite);
+
+            //newItem.transform.localScale = index == 0 ? new Vector3(1f, 1f, 1f) : new Vector3(.76f, .76f, 1f);
+            RectTransform rectT = newItem.GetComponent<RectTransform>();
+            if (index != 0)
+            {
+                rectT.sizeDelta = new Vector2(160f, 160f);
+            }
+
+            Toggle toggle = newItem.GetComponent<Toggle>();
+            toggle.isOn = index == 0;
+            toggle.group = toggleGroup;
+
+            items[index] = newItem;
+            itemRectTransforms[index] = rectT;
+            itemToggles[index] = toggle;
+
+            index = (index + 1) % ringsCount;
+        }
+        while (index != centerIndex);
+
+        //update layout
+
+        LayoutRebuilder.ForceRebuildLayoutImmediate(contentPosCorrection);
+
+        contentPosCorrection.anchoredPosition = Vector2.zero;
+        contentPosCorrection.position += centerPoint.position - itemRectTransforms[0].position;
     }
 
     public void HandleScrollChanged()
@@ -158,72 +220,4 @@ public class ScrollCircledListController : MonoBehaviour, IPointerDownHandler
         centerPoint.SetParent(centerHolder, true);
         startTime = Time.time;
     }
-
-    //here is feture to configure list automaticly
-#if UNITY_EDITOR
-
-    [Header("Only editor features")]
-    /// <summary>
-    /// Only editor feature! Template item.
-    /// </summary>
-    public ScrollCircledListItem templateRingItem;
-    /// <summary>
-    /// Only editor feature! List of sprites for rings to configure.
-    /// </summary>
-    public Sprite[] ringsSprites;
-
-    public void UpdateList()
-    {
-        //remove old ring items
-        int childCount = contentPosCorrection.childCount;
-        for (int i = 0; i < childCount; i++)
-        {
-            DestroyImmediate(contentPosCorrection.GetChild(0).gameObject);
-        }
-
-        //create new ring items
-        int ringsCount = ringsSprites.Length;
-        int centerIndex = ringsCount / 2;
-        int index = centerIndex;
-
-        items = new ScrollCircledListItem[ringsCount];
-        itemRectTransforms = new RectTransform[ringsCount];
-        itemToggles = new Toggle[ringsCount];
-
-        ToggleGroup toggleGroup = contentPosCorrection.GetComponent<ToggleGroup>();
-
-        do
-        {
-            ScrollCircledListItem newItem = (ScrollCircledListItem)UnityEditor.PrefabUtility.InstantiatePrefab(templateRingItem);
-            newItem.transform.SetParent(contentPosCorrection, false);
-            newItem.name = "RingItem " + index;
-            newItem.SetupItem(index, ringsSprites[index]);
-
-            //newItem.transform.localScale = index == 0 ? new Vector3(1f, 1f, 1f) : new Vector3(.76f, .76f, 1f);
-            RectTransform rectT = newItem.GetComponent<RectTransform>();
-            if (index != 0)
-            {
-                rectT.sizeDelta = new Vector2(160f, 160f);
-            }
-
-            Toggle toggle = newItem.GetComponent<Toggle>();
-            toggle.isOn = index == 0;
-            toggle.group = toggleGroup;
-
-            items[index] = newItem;
-            itemRectTransforms[index] = rectT;
-            itemToggles[index] = toggle;
-
-            index = (index + 1) % ringsCount;
-        }
-        while (index != centerIndex);
-
-        //update layout
-
-        LayoutRebuilder.ForceRebuildLayoutImmediate(contentPosCorrection);
-
-        contentPosCorrection.anchoredPosition = Vector2.zero;
-        contentPosCorrection.position += centerPoint.position - itemRectTransforms[0].position;
-    }
-#endif
 }

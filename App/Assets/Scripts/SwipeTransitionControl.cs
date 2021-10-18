@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using Assets.Scripts.States.Common;
+using System.Collections.Generic;
+using Assets.Scripts.States.ARRing.DTO;
 
 #region Custom editor
 #if UNITY_EDITOR
@@ -33,7 +36,9 @@ public class SwipeTransitionControl : MonoBehaviour
     [SerializeField] private RectTransform rectTransform;
     [SerializeField] private HorizontalLayoutGroup contentLayoutGroup;
     [SerializeField] private RectTransform contentRectTransform;
-    [SerializeField] private RectTransform[] rings;
+    [SerializeField] private List<RectTransform> rings;
+    [SerializeField] private ApplicationSettingsSO applicationSettingsSO;
+    [SerializeField] private Vector2 ringSize;
     [SerializeField] private float ringScaleMin;
     [SerializeField] private float idleStateLength;
     [SerializeField] private float transitionStateLength;
@@ -45,7 +50,40 @@ public class SwipeTransitionControl : MonoBehaviour
 
     private void Start()
     {
+        RecreateRings();
+
         RecalculateLayout();
+    }
+
+    private void RecreateRings()
+    {
+        if(rings.Count != 0)
+        {
+            foreach(var ring in rings)
+            {
+                Destroy(ring.gameObject);
+            }
+            rings.Clear();
+        }
+
+        var ringModels = applicationSettingsSO.RingsSetConfigSO.RingModelDatas;
+
+        foreach (var ringModel in ringModels)
+        {
+            CreateRing(ringModel);
+        }
+
+        CreateRing(ringModels[0]);
+    }
+
+    private void CreateRing(RingModelData ringModelData)
+    {
+        GameObject ring = new GameObject(ringModelData.Name, typeof(RectTransform), typeof(Image));
+        ring.transform.SetParent(contentRectTransform, false);
+        RectTransform ringTransform = (ring.transform as RectTransform);
+        ringTransform.sizeDelta = ringSize;
+        ring.GetComponent<Image>().sprite = ringModelData.Sprite;
+        rings.Add(ringTransform);
     }
 
     #if UNITY_EDITOR
@@ -92,7 +130,7 @@ public class SwipeTransitionControl : MonoBehaviour
             {
                 //wait before next transition start
                 yield return waitIdleState;
-                int nextRingIndex = (ringIndex + 1) % rings.Length;
+                int nextRingIndex = (ringIndex + 1) % rings.Count;
 
                 do
                 {
