@@ -18,7 +18,7 @@ public class ScrollCircledListItem : MonoBehaviour
 
     public event Action<int> OnScrollItemChanged;
 
-#if UNITY_EDITOR
+        //#if UNITY_EDITOR
     /// <summary>
     /// Only Editor feature! Setup Item with new data.
     /// </summary>
@@ -27,7 +27,7 @@ public class ScrollCircledListItem : MonoBehaviour
         this.index = index;
         itemImage.sprite = sprite;
     }
-#endif
+//#endif
 
     public void OnToggleChanged()
     {
