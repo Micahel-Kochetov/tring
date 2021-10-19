@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.95
   m_CustomReflection: {fileID: 8900000, guid: 86c9e8f18f0c4cb4794b02a329803fbc, type: 2}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5441175, g: 0.58718526, b: 0.6478335, a: 0.95}
+  m_IndirectSpecularColor: {r: 0.5439588, g: 0.58717656, b: 0.6479567, a: 0.95}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -136,35 +136,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6591376716038675430}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &451729167
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Material
-
-    -36774'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: -1, y: -1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
 --- !u!4 &519346192 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 519346192, guid: 208e83c40564a9945b959044bc4b576c,
@@ -245,13 +216,51 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6591376716038675430}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &833843007
+--- !u!1 &930767179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1284023762893790, guid: 6dc31175e37aff34daebeb203658d13b,
+    type: 3}
+  m_PrefabInstance: {fileID: 553209979}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &930767184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930767179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+--- !u!43 &1068627332
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CylinderMesh-36774
+  m_Name: CylinderMesh75692
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -419,44 +428,35 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &930767179 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1284023762893790, guid: 6dc31175e37aff34daebeb203658d13b,
-    type: 3}
-  m_PrefabInstance: {fileID: 553209979}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &930767184
-MonoBehaviour:
+--- !u!21 &1141403105
+Material:
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930767179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
+  m_Name: '2021_10_19_3.Body_scaledMaterial
+
+    75692'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4ba7b4eaff3d4876b7a0c8ea6c4b7cf8, type: 3}
+        m_Scale: {x: -1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
 --- !u!114 &1213739334 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1213739334, guid: 208e83c40564a9945b959044bc4b576c,
@@ -620,18 +620,18 @@ PrefabInstance:
       objectReference: {fileID: 1213739334}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9f0724f9003a44091a4dd4f7656de6, type: 3}
---- !u!21 &1945583263
+--- !u!21 &2098941833
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'Material
+  m_Name: '2021_10_19_3.Body_scaledMaterial
 
-    -36774Bright
+    75692Bright
 
-    -36774'
+    75692'
   m_Shader: {fileID: 4800000, guid: 7e6d3c0df88f3ab458512f8282e449af, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -644,7 +644,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 4ba7b4eaff3d4876b7a0c8ea6c4b7cf8, type: 3}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -710,17 +710,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 451729167}
+      objectReference: {fileID: 1141403105}
     - target: {fileID: 23328097604425954, guid: 208e83c40564a9945b959044bc4b576c,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 1945583263}
+      objectReference: {fileID: 2098941833}
     - target: {fileID: 33937579185448892, guid: 208e83c40564a9945b959044bc4b576c,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 833843007}
+      objectReference: {fileID: 1068627332}
+    - target: {fileID: 114378668115203958, guid: 208e83c40564a9945b959044bc4b576c,
+        type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/GrowRing.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 114378668115203958, guid: 208e83c40564a9945b959044bc4b576c,
+        type: 3}
+      propertyPath: mTrackableName
+      value: 2021_10_19_3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 208e83c40564a9945b959044bc4b576c, type: 3}
 --- !u!1001 &6738417411750896094
