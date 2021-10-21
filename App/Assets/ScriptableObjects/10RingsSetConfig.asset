@@ -12,44 +12,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 448f6d04ad4958d469ef39465491b2da, type: 3}
   m_Name: 10RingsSetConfig
   m_EditorClassIdentifier: 
-  ringModelDatas: 
+  ringModelDatas:
   - ringPrefabPath: Rings/Ring 019
-      price: 1000
-      name: 019
-      sprite: {fileID: 21300000, guid: 750a5f537fb7af5468005a2f33671632, type: 3}
-    - ringPrefabPath: Rings/Ring 020
-      price: 1000
-      name: 020
-      sprite: {fileID: 21300000, guid: bf883a3bf992a8c4db353f6473309763, type: 3}
-    - ringPrefabPath: Rings/Ring 021
-      price: 1000
-      name: 021
-      sprite: {fileID: 21300000, guid: 582ac53a3ec56154f8273bd13ecc7f8b, type: 3}
-    - ringPrefabPath: Rings/Ring 022
-      price: 1000
-      name: 022
-      sprite: {fileID: 21300000, guid: 124557fe22553ab479bd7d31131ddc93, type: 3}
-    - ringPrefabPath: Rings/Ring 023
-      price: 1000
-      name: 023
-      sprite: {fileID: 21300000, guid: f9aae336178d8dc4db260087fe206b78, type: 3}
-    - ringPrefabPath: Rings/Ring 024
-      price: 1000
-      name: 024
-      sprite: {fileID: 21300000, guid: 668ac10c3b4b9724dbe6eee9ac00b103, type: 3}
-    - ringPrefabPath: Rings/Ring 025
-      price: 1000
-      name: 025
-      sprite: {fileID: 21300000, guid: 4d96fa688f8d55b45941a9a6ecf0eef7, type: 3}
-    - ringPrefabPath: Rings/Ring 026
-      price: 1000
-      name: 026
-      sprite: {fileID: 21300000, guid: 8135e0e336e89f04fb2c011e6a49b706, type: 3}
-    - ringPrefabPath: Rings/Ring 027
-      price: 1000
-      name: 027
-      sprite: {fileID: 21300000, guid: f9d49693a8c15cf439c8649ed8deee32, type: 3}
-    - ringPrefabPath: Rings/Ring 028
-      price: 1000
-      name: 028
-      sprite: {fileID: 21300000, guid: c2323099f9ec312498d09ce3c050f3fd, type: 3}
+    price: 1000
+    name: 019
+    sprite: {fileID: 21300000, guid: 750a5f537fb7af5468005a2f33671632, type: 3}
+  - ringPrefabPath: Rings/Ring 020
+    price: 1000
+    name: 020
+    sprite: {fileID: 21300000, guid: bf883a3bf992a8c4db353f6473309763, type: 3}
+  - ringPrefabPath: Rings/Ring 021
+    price: 1000
+    name: 021
+    sprite: {fileID: 21300000, guid: 582ac53a3ec56154f8273bd13ecc7f8b, type: 3}
+  - ringPrefabPath: Rings/Ring 022
+    price: 1000
+    name: 022
+    sprite: {fileID: 21300000, guid: 124557fe22553ab479bd7d31131ddc93, type: 3}
+  - ringPrefabPath: Rings/Ring 023
+    price: 1000
+    name: 023
+    sprite: {fileID: 21300000, guid: f9aae336178d8dc4db260087fe206b78, type: 3}
+  - ringPrefabPath: Rings/Ring 024
+    price: 1000
+    name: 024
+    sprite: {fileID: 21300000, guid: 668ac10c3b4b9724dbe6eee9ac00b103, type: 3}
+  - ringPrefabPath: Rings/Ring 025
+    price: 1000
+    name: 025
+    sprite: {fileID: 21300000, guid: 4d96fa688f8d55b45941a9a6ecf0eef7, type: 3}
+  - ringPrefabPath: Rings/Ring 026
+    price: 1000
+    name: 026
+    sprite: {fileID: 21300000, guid: 8135e0e336e89f04fb2c011e6a49b706, type: 3}
+  - ringPrefabPath: Rings/Ring 027
+    price: 1000
+    name: 027
+    sprite: {fileID: 21300000, guid: f9d49693a8c15cf439c8649ed8deee32, type: 3}
+  - ringPrefabPath: Rings/Ring 028
+    price: 1000
+    name: 028
+    sprite: {fileID: 21300000, guid: c2323099f9ec312498d09ce3c050f3fd, type: 3}
+  - ringPrefabPath: Rings/Ring 029
+    price: 1000
+    name: 029
+    sprite: {fileID: 21300000, guid: adf4b3d08636d564c8581f987ca4ed77, type: 3}
+  - ringPrefabPath: Rings/Ring 030
+    price: 1000
+    name: 030
+    sprite: {fileID: 21300000, guid: aca89f22bf038104eb1fd316c094cc94, type: 3}
+  - ringPrefabPath: Rings/Ring 031
+    price: 1000
+    name: 031
+    sprite: {fileID: 21300000, guid: f0361d00aa971c94f90eec2b835174d6, type: 3}
+  - ringPrefabPath: Rings/Ring 032
+    price: 1000
+    name: 032
+    sprite: {fileID: 21300000, guid: 2133f0f70691777468cccf4035be1cb8, type: 3}
+  - ringPrefabPath: Rings/Ring 033
+    price: 1000
+    name: 033
+    sprite: {fileID: 21300000, guid: 0c8d19acc95e96e40932bac18bf069fd, type: 3}

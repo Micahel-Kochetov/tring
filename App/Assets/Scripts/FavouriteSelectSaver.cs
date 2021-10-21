@@ -6,14 +6,7 @@ using Zenject;
 
 public class FavouriteSelectSaver
 {
-    private const int ringsCount = 28;
-
-    private bool[] isFavouriteRings;
-
-    public FavouriteSelectSaver()
-    {
-        isFavouriteRings = new bool[ringsCount];
-    }
+    private Dictionary<int, bool> isFavouriteRings = new Dictionary<int, bool>();
 
     public void SetFavouriteValue(int index, bool isFavourite)
     {
@@ -22,6 +15,11 @@ public class FavouriteSelectSaver
 
     public bool GetFavouriteValue(int index)
     {
-        return isFavouriteRings[index];
+        if(isFavouriteRings.ContainsKey(index))
+        {
+            return isFavouriteRings[index];
+        }
+
+        return false;
     }
 }
