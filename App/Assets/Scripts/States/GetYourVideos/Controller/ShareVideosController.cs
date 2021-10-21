@@ -20,6 +20,8 @@ namespace Assets.Scripts.States.GetYourVideos.Controller
         private EmailShareFinalizeService emailShareFinalizeService;
         [Inject]
         private UserSessionService userSessionService;
+        [Inject]
+        private BulldogService bulldogService;
 
         private string[] videos;
         private string[] videoUrls;
@@ -150,8 +152,12 @@ namespace Assets.Scripts.States.GetYourVideos.Controller
                     isAirDropRequired = true;
                     break;
                 case ShareVideosView.ShareType.WhatsApp:
-                    break;
                 case ShareVideosView.ShareType.WhatsApp_Purchase:
+                    bulldogService.SendMessage(phoneNumber, 
+                        "TestUser", 
+                        videos, 
+                        (response)=> Debug.Log(string.Format("Bulldog send status: {0}", response.Status)),
+                        (error) => Debug.Log(string.Format("Bulldog send error: {0}", error)));
                     break;
                 default:
                     break;

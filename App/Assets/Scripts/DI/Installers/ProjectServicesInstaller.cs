@@ -31,6 +31,7 @@ namespace Assets.Scripts.DI.Installers
             Container.BindInterfacesAndSelfTo<InputTapListenerService>().AsSingle();
             Container.BindInterfacesAndSelfTo<ScreenRecordingPermissionService>().AsSingle().NonLazy();
             Container.Bind<ApplicationFocusService>().FromInstance(appFocusService).AsSingle();
+            Container.Bind<BulldogService>().AsSingle();
         }
     }
 }
