@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <CylinderTarget name="Marker_10_55" sideLength="1.000000"/>
+    <CylinderTarget name="Marker_11_55" sideLength="1.000000"/>
     <CylinderTarget name="2021_10_19_3" sideLength="0.721484"/>
     <CylinderTarget name="2021_10_19_2" sideLength="0.721484"/>
     <CylinderTarget name="2021_10_19" sideLength="1.000000"/>

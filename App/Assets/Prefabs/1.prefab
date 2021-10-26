@@ -490,14 +490,14 @@ MonoBehaviour:
   m_Script: {fileID: -1786515678, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: 1_12_6-5
+  mTrackableName: Marker_11_55
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/growring.xml
-  mTopDiameterRatio: 1.39401
-  mBottomDiameterRatio: 1.39401
+  mTopDiameterRatio: 1.5915
+  mBottomDiameterRatio: 1.5915
   mSideLength: 1
-  mTopDiameter: 1.39401
-  mBottomDiameter: 1.39401
+  mTopDiameter: 1.5915
+  mBottomDiameter: 1.5915
 --- !u!114 &114323462769001602
 MonoBehaviour:
   m_ObjectHideFlags: 0
