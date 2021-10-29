@@ -16,10 +16,25 @@ namespace Assets.Scripts.States.Common
         }
 
 #if UNITY_EDITOR
+        [SerializeField] private ScenesSetConfigSO scenesSetConfigSO;
+
+        public ScenesSetConfigSO ScenesSetConfigSO
+        {
+            get
+            {
+                return scenesSetConfigSO;
+            }
+        }
+
         public void SetRingsSetConfigSO(RingsSetConfigSO ringsSetConfigSO)
         {
             this.ringsSetConfigSO = ringsSetConfigSO;
         }
+
+        public void SetScenesSetConfigSO(ScenesSetConfigSO scenesSetConfigSO)
+        {
+            this.scenesSetConfigSO = scenesSetConfigSO;
+        } 
 #endif
 
     }

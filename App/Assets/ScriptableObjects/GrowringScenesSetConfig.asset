@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59a28e9369dd2c147a6abeb3dcd3bc8a, type: 3}
+  m_Name: GrowringScenesSetConfig
+  m_EditorClassIdentifier: 
+  sceneList:
+  - {fileID: 102900000, guid: 94d70347494aa6b48826dd8e887a6e58, type: 3}
+  - {fileID: 102900000, guid: 09cd53fd0cdf00d4f9f70aa30613b402, type: 3}
+  - {fileID: 102900000, guid: 6800cd1b10891f34fae4c738701cc5f9, type: 3}
+  - {fileID: 102900000, guid: baa86cc51342e1e4eaab04cf40a86204, type: 3}
+  - {fileID: 102900000, guid: 9385fab21ec7a8e4dbb62042f728a188, type: 3}
+  - {fileID: 102900000, guid: 197b63be8cc885a4da74e46bf3b0953d, type: 3}
+  - {fileID: 102900000, guid: a5538d7b24d206f4c9fb6a7563c9b511, type: 3}
+  - {fileID: 102900000, guid: a2b5478e7d6f2fe43a9d985a5697eb5b, type: 3}
+  - {fileID: 102900000, guid: 86da0dc28614bbf4c8785ee5265b9327, type: 3}
+  - {fileID: 102900000, guid: 7e1e9d2c93c3a2841a26a6faa6527b64, type: 3}

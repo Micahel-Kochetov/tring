@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Common.AppVersion;
+using Assets.Scripts.States.Common;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -11,17 +12,17 @@ public class AppBuilder
     [MenuItem("Tools/Build iOS")]
     public static void BuildUserApp()
     {
-        var levels = new List<string>() {
-            "Assets/Scenes/Main.unity",
-            "Assets/Scenes/StartTheMagic/StartTheMagicMobile.unity",
-            "Assets/Scenes/StartTheMagic/StartTheMagicTablet.unity",
-            "Assets/Scenes/ARRing/ARRing3D.unity",
-            "Assets/Scenes/ARRing/ARRingMobile.unity",
-            "Assets/Scenes/ARRing/ARRingTablet_1668_2388.unity",
-            "Assets/Scenes/ARRing/ARRingTablet_2048_2732.unity",
-            "Assets/Scenes/GetVideos/GetVideosMobile.unity",
-            "Assets/Scenes/GetVideos/GetVideosTablet_1668_2388.unity",
-            "Assets/Scenes/GetVideos/GetVideosTablet_2048_2732.unity"};
+        ApplicationSettingsSO applicationSettingsSO = (ApplicationSettingsSO)AssetDatabase.LoadAssetAtPath("Assets/ScriptableObjects/ApplicationSettings.asset", typeof(ApplicationSettingsSO));
+
+        List<string> levels = new List<string>(applicationSettingsSO.ScenesSetConfigSO.SceneList.Count);
+
+        foreach(var scene in applicationSettingsSO.ScenesSetConfigSO.SceneList)
+        {
+            string scenePath = AssetDatabase.GetAssetPath(scene);
+            UnityEngine.Debug.Log(scenePath);
+            levels.Add(scenePath);
+        }
+       
         BuildApp(levels.ToArray(), BuildTarget.iOS);
     }
 
