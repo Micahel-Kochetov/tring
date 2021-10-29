@@ -7,7 +7,7 @@ namespace Assets.Scripts.Common
     public class Validator
     {
         private const string emailRegex = "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{1,}$";
-        private const string phoneNumberRegex = @"^\+(\d)*(\d{10})$";
+        private const string phoneNumberRegex = @"^(\d)*(\d{10})$";
 
         public static bool EmailIsValid(string email)
         {

@@ -50,7 +50,7 @@ namespace Assets.Scripts.States.GetYourVideos.Controller
                 {
                     Directory.CreateDirectory(directoryPath);
                 }
-                File.Copy(videos[i],newFilePath, true);
+                File.Copy(videos[i], newFilePath, true);
                 newVideos[i] = newFilePath;
             }
             return newVideos;
@@ -86,7 +86,8 @@ namespace Assets.Scripts.States.GetYourVideos.Controller
                 {
                     Directory.Delete(dir);
                 }
-                catch (Exception ex) {
+                catch (Exception ex)
+                {
                     Debug.Log(ex);
                 }
             }
@@ -153,10 +154,10 @@ namespace Assets.Scripts.States.GetYourVideos.Controller
                     break;
                 case ShareVideosView.ShareType.WhatsApp:
                 case ShareVideosView.ShareType.WhatsApp_Purchase:
-                    bulldogService.SendMessage(phoneNumber, 
-                        "TestUser", 
-                        videos, 
-                        (response)=> Debug.Log(string.Format("Bulldog send status: {0}", response.Status)),
+                    bulldogService.SendMessage(phoneNumber,
+                        "TestUser",
+                        videos,
+                        () => Debug.Log("Bulldog send done"),
                         (error) => Debug.Log(string.Format("Bulldog send error: {0}", error)));
                     break;
                 default:

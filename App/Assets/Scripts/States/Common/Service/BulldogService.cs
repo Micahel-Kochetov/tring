@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections;
+using System.IO;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -56,50 +57,96 @@ namespace Assets.Scripts.States.Common.Service
         }
         #endregion
 
-        public void SendMessage(string userPhone, string userName, string[] videoLinks, Action<SendMessageResponce> success, Action<string> error)
+        public void SendMessage(string userPhone, string userName, string[] videoLinks, Action success, Action<string> error)
         {
             coroutineStarterService.StartCoroutine(AsyncSendMessage(userPhone, userName, videoLinks, success, error));
         }
 
         #region SendMessage
-        private IEnumerator AsyncSendMessage(string userPhone, string userName, string[] videoLinks, Action<SendMessageResponce> success, Action<string> error)
+        private IEnumerator AsyncSendMessage(string userPhone, string userName, string[] videoLinks, Action success, Action<string> error)
         {
-            string url = Constants.Server + Constants.SendMessage;
-            string message = CreateMessage(userName, videoLinks);
+            Debug.Log("Messages sending");
 
-            SendMessageRequest checkPhoneRequest = new SendMessageRequest
+            string url = Constants.Server + Constants.SendMessage;
+            string message = Constants.MessageTemplate;
+            message = message.Replace(Constants.MessageUserNameKey, userName);
+
+            for (int i = 0; i < videoLinks.Length; i++)
+            {
+                message += "\n" + videoLinks[i];
+            }
+
+            Debug.Log("Send main message");
+
+            SendMessageRequest mainMessage = new SendMessageRequest
             {
                 Phone = userPhone,
                 Message = message
             };
 
-            yield return SendRequest(url, checkPhoneRequest, success, error);
+            bool isError = false;
+
+            yield return SendRequest(url,
+                mainMessage,
+                (SendMessageResponce response) => Debug.Log("Main message sent"),
+                (errorMessage) => isError = true);
+
+            if (isError)
+            {
+                yield break;
+            }
+
+            success?.Invoke();
         }
 
-        private string CreateMessage(string userName, string[] videoLinks)
+        private IEnumerator UploadVideos(string[] videoLinks, Action<string[]> success, Action<string> error)
         {
-            string message = Constants.MessageTemplate;
+            Debug.Log("Videos are uploading");
 
-            videoLinks = new string[]
-            {
-                "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-                "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
-            };
+            string url = Constants.Server + Constants.Files;
+            string[] videoIds = new string[videoLinks.Length];
 
-            try
+            for (int i = 0; i < videoLinks.Length; i++)
             {
-                message = message.Replace(Constants.MessageUserNameKey, userName);
-                message = message.Replace(Constants.MessageLink1Key, videoLinks[0]);
-                message = message.Replace(Constants.MessageLink2Key, videoLinks[1]);
-                message = message.Replace(Constants.MessageLink3Key, videoLinks[2]);
+                using (UnityWebRequest uwr = new UnityWebRequest(url, UnityWebRequest.kHttpVerbPOST))
+                {
+                    uwr.SetRequestHeader("Content-Type", "video/mp4");
+                    uwr.SetRequestHeader("Token", Constants.Token);
+                    Debug.Log("Upload video: " + videoLinks[i]);
+                    byte[] videoBytes = File.ReadAllBytes(videoLinks[i]);
+                    uwr.uploadHandler = new UploadHandlerRaw(videoBytes);
+                    uwr.uploadHandler.contentType = "video/mp4";
+                    uwr.downloadHandler = new DownloadHandlerBuffer();
+
+                    yield return uwr.SendWebRequest();
+
+                    if (uwr.result == UnityWebRequest.Result.Success)
+                    {
+                        try
+                        {
+                            SendFileListResponce responseList = JsonConvert.DeserializeObject<SendFileListResponce>("{\"list\":" + uwr.downloadHandler.text + "}");
+                            Debug.Log("Video id: " + responseList.Items[0].ID);
+                            videoIds[i] = responseList.Items[0].ID;
+                        }
+                        catch (Exception ex)
+                        {
+                            Debug.LogError(ex.Message);
+                            error?.Invoke(ex.Message);
+
+                            yield break;
+                        }
+                    }
+                    else
+                    {
+                        Debug.LogError(uwr.error);
+                        error?.Invoke(uwr.error);
+
+                        yield break;
+                    }
+                }
             }
-            catch(Exception ex)
-            {
-                Debug.LogError("Error on creating message" + ex.Message);
-            }
 
-            return message;
+            success?.Invoke(videoIds);
         }
 
         public class SendMessageRequest
@@ -109,6 +156,15 @@ namespace Assets.Scripts.States.Common.Service
 
             [JsonProperty("message")]
             public string Message;
+
+            [JsonProperty("media")]
+            public Media MediaValue;
+
+            public class Media
+            {
+                [JsonProperty("file")]
+                public string File;
+            }
         }
 
         public class SendMessageResponce
@@ -156,6 +212,18 @@ namespace Assets.Scripts.States.Common.Service
             [JsonProperty("device")]
             public string Device;
         }
+
+        public class SendFileListResponce
+        {
+            [JsonProperty("list")]
+            public SendFileResponce[] Items;
+        }
+
+        public class SendFileResponce
+        {
+            [JsonProperty("id")]
+            public string ID;
+        }
         #endregion
 
         #region Common
@@ -173,11 +241,11 @@ namespace Assets.Scripts.States.Common.Service
 
                     success?.Invoke(response);
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     error?.Invoke(ex.Message);
                 }
-                
+
             }
             else
             {
@@ -188,7 +256,8 @@ namespace Assets.Scripts.States.Common.Service
 
         private UnityWebRequest CreateUnityWebRequest(string url, object request)
         {
-            string requestJson = JsonConvert.SerializeObject(request);
+            JsonSerializerSettings jsonSerializerSettings = new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore };
+            string requestJson = JsonConvert.SerializeObject(request, jsonSerializerSettings);
 
             UnityWebRequest uwr = new UnityWebRequest(url, UnityWebRequest.kHttpVerbPOST);
             uwr.SetRequestHeader("Content-Type", "application/json");
@@ -206,10 +275,11 @@ namespace Assets.Scripts.States.Common.Service
             public const string Server = "https://api.bulldog-wp.co.il/v1";
             public const string CheckPhone = "/numbers/exists";
             public const string SendMessage = "/messages";
+            public const string Files = "/files";
 
             //Other
             public const string Token = "fe7b9ac7f74e3a47de528aa27b0092d8e5ed3f03984ce4bb382b57d21f08f323a5049ef13669ffc4";
-            public const string MessageTemplate = "Hello %user_name%, here are the links to your AR Experience!\nPlease share it with your friends and make them envy;)\n%link_1%\n%link_2%\n%link_3%";
+            public const string MessageTemplate = "Hello %user_name%, here are your AR Experience!\nPlease share it with your friends and make them envy;)";
             public const string MessageUserNameKey = "%user_name%";
             public const string MessageLink1Key = "%link_1%";
             public const string MessageLink2Key = "%link_2%";

@@ -85,7 +85,8 @@ namespace Assets.Scripts.States.GetYourVideos.View
             {
                 return;
             }
-            OnSendVideos?.Invoke(emailTxt.text, phoneTxt.text);
+            string phone = "+" + phoneTxt.text;
+            OnSendVideos?.Invoke(emailTxt.text, phone);
         }
 
         private void OnEmailInputChanged(string text)
