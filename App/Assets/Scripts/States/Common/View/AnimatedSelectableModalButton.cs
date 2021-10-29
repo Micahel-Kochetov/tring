@@ -18,13 +18,13 @@ namespace Assets.Scripts.States.Common.View
         public override void SetSelected()
         {
             base.SetSelected();
-            animator.SetBool(selectedParameterName, true);
+            animator?.SetBool(selectedParameterName, true);
         }
 
         public override void SetDeselected()
         {
             base.SetDeselected();
-            animator.SetBool(selectedParameterName, false);
+            animator?.SetBool(selectedParameterName, false);
         }
 
     }

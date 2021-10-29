@@ -12,10 +12,10 @@ namespace Common.UI
     {
         [Serializable] public class ToggleEvent : UnityEvent<bool> { }
 
-        private static Color enabledIconColor = new Color(1, 1, 1, 1);
-        private static Color disabledIconColor = new Color(1, 1, 1, .5f);
-        private static Color enabledTextColor = new Color(1, 1, 1, 1);
-        private static Color disabledTextColor = new Color(0, 0, 0, .5f);
+        [SerializeField] private Color enabledIconColor = new Color(1, 1, 1, 1);
+        [SerializeField] private Color disabledIconColor = new Color(1, 1, 1, .5f);
+        [SerializeField] private Color enabledTextColor = new Color(1, 1, 1, 1);
+        [SerializeField] private Color disabledTextColor = new Color(0, 0, 0, .5f);
 
         [SerializeField] private Graphic icon;
         [SerializeField] private Graphic text;
