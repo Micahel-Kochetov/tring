@@ -1,4 +1,4 @@
-﻿using Assets.Scripts.States.ARRing.DTO;
+﻿#if UNITY_EDITOR
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -18,7 +18,6 @@ namespace Assets.Scripts.States.Common
             }
         }
 
-#if UNITY_EDITOR
         [CustomEditor(typeof(ScenesSetConfigSO))]
         public class ScenesSetConfigSOEditor : Editor
         {
@@ -64,6 +63,6 @@ namespace Assets.Scripts.States.Common
                 EditorBuildSettings.scenes = editorBuildSettingsScenes.ToArray();
             }
         }
-#endif
     }
 }
+#endif
