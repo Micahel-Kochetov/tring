@@ -149,7 +149,7 @@ PlayerSettings:
     iPhone: com.tring.com
   buildNumber:
     Standalone: 0
-    iPhone: 45
+    iPhone: 46
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
