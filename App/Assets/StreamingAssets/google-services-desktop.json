@@ -11,27 +11,27 @@
       }, 
       "oauth_client": [
         {
-          "client_id": "197376452543-8frphnmq5gtvfo6vrb29gabboknlbv49.apps.googleusercontent.com"
+          "client_id": "771731049179-hfosgoh4tv9g54bpntitja804i7tbm2e.apps.googleusercontent.com"
         }
       ], 
       "api_key": [
         {
-          "current_key": "AIzaSyCc44hez_f03QSiaP5ciFasYgUYieZnYYE"
+          "current_key": "AIzaSyBkTw29m9WaHWNR2ChOS_6efDfzfkZiXHM"
         }
       ], 
       "client_info": {
-        "mobilesdk_app_id": "1:197376452543:ios:0be752de605a829425a30a", 
+        "mobilesdk_app_id": "1:771731049179:ios:fd74cdff8cd5aba70f1afe", 
         "android_client_info": {
-          "package_name": "com.growring.app"
+          "package_name": "com.tring.com"
         }
       }
     }
   ], 
   "configuration_version": "1", 
   "project_info": {
-    "storage_bucket": "growring-test.appspot.com", 
-    "project_id": "growring-test", 
-    "firebase_url": "https://growring-test.firebaseio.com", 
-    "project_number": "197376452543"
+    "storage_bucket": "tring-ffa8b.appspot.com", 
+    "project_id": "tring-ffa8b", 
+    "firebase_url": "https://tring-ffa8b.firebaseio.com", 
+    "project_number": "771731049179"
   }
 }

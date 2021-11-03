@@ -30,5 +30,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:771731049179:ios:fd74cdff8cd5aba70f1afe</string>
+	<key>DATABASE_URL</key>
+	<string>https://tring-ffa8b.firebaseio.com</string>
 </dict>
 </plist>
