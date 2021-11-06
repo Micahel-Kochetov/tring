@@ -8,6 +8,8 @@ namespace Assets.Scripts.States.ARRing.Controller
     {
         public event Action OnSwipeRight;
         public event Action OnSwipeLeft;
+        public event Action OnSwipeUp;
+        public event Action OnSwipeDown;
         public Transform[] ring;
         public int RingsCount;
         private bool isControl = false;
@@ -78,43 +80,31 @@ namespace Assets.Scripts.States.ARRing.Controller
                 //normalize the 2d vector
                 currentSwipe.Normalize();
 
-                ////swipe upwards
-                //if (currentSwipe.y > 0 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f)
-                //{
-                //    Debug.Log("up swipe");
-                //    ControlButton.curObj.SendMessage("ChangeColor", false);
-                //}
-                ////swipe down
-                //if (currentSwipe.y < 0 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f)
-                //{
-                //    Debug.Log("down swipe");
-                //    ControlButton.curObj.SendMessage("ChangeColor", true);
-                //}
-                //swipe left
-                if (currentSwipe.x < 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
+                //swipe upwards
+                if (currentSwipe.y > 0 && Mathf.Abs(currentSwipe.x)<MIN_SWIPE_DELTA)
                 {
-                    //if (ControlButton.curObj != null && GlobalScript.СurSel != -1)
-                    //{
-                    //    int size = (GlobalScript.trackingObjIndex == 0) ? 2 : RingsCount;
-                    //    GlobalScript.СurSel = (GlobalScript.СurSel + 1) % size;
-                        //ControlButton.curObj.SendMessage("ShowSelectedModel", GlobalScript.СurSel);
-                        OnSwipeRight?.Invoke();
-                    //}
+                    OnSwipeUp?.Invoke();
+                }
+                //swipe down
+                if (currentSwipe.y < 0 && Mathf.Abs(currentSwipe.x)<MIN_SWIPE_DELTA)
+                {
+                    OnSwipeDown?.Invoke();
+                }
+                //swipe left
+                if (currentSwipe.x < 0 && Mathf.Abs(currentSwipe.y)<MIN_SWIPE_DELTA)
+                {
+                    OnSwipeRight?.Invoke();
                 }
                 //swipe right
-                if (currentSwipe.x > 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
+                if (currentSwipe.x > 0 && Mathf.Abs(currentSwipe.y)<MIN_SWIPE_DELTA)
                 {
-                    //if (ControlButton.curObj != null && GlobalScript.СurSel != -1)
-                    //{
-                    //    int size = (GlobalScript.trackingObjIndex == 0) ? 2 : RingsCount;
-                    //    GlobalScript.СurSel = (GlobalScript.СurSel - 1 + size) % size;
-                        OnSwipeLeft?.Invoke();
-                        //ControlButton.curObj.SendMessage("ShowSelectedModel", GlobalScript.СurSel);
-                    //}
+                    OnSwipeLeft?.Invoke();
                 }
             }
 
         }
+
+        private readonly float MIN_SWIPE_DELTA = 0.5f;
 
         public void Tick()
         {

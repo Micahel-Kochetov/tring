@@ -76,7 +76,7 @@ public class SwipeTransitionControl : MonoBehaviour
         CreateRing(ringModels[0]);
     }
 
-    private void CreateRing(RingModelData ringModelData)
+    private void CreateRing(RingSO ringModelData)
     {
         GameObject ring = new GameObject(ringModelData.Name, typeof(RectTransform), typeof(Image));
         ring.transform.SetParent(contentRectTransform, false);

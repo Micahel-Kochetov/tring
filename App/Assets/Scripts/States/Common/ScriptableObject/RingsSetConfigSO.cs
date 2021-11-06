@@ -7,9 +7,9 @@ namespace Assets.Scripts.States.Common
     [CreateAssetMenu(fileName = "RingsSetConfig", menuName = "ScriptableObjects/RingsSetConfigSO")]
     public class RingsSetConfigSO : ScriptableObject
     {
-        [SerializeField] private List<RingModelData> ringModelDatas;
+        [SerializeField] private List<RingSO> ringModelDatas;
 
-        public List<RingModelData> RingModelDatas
+        public List<RingSO> RingModelDatas
         {
             get
             {
