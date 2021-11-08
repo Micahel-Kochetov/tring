@@ -70,7 +70,7 @@ namespace Assets.Scripts.Common.Utils
             w2 = newWidth;
             ThreadData threadData = new ThreadData(0, newHeight);
             PointScale(threadData);
-            tex.Resize(newWidth, newHeight);
+            tex.Reinitialize(newWidth, newHeight);
             tex.SetPixels(newColors);
             tex.Apply();
             newColors = null;

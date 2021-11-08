@@ -14,7 +14,7 @@ public class AllGUi : MonoBehaviour {
     public GameObject[] trackingObjs;
     public GameObject[] toneButtons;
 
-    private ScreenOrientation prevOrt = ScreenOrientation.Landscape;
+    private ScreenOrientation prevOrt = ScreenOrientation.LandscapeLeft;
     private bool isTorch = false;
     private int curTone = 0;
 
