@@ -1659,7 +1659,7 @@ MonoBehaviour:
   - {fileID: 1074152554}
   - {fileID: 313280183}
   iconsParent: {fileID: 62887092}
-  iconPrefab: {fileID: 114937500155291460, guid: af16576a9536ad848b1a6e98c8ffbc02,
+  iconPrefab: {fileID: 7653489768819416995, guid: dd36d30e2adf89f45a531442e5cade5e,
     type: 3}
   continueRecordingBtn: {fileID: 638828126}
 --- !u!1 &518229188
