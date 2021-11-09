@@ -678,7 +678,7 @@ PrefabInstance:
     - target: {fileID: 2797246181805777800, guid: 060f0184599b49543b1b7dacacd3577d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2797246181805777800, guid: 060f0184599b49543b1b7dacacd3577d,
         type: 3}
@@ -1179,7 +1179,7 @@ PrefabInstance:
     - target: {fileID: 2797246181805777800, guid: 060f0184599b49543b1b7dacacd3577d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2797246181805777800, guid: 060f0184599b49543b1b7dacacd3577d,
         type: 3}
@@ -2274,7 +2274,7 @@ MonoBehaviour:
   - {fileID: 1119513900}
   - {fileID: 324389489}
   iconsParent: {fileID: 610519589}
-  iconPrefab: {fileID: 2720114376385799155, guid: f14c13b91af482e458402ccb3082fcb9,
+  iconPrefab: {fileID: 114937500155291460, guid: af16576a9536ad848b1a6e98c8ffbc02,
     type: 3}
   continueRecordingBtn: {fileID: 818898098}
 --- !u!1 &817482210
@@ -2978,7 +2978,7 @@ PrefabInstance:
     - target: {fileID: 2797246181805777800, guid: 060f0184599b49543b1b7dacacd3577d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2797246181805777800, guid: 060f0184599b49543b1b7dacacd3577d,
         type: 3}
@@ -3115,7 +3115,7 @@ PrefabInstance:
     - target: {fileID: 2797246181805777800, guid: 060f0184599b49543b1b7dacacd3577d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2797246181805777800, guid: 060f0184599b49543b1b7dacacd3577d,
         type: 3}
