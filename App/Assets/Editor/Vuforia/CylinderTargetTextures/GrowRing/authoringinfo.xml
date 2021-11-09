@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VuforiaUnityInfo version="7.0">
     <TargetSet version="5.0" toolVersion="2.8.0">
+        <CylinderTarget name="LV_13_80_01" version="3.0" targetId="9e0abe4eadff401ea428ef0f6074dd89" sideLength="1.000000" topDiameter="1.958830" bottomDiameter="1.958830" sideImage="LV_13_80_01.Body_scaled.jpg"/>
+        <CylinderTarget name="LV_11_67_01" version="3.0" targetId="76b62c04310348d28d999403f82b9607" sideLength="1.000000" topDiameter="1.938800" bottomDiameter="1.938800" sideImage="LV_11_67_01.Body_scaled.jpg"/>
+        <CylinderTarget name="LV_09_55_01" version="3.0" targetId="bc6e85bb470d481794e411a0f7ef6f12" sideLength="1.000000" topDiameter="1.945230" bottomDiameter="1.945230" sideImage="LV_09_55_01.Body_scaled.jpg"/>
         <CylinderTarget name="Marker_10_55" version="3.0" targetId="f8c41ee2f446441ebd889c140584d7a1" sideLength="1.000000" topDiameter="1.750700" bottomDiameter="1.750700" sideImage="Marker_10_55.Body_scaled.jpg"/>
         <CylinderTarget name="Marker_11_55" version="3.0" targetId="08f7740d90b24a6fa01676773e92e288" sideLength="1.000000" topDiameter="1.591500" bottomDiameter="1.591500" sideImage="Marker_11_55.Body_scaled.jpg"/>
         <CylinderTarget name="2021_10_19_3" version="3.0" targetId="cceb75ce0b104460bd7835b0ab95f52b" sideLength="0.721484" topDiameter="1.394010" bottomDiameter="1.394010" sideImage="2021_10_19_3.Body_scaled.jpg"/>
