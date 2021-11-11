@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NEW
+  m_Name: NEW gold
   m_Shader: {fileID: -6465566751694194690, guid: 3739e562a03fc0b4982d8aa66cc50865,
     type: 3}
   m_ShaderKeywords: _GLOSSYREFLECTIONS_OFF
