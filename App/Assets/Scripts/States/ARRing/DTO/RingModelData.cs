@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Assets.Scripts.States.ARRing.DTO
@@ -14,6 +15,10 @@ namespace Assets.Scripts.States.ARRing.DTO
         string name;
         [SerializeField]
         Sprite sprite;
+
+        [SerializeField] private List<Material> metalMaterials;
+
+        public List<Material> MetalMaterials => metalMaterials;
 
         public string RingPrefabPath
         {

@@ -3,6 +3,7 @@ using Assets.Scripts.States.ARRing.View;
 using Assets.Scripts.States.Common.Controller;
 using Assets.Scripts.States.Common.Service;
 using System;
+using UnityEngine;
 using Zenject;
 
 namespace Assets.Scripts.States.ARRing.Controller
@@ -128,6 +129,7 @@ namespace Assets.Scripts.States.ARRing.Controller
 
         private void OnRingChangedHandler(int index)
         {
+            Debug.Log($"OnRingChangedHandler {index}");
             OnRingCarouselIndexChanged?.Invoke(index);
             view.ForceSetCurrentFavourite(favouriteSelectSaver.GetFavouriteValue(index));
         }
