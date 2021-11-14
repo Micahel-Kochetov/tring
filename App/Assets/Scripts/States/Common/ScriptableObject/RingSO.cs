@@ -14,6 +14,8 @@ namespace Assets.Scripts.States.Common
 
         [SerializeField] private Sprite sprite;
 
+        [SerializeField] private Sprite logo;
+
         [SerializeField] private List<Material> metalMaterials;
 
         public List<Material> MetalMaterials => metalMaterials;
@@ -25,5 +27,7 @@ namespace Assets.Scripts.States.Common
         public string Name => name;
 
         public Sprite Sprite => sprite;
+
+        public Sprite Logo => this.logo;
     }
 }
