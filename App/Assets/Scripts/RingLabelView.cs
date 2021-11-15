@@ -1,4 +1,5 @@
 using Assets.Scripts.States.Common;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,24 +8,59 @@ using UnityEngine.UI;
 public class RingLabelView : MonoBehaviour
 {
     [SerializeField]
-    private Image logo;
+    private Image logoImage;
+
     [SerializeField]
     private Text priceLabel;
+
     [SerializeField]
     private float fadingSpeed = 1f;
-    public void ShowRingInfo()
+
+    [SerializeField]
+    private ApplicationSettingsSO applicationSettingsSO;
+
+    private Coroutine fadeInCoroutine;
+
+    private Coroutine fadeOutCoroutine;
+
+    public string Price { get; set; }
+
+    public Sprite Logo { get; set; }
+
+    public void SetRingValues(int ringId)
     {
-        this.StopAllCoroutines();
-        this.StartCoroutine(this.FadeOut());
+        var id = ringId % this.applicationSettingsSO.RingsSetConfigSO.RingModelDatas.Count;
+        var ring = this.applicationSettingsSO.RingsSetConfigSO.RingModelDatas[id];
+        this.Price = ring.Price.ToString();
+        this.Logo = ring.Logo;
     }
 
-    public void HideAndSetRingInfo(RingSO ring)
+    public void FadeInAndFadeOut()
     {
-        this.StopAllCoroutines();
-        this.StartCoroutine(this.FadeInAndChangeInfo(ring));
+        this.StartFadeIn(this.StartFadeOut);
     }
 
-    private IEnumerator FadeInAndChangeInfo(RingSO ring)
+    public void StartFadeOut()
+    {
+        this.fadeOutCoroutine = this.StartCoroutine(this.FadeOut());
+    }
+
+    public void StartFadeIn(Action onFadedIn)
+    {
+        this.StopFadeOut();
+        this.fadeInCoroutine = this.StartCoroutine(this.FadeIn(onFadedIn));
+    }
+
+    private void StopFadeOut()
+    {
+        if (this.fadeOutCoroutine != null)
+        {
+            this.StopCoroutine(this.fadeOutCoroutine);
+            this.fadeOutCoroutine = null;
+        }
+    }
+
+    private IEnumerator FadeIn(Action onFadingInEnded = null)
     {
         for (float fadingIndex = fadingSpeed * this.priceLabel.color.a; fadingIndex >= 0; fadingIndex -= Time.deltaTime)
         {
@@ -32,23 +68,33 @@ public class RingLabelView : MonoBehaviour
             yield return null;
         }
 
-        this.priceLabel.text = $"{ring.Price}$";
-        this.logo.sprite = ring.Logo;
+        this.fadeInCoroutine = null;
+        onFadingInEnded?.Invoke();
     }
 
     private IEnumerator FadeOut()
     {
+        while (this.fadeInCoroutine != null)
+        {
+            yield return null;
+        }
+
+        this.logoImage.sprite = this.Logo;
+        this.priceLabel.text = this.Price;
+
         for (float fadingIndex = fadingSpeed * this.priceLabel.color.a; fadingIndex <= fadingSpeed; fadingIndex += Time.deltaTime)
         {
             this.SetAlpha(fadingIndex / fadingSpeed);
             yield return null;
         }
+
+        this.fadeOutCoroutine = null;
     }
 
     private void SetAlpha(float alpha)
     {
         this.priceLabel.color = new Color(this.priceLabel.color.r, this.priceLabel.color.g, this.priceLabel.color.b, alpha);
-        this.logo.color = new Color(this.logo.color.r, this.logo.color.g, this.logo.color.b, alpha);
+        this.logoImage.color = new Color(this.logoImage.color.r, this.logoImage.color.g, this.logoImage.color.b, alpha);
     }
 
 }

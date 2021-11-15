@@ -211,6 +211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 87290337}
   - component: {fileID: 87290338}
+  - component: {fileID: 87290339}
   m_Layer: 5
   m_Name: StartScreen
   m_TagString: Untagged
@@ -260,6 +261,21 @@ MonoBehaviour:
   parent: {fileID: 87290336}
   startTheMagicBtn: {fileID: 414915159}
   swipeControl: {fileID: 142855616}
+--- !u!114 &87290339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87290336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a943296fbd7b045863604d30153f31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logoImage: {fileID: 0}
+  priceLabel: {fileID: 1768203215}
+  fadingSpeed: 1
 --- !u!1 &142855614
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,7 +1153,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1768203214
 RectTransform:
   m_ObjectHideFlags: 0
