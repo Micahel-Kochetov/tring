@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59a28e9369dd2c147a6abeb3dcd3bc8a, type: 3}
+  m_Name: LVScenesSetConfig
+  m_EditorClassIdentifier: 
+  sceneList:
+  - {fileID: 102900000, guid: 94d70347494aa6b48826dd8e887a6e58, type: 3}
+  - {fileID: 102900000, guid: 28931ce1916f9e34faf9b7c802592e9f, type: 3}
+  - {fileID: 102900000, guid: f9938cdac0aed6c4e82761163028a226, type: 3}
+  - {fileID: 102900000, guid: 63a535294ca98724fb662dab68a39dde, type: 3}
+  - {fileID: 102900000, guid: 87bccbc5b50f2f643bd0f3f2ae6d9a59, type: 3}
+  - {fileID: 102900000, guid: f11e18d8eba017249bf0a4349dc0eb7e, type: 3}
+  - {fileID: 102900000, guid: 0c8ed195c3b54ca4fa13558831e4172d, type: 3}
+  - {fileID: 102900000, guid: 020c6f537b8bdea468af292c5121d030, type: 3}
+  - {fileID: 102900000, guid: d09e0df552ce32e459176eb8c00ffb9b, type: 3}
+  - {fileID: 102900000, guid: fd1bc1bab15e77344a75e64d98986e2c, type: 3}
+  - {fileID: 102900000, guid: e6c0728d89723774b93e289af8ba68b5, type: 3}
+  - {fileID: 102900000, guid: 0ac5388b46009ab42b1beecacca3703f, type: 3}
+  - {fileID: 102900000, guid: 9a32045bdc20c8645a1a17082375963e, type: 3}
+  - {fileID: 102900000, guid: 155a337e9cac0cf4f8c8e418392d22ca, type: 3}
