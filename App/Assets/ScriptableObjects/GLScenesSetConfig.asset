@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59a28e9369dd2c147a6abeb3dcd3bc8a, type: 3}
-  m_Name: LVScenesSetConfig
+  m_Name: GLScenesSetConfig
   m_EditorClassIdentifier: 
   sceneList:
   - {fileID: 102900000, guid: 94d70347494aa6b48826dd8e887a6e58, type: 3}
