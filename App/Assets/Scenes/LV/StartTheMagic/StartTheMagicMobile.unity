@@ -273,9 +273,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06a943296fbd7b045863604d30153f31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  logoImage: {fileID: 0}
+  logoImage: {fileID: 1962608595}
   priceLabel: {fileID: 1768203215}
-  fadingSpeed: 1
+  fadingSpeed: 0.1
+  applicationSettingsSO: {fileID: 11400000, guid: f540d3390f14cb54492c9985406123f7,
+    type: 2}
 --- !u!1 &142855614
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,6 +361,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  ringLabelView: {fileID: 87290339}
 --- !u!1 &151197433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,7 +1156,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1768203214
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1505,7 +1508,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 96aad76a80f6c8145a04ee861fb8b08e, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1

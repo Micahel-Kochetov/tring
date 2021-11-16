@@ -17,6 +17,8 @@ namespace Assets.Scripts.DI.Installers
         RecordVideoView recordVideoView;
         [SerializeField]
         PreshareView preshareView;
+        [SerializeField]
+        RingLabelView ringLabelView;
 
         public override void InstallBindings()
         {
@@ -25,6 +27,7 @@ namespace Assets.Scripts.DI.Installers
             Container.Bind<StopTheFunView>().FromInstance(stopTheFunView).AsSingle();
             Container.Bind<RecordVideoView>().FromInstance(recordVideoView).AsSingle();
             Container.Bind<PreshareView>().FromInstance(preshareView).AsSingle();
+            Container.Bind<RingLabelView>().FromInstance(ringLabelView).AsSingle();
             Container.BindInterfacesAndSelfTo<RecordVideoController>().AsSingle();
             Container.BindInterfacesAndSelfTo<ARRingController>().AsSingle();
             Container.BindInterfacesAndSelfTo<PreshareController>().AsSingle();

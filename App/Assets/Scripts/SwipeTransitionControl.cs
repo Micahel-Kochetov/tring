@@ -43,6 +43,7 @@ public class SwipeTransitionControl : MonoBehaviour
     [SerializeField] private float idleStateLength;
     [SerializeField] private float transitionStateLength;
     [SerializeField] private AnimationCurve transitionCurve;
+    [SerializeField] private RingLabelView ringLabelView;
 
     private Vector2 transitionStep;
     private int ringIndex;
@@ -53,6 +54,8 @@ public class SwipeTransitionControl : MonoBehaviour
         RecreateRings();
 
         RecalculateLayout();
+
+        this.ringLabelView.ShowRingValues(ringIndex);
     }
 
     private void RecreateRings()
@@ -131,7 +134,7 @@ public class SwipeTransitionControl : MonoBehaviour
                 //wait before next transition start
                 yield return waitIdleState;
                 int nextRingIndex = (ringIndex + 1) % rings.Count;
-
+                this.ringLabelView.FadeInAndFadeOut(nextRingIndex);
                 do
                 {
                     //make transition

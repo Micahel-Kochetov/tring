@@ -27,6 +27,13 @@ public class RingLabelView : MonoBehaviour
 
     public Sprite Logo { get; set; }
 
+    public void ShowRingValues(int ringId)
+    {
+        this.SetRingValues(ringId);
+        this.logoImage.sprite = this.Logo;
+        this.priceLabel.text = this.Price;
+    }
+
     public void SetRingValues(int ringId)
     {
         var id = ringId % this.applicationSettingsSO.RingsSetConfigSO.RingModelDatas.Count;
@@ -35,8 +42,9 @@ public class RingLabelView : MonoBehaviour
         this.Logo = ring.Logo;
     }
 
-    public void FadeInAndFadeOut()
+    public void FadeInAndFadeOut(int ringId)
     {
+        this.SetRingValues(ringId);
         this.StartFadeIn(this.StartFadeOut);
     }
 

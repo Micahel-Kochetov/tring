@@ -16,6 +16,8 @@ namespace Assets.Scripts.States.ARRing.Controller
         [Inject]
         ARRingView view;
         [Inject]
+        RingLabelView ringLabelView;
+        [Inject]
         GetVoucherController getVoucherController;
         [Inject]
         StopTheFunController stopTheFunController;
@@ -129,6 +131,7 @@ namespace Assets.Scripts.States.ARRing.Controller
 
         private void OnRingChangedHandler(int index)
         {
+            ringLabelView.FadeInAndFadeOut(index);
             Debug.Log($"OnRingChangedHandler {index}");
             OnRingCarouselIndexChanged?.Invoke(index);
             view.ForceSetCurrentFavourite(favouriteSelectSaver.GetFavouriteValue(index));
