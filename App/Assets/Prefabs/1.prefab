@@ -490,9 +490,9 @@ MonoBehaviour:
   m_Script: {fileID: -1786515678, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: LV_N11_0
+  mTrackableName: LV_1214_200_N11_0
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/GrowRing.xml
+  mDataSetPath: Vuforia/tring.xml
   mTopDiameterRatio: 1.93214
   mBottomDiameterRatio: 1.93214
   mSideLength: 1
