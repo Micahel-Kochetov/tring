@@ -19,6 +19,8 @@ namespace Assets.Scripts.States.GetYourVideos.Controller
         [Inject]
         private EmailShareFinalizeService emailShareFinalizeService;
         [Inject]
+        private WhatsAppShareFinalizeService whatsAppShareFinalizeService;
+        [Inject]
         private UserSessionService userSessionService;
         [Inject]
         private BulldogService bulldogService;
@@ -28,6 +30,7 @@ namespace Assets.Scripts.States.GetYourVideos.Controller
         private string email;
         private string phoneNumber;
         private bool isEmailSendRequired;
+        private bool isWhatsAppSendRequired;
         private bool isAirDropRequired;
 
         public void Init(string[] videos)
@@ -106,11 +109,13 @@ namespace Assets.Scripts.States.GetYourVideos.Controller
 
             isEmailSendRequired = false;
             isAirDropRequired = false;
+            isWhatsAppSendRequired = false;
         }
 
         public void Deactivate()
         {
             emailShareFinalizeService.SetUserData(userSessionService.GetSessionId(), isEmailSendRequired, email);
+            whatsAppShareFinalizeService.SetUserData(userSessionService.GetSessionId(), isWhatsAppSendRequired, phoneNumber);
 
             view.Hide();
             if (!isAirDropRequired)
@@ -154,11 +159,7 @@ namespace Assets.Scripts.States.GetYourVideos.Controller
                     break;
                 case ShareVideosView.ShareType.WhatsApp:
                 case ShareVideosView.ShareType.WhatsApp_Purchase:
-                    bulldogService.SendMessage(phoneNumber,
-                        "TestUser",
-                        videos,
-                        () => Debug.Log("Bulldog send done"),
-                        (error) => Debug.Log(string.Format("Bulldog send error: {0}", error)));
+                    isWhatsAppSendRequired = true;
                     break;
                 default:
                     break;

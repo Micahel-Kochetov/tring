@@ -25,6 +25,8 @@ namespace Assets.Scripts.States.GetYourVideos.Controller
         [Inject]
         EmailShareFinalizeService emailShareFinalizeService;
         [Inject]
+        WhatsAppShareFinalizeService whatsAppShareFinalizeService;
+        [Inject]
         UserSessionService userSessionService;
         [Inject]
         ScreenRecordingService screenRecordingService;
@@ -165,6 +167,7 @@ namespace Assets.Scripts.States.GetYourVideos.Controller
             if (videoUploadTask.Status == TaskStatus.RanToCompletion)
             {
                 analyticsService.RegisterVideoRecords(analyticsEventID, videoUploadTask.Result);
+                //emailShareFinalizeService.SetVideoUrls(sessionId, videoUploadTask.Result);
                 emailShareFinalizeService.SetVideoUrls(sessionId, videoUploadTask.Result);
             }
         }
