@@ -16,7 +16,7 @@ MonoBehaviour:
   price: 1332
   name: 033
   sprite: {fileID: 21300000, guid: 0c8d19acc95e96e40932bac18bf069fd, type: 3}
-  logo: {fileID: 21300000, guid: 1e2d444ae9d5a4ff1b47ffec28d5165c, type: 3}
+  logo: {fileID: 21300000, guid: ade71d1fc595abf47af3800a5877d14f, type: 3}
   metalMaterials:
   - {fileID: 2100000, guid: 59a71c7af52ae4541a4879b80b52742b, type: 2}
   - {fileID: 2100000, guid: 539c88139df9f6840a1ff65d5a365df0, type: 2}

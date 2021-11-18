@@ -48,12 +48,12 @@ public class RingLabelView : MonoBehaviour
         this.StartFadeIn(this.StartFadeOut);
     }
 
-    public void StartFadeOut()
+    private void StartFadeOut()
     {
         this.fadeOutCoroutine = this.StartCoroutine(this.FadeOut());
     }
 
-    public void StartFadeIn(Action onFadedIn)
+    private void StartFadeIn(Action onFadedIn)
     {
         this.StopFadeOut();
         this.fadeInCoroutine = this.StartCoroutine(this.FadeIn(onFadedIn));

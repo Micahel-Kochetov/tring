@@ -42,6 +42,7 @@ namespace Assets.Scripts.States.ARRing.Controller
             favouriteSelectSaver = new FavouriteSelectSaver();
             screenRecordingController.OnRecordingFailed += OnRecordingFailedHandler;
             this.skinColorMonitor = skinColorMonitor;
+            this.ringLabelView.ShowRingValues(0);
         }
 
 
