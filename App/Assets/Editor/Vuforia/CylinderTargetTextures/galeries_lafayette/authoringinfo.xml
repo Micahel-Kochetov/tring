@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VuforiaUnityInfo version="7.0">
+    <TargetSet version="5.0" toolVersion="2.8.0">
+        <CylinderTarget name="gl2" version="3.0" targetId="da83b5ece8244482aeaf3fed50a2c101" sideLength="0.721479" topDiameter="1.394010" bottomDiameter="1.394010" sideImage="gl2.Body_scaled.jpg"/>
+    </TargetSet>
+</VuforiaUnityInfo>
