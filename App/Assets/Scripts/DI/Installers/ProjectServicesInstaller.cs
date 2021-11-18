@@ -24,6 +24,7 @@ namespace Assets.Scripts.DI.Installers
             Container.BindInterfacesAndSelfTo<UserSessionService>().AsSingle();
             Container.Bind<EmailSenderService>().AsSingle();
             Container.Bind<EmailShareFinalizeService>().AsSingle();
+            Container.Bind<WhatsAppShareFinalizeService>().AsSingle();
             Container.BindInterfacesAndSelfTo<FileUploadService>().AsSingle();
             Container.BindInterfacesAndSelfTo<ScreenRecordingService>().AsSingle();
             Container.BindInterfacesAndSelfTo<AnalyticsService>().AsSingle();

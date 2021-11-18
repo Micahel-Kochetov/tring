@@ -57,24 +57,29 @@ namespace Assets.Scripts.States.Common.Service
         }
         #endregion
 
-        public void SendMessage(string userPhone, string userName, string[] videoLinks, Action success, Action<string> error)
+        public void SendMessage(string userPhone, string[] videoLinks, Action success, Action<string> error)
         {
-            coroutineStarterService.StartCoroutine(AsyncSendMessage(userPhone, userName, videoLinks, success, error));
+            coroutineStarterService.StartCoroutine(AsyncSendMessage(userPhone, videoLinks, success, error));
         }
 
         #region SendMessage
-        private IEnumerator AsyncSendMessage(string userPhone, string userName, string[] videoLinks, Action success, Action<string> error)
+        private IEnumerator AsyncSendMessage(string userPhone, string[] videoLinks, Action success, Action<string> error)
         {
             Debug.Log("Messages sending");
 
             string url = Constants.Server + Constants.SendMessage;
             string message = Constants.MessageTemplate;
-            message = message.Replace(Constants.MessageUserNameKey, userName);
-
+            string videos = "";
             for (int i = 0; i < videoLinks.Length; i++)
             {
-                message += "\n" + videoLinks[i];
+                if (i != 0)
+                {
+                    videos += "\n";
+                }
+                videos += videoLinks[i];
             }
+
+            message = message.Replace(Constants.MessageVideosKey, videos);
 
             Debug.Log("Send main message");
 
@@ -279,11 +284,8 @@ namespace Assets.Scripts.States.Common.Service
 
             //Other
             public const string Token = "fe7b9ac7f74e3a47de528aa27b0092d8e5ed3f03984ce4bb382b57d21f08f323a5049ef13669ffc4";
-            public const string MessageTemplate = "Hello %user_name%, here are your AR Experience!\nPlease share it with your friends and make them envy;)";
-            public const string MessageUserNameKey = "%user_name%";
-            public const string MessageLink1Key = "%link_1%";
-            public const string MessageLink2Key = "%link_2%";
-            public const string MessageLink3Key = "%link_3%";
+            public const string MessageTemplate = "Hello!\n Here are your AR Experience!\nPlease share it with your friends and make them envy;) %videos%";
+            public const string MessageVideosKey = "%videos%";
         }
         #endregion
 
