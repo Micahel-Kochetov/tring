@@ -124,13 +124,13 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!43 &94762345
+--- !u!43 &340809934
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CylinderMesh-13852
+  m_Name: CylinderMesh-62146
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -390,37 +390,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6591376716038675430}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1164475779
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: '1_12_6-5.Body_scaledMaterial
-
-    -13852Bright
-
-    -13852'
-  m_Shader: {fileID: 4800000, guid: 7e6d3c0df88f3ab458512f8282e449af, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 365d594972ce4779ba6e33f06c37d6c2, type: 3}
-        m_Scale: {x: -1, y: -1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
 --- !u!114 &1213739334 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1213739334, guid: 208e83c40564a9945b959044bc4b576c,
@@ -506,12 +475,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6591376716038675430}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1458919157 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4902726580955850, guid: 208e83c40564a9945b959044bc4b576c,
-    type: 3}
-  m_PrefabInstance: {fileID: 6591376716038675430}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1489311487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -584,7 +547,7 @@ PrefabInstance:
       objectReference: {fileID: 1213739334}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9f0724f9003a44091a4dd4f7656de6, type: 3}
---- !u!21 &1819439855
+--- !u!21 &1599099456
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -593,7 +556,44 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '1_12_6-5.Body_scaledMaterial
 
-    -13852'
+    -62146Bright
+
+    -62146'
+  m_Shader: {fileID: 4800000, guid: 7e6d3c0df88f3ab458512f8282e449af, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 365d594972ce4779ba6e33f06c37d6c2, type: 3}
+        m_Scale: {x: -1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
+--- !u!4 &2086335015 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1480891219, guid: 208e83c40564a9945b959044bc4b576c,
+    type: 3}
+  m_PrefabInstance: {fileID: 6591376716038675430}
+  m_PrefabAsset: {fileID: 0}
+--- !u!21 &2087609058
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: '1_12_6-5.Body_scaledMaterial
+
+    -62146'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -672,47 +672,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1819439855}
+      objectReference: {fileID: 2087609058}
     - target: {fileID: 23328097604425954, guid: 208e83c40564a9945b959044bc4b576c,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 1164475779}
+      objectReference: {fileID: 1599099456}
     - target: {fileID: 33937579185448892, guid: 208e83c40564a9945b959044bc4b576c,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 94762345}
-    - target: {fileID: 114378668115203958, guid: 208e83c40564a9945b959044bc4b576c,
-        type: 3}
-      propertyPath: mDataSetPath
-      value: Vuforia/GrowRing.xml
-      objectReference: {fileID: 0}
-    - target: {fileID: 114378668115203958, guid: 208e83c40564a9945b959044bc4b576c,
-        type: 3}
-      propertyPath: mTopDiameter
-      value: 1.39401
-      objectReference: {fileID: 0}
-    - target: {fileID: 114378668115203958, guid: 208e83c40564a9945b959044bc4b576c,
-        type: 3}
-      propertyPath: mTrackableName
-      value: 1_12_6-5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114378668115203958, guid: 208e83c40564a9945b959044bc4b576c,
-        type: 3}
-      propertyPath: mBottomDiameter
-      value: 1.39401
-      objectReference: {fileID: 0}
-    - target: {fileID: 114378668115203958, guid: 208e83c40564a9945b959044bc4b576c,
-        type: 3}
-      propertyPath: mTopDiameterRatio
-      value: 1.39401
-      objectReference: {fileID: 0}
-    - target: {fileID: 114378668115203958, guid: 208e83c40564a9945b959044bc4b576c,
-        type: 3}
-      propertyPath: mBottomDiameterRatio
-      value: 1.39401
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 340809934}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 208e83c40564a9945b959044bc4b576c, type: 3}
 --- !u!1001 &6738417411750896094
@@ -746,7 +716,7 @@ PrefabInstance:
         type: 3}
       propertyPath: handBlend
       value: 
-      objectReference: {fileID: 1458919157}
+      objectReference: {fileID: 2086335015}
     - target: {fileID: 6738417411196399980, guid: 89e5d2ee0fe747543bc35a503c14aaa4,
         type: 3}
       propertyPath: viewCamera

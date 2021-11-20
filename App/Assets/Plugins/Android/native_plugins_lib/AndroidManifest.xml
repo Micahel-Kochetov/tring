@@ -21,9 +21,6 @@
     <provider android:name="com.voxelbusters.nativeplugins.extensions.FileProviderExtended" android:authorities="com.tring.com.fileprovider" android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/nativeplugins_file_paths" />
     </provider>
-    <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="\u003" />
-    <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_stat_ic_notification" />
-    <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/colorAccent" />
   </application>
   <!--Permissions-->
   <!--Media Library-->
