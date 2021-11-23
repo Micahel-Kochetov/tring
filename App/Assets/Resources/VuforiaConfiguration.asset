@@ -23,7 +23,7 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
     version: 9.6.4
-    eulaAcceptedVersions: '{"Values":["9.0","7.5","8.0","7.1","7.2","8.3","8.5","0.0","8.1","9.1","9.6"]}'
+    eulaAcceptedVersions: '{"Values":["9.0","7.5","8.0","7.1","7.2","8.3","8.5","0.0","8.1","9.1","9.6","9.8"]}'
   database:
     disableModelExtraction: 0
   videoBackground:
@@ -33,7 +33,7 @@ MonoBehaviour:
     unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoStartTracker: 0
+    autoStartTracker: 1
     arcoreRequirement: 1
     autoImportArcore: 1
   playmode:
