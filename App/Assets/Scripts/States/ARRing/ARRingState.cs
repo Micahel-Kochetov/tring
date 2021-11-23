@@ -50,13 +50,14 @@ namespace Assets.Scripts.States.ARRing
             getVoucherController.Init();
             recordVideoController = sceneUIContext.Container.Resolve<RecordVideoController>();
             recordVideoController.Init(Constants.CRecordVideoScreen);
+
+            CameraDevice.Instance.SetFlashTorchMode(false);
             CameraDevice.Instance.SetFlashTorchMode(true);
-            TurnOnFlashAsync();
+
             appFocusService.OnFocusChange += OnFocusChangeHandler;
             preshareController = sceneUIContext.Container.Resolve<PreshareController>();
             preshareController.Init(Constants.CPreshareScreen);
         }
-
 
         protected override async Task Deinitialize(DeactivateStateParameters args = null)
         {
