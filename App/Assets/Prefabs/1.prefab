@@ -456,6 +456,7 @@ GameObject:
   - component: {fileID: 23328097604425954}
   - component: {fileID: 33937579185448892}
   - component: {fileID: 1213739334}
+  - component: {fileID: 4961234345153938305}
   m_Layer: 0
   m_Name: 1
   m_TagString: Untagged
@@ -576,13 +577,51 @@ MonoBehaviour:
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4961234345153938305}
+        m_TargetAssemblyTypeName: FocusModeUpdater, Assembly-CSharp
+        m_MethodName: UpdateToTriggerAutoFocus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4961234345153938305}
+        m_TargetAssemblyTypeName: FocusModeUpdater, Assembly-CSharp
+        m_MethodName: UpdateToContinuosAutoFocus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   typeButton:
   - {fileID: 0}
   - {fileID: 0}
   defaultRing: {fileID: 0}
   defaultBracelet: {fileID: 0}
   optionnalPanel: {fileID: 0}
+--- !u!114 &4961234345153938305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775724839918198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfa1e3e996ad43e438224c8e24267c29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  focusMode: 2
+  isSetOnStart: 1
