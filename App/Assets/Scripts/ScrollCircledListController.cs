@@ -71,7 +71,7 @@ public class ScrollCircledListController : MonoBehaviour, IPointerDownHandler
         }
 
         //create new ring items
-        List<RingModelData> ringModelDatas = applicationSettingsSO.RingsSetConfigSO.RingModelDatas;
+        List<RingSO> ringModelDatas = applicationSettingsSO.RingsSetConfigSO.RingModelDatas;
         int ringsCount = ringModelDatas.Count;
         int centerIndex = ringsCount / 2;
         int index = centerIndex;
@@ -84,7 +84,7 @@ public class ScrollCircledListController : MonoBehaviour, IPointerDownHandler
 
         do
         {
-            RingModelData ringModelData = ringModelDatas[index];
+            RingSO ringModelData = ringModelDatas[index];
             ScrollCircledListItem newItem = (ScrollCircledListItem)Instantiate(templateRingItem, contentPosCorrection, false);
             newItem.name = ringModelData.Name;
             newItem.SetupItem(index, ringModelData.Sprite);

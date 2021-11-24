@@ -1,44 +1,39 @@
-﻿using Assets.Scripts.Common.Controller;
-using Assets.Scripts.States.ARRing.View;
-using Zenject;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using Assets.Scripts.Common.Controller;
+using Assets.Scripts.States.ARRing.View;
 using UnityEngine;
+using Zenject;
 
 namespace Assets.Scripts.States.ARRing.Controller
 {
     public class ShowRingController : AbstractController
     {
-        public event Action<int> OnRingIndexChanged;
-        ARRingController arRingController;
-        [Inject]
-        ShowRingView view;
-        [Inject]
-        VuforiaMarkersController markersController;
-        [Inject]
-        SwipeController swipeController;
-        int currentModelIndex;
-        bool markerFound = false;
-        int CurrentModelIndex
+        private ARRingController arRingController;
+        private int currentModelIndex;
+        private bool markerFound;
+
+        [Inject] private VuforiaMarkersController markersController;
+
+        [Inject] private SwipeController swipeController;
+
+        [Inject] private ShowRingView view;
+
+        private int CurrentModelIndex
         {
-            get
-            {
-                return currentModelIndex;
-            }
+            get => currentModelIndex;
             set
             {
                 currentModelIndex = value;
-                if (currentModelIndex < 0)
-                {
-                    currentModelIndex = view.RingsCount - 1;
-                }
-                if (currentModelIndex == view.RingsCount)
-                {
-                    currentModelIndex = 0;
-                }
+                if (currentModelIndex < 0) currentModelIndex = view.RingsCount - 1;
+                if (currentModelIndex == view.RingsCount) currentModelIndex = 0;
                 OnRingIndexChanged?.Invoke(currentModelIndex);
             }
         }
+
+        public int RingsCount => view.RingsCount;
+
+        public event Action<int> OnRingIndexChanged;
 
         public void Init(ARRingController arRingController)
         {
@@ -49,6 +44,8 @@ namespace Assets.Scripts.States.ARRing.Controller
             currentModelIndex = 0;
             swipeController.OnSwipeRight += OnSwipeRightHandler;
             swipeController.OnSwipeLeft += OnSwipeLeftHandler;
+            swipeController.OnSwipeUp += OnSwipeUpHander;
+            swipeController.OnSwipeDown += OnSwipeDownHandler;
             this.arRingController = arRingController;
             this.arRingController.OnRingCarouselIndexChanged += OnCarouselRingIndexChangedHandler;
             this.arRingController.OnPrevRing += OnPrevRingHandler;
@@ -81,10 +78,25 @@ namespace Assets.Scripts.States.ARRing.Controller
             markersController.OnTrackingLostEvent -= OnTrackingLostHandler;
             swipeController.OnSwipeRight -= OnSwipeRightHandler;
             swipeController.OnSwipeLeft -= OnSwipeLeftHandler;
+            swipeController.OnSwipeUp -= OnSwipeUpHander;
+            swipeController.OnSwipeDown -= OnSwipeDownHandler;
             arRingController.OnRingCarouselIndexChanged -= OnCarouselRingIndexChangedHandler;
             arRingController.OnPrevRing -= OnPrevRingHandler;
             arRingController.OnNextRing -= OnNextRingHandler;
         }
+
+        private void OnSwipeDownHandler()
+        {
+            if (!markerFound) return;
+            view.SetNextMaterial();
+        }
+
+        private void OnSwipeUpHander()
+        {
+            if (!markerFound) return;
+            view.SetPreviousMaterial();
+        }
+
         public float GetRingPrice(int i)
         {
             return view.GetRingPrice(i);
@@ -104,10 +116,7 @@ namespace Assets.Scripts.States.ARRing.Controller
         private void OnCarouselRingIndexChangedHandler(int obj)
         {
             currentModelIndex = obj;
-            if (!markerFound)
-            {
-                return;
-            }
+            if (!markerFound) return;
             view.ShowModel(currentModelIndex);
         }
 
@@ -124,39 +133,22 @@ namespace Assets.Scripts.States.ARRing.Controller
         public List<string> GetRingNames()
         {
             var list = new List<string>();
-            for (int i = 0; i < RingsCount; i++)
-            {
-                list.Add(GetRingName(i));
-            }
+            for (var i = 0; i < RingsCount; i++) list.Add(GetRingName(i));
             return list;
         }
 
         private void OnSwipeRightHandler()
         {
-            if (!markerFound)
-            {
-                return;
-            }
+            if (!markerFound) return;
             CurrentModelIndex++;
             view.ShowModel(CurrentModelIndex);
         }
 
         private void OnSwipeLeftHandler()
         {
-            if (!markerFound)
-            {
-                return;
-            }
+            if (!markerFound) return;
             CurrentModelIndex--;
             view.ShowModel(CurrentModelIndex);
-        }
-
-        public int RingsCount
-        {
-            get
-            {
-                return view.RingsCount;
-            }
         }
     }
 }
