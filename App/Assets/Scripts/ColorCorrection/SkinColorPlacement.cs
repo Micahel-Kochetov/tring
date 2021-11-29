@@ -90,7 +90,9 @@ namespace Assets.Scripts.ColorCorrection
                 if (TryGetSkinTexture(p00.position, p01.position, p10.position, p11.position, out tex))
                 {
                     handMaterial.SetTexture("_MainTex", tex);
+                    Debug.Log("Texture updated " +Time.time);
                 }
+
                 Resources.UnloadUnusedAssets();
             }
         }
@@ -114,11 +116,11 @@ namespace Assets.Scripts.ColorCorrection
             var points = new List<Vector2>() { sp00, sp01, sp10, sp11 };
             var minXPoint = points.OrderBy(p => p.x).First();
             tex = null;
-#if UNITY_EDITOR
-            var rect = new Rect(sp01.x, Screen.height - sp01.y, (sp01 - sp10).magnitude, (sp00 - sp01).magnitude);
-#else
+//#if UNITY_EDITOR
+//            var rect = new Rect(sp01.x, Screen.height - sp01.y, (sp01 - sp10).magnitude, (sp00 - sp01).magnitude);
+//#else
             var rect = new Rect(sp01.x, sp01.y, (sp01 - sp10).magnitude, (sp00 - sp01).magnitude);
-#endif
+//#endif
             var angle = Vector2.Angle(Vector2.right, sp00 - sp11);
             if ((sp00 - sp11).y < 0)
             {
