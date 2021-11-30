@@ -1,1 +1,1 @@
-{"Version":"0.1","BuildNumber":63,"BranchName":"feature/RingFaska"}
+{"Version":"0.1","BuildNumber":64,"BranchName":"develop"}
