@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e48083768131622429e75bdbe7a92bc7, type: 3}
   m_Name: ApplicationSettings
   m_EditorClassIdentifier: 
-  ringsSetConfigSO: {fileID: 11400000, guid: 5411efd8751b2ff4a9b715be48ed22a5, type: 2}
+  ringsSetConfigSO: {fileID: 11400000, guid: 3cb1a584d59d4426098a40ba75b633ae, type: 2}
   scenesSetConfigSO: {fileID: 11400000, guid: cd57063ff0f466549bb15cf1c87030fb, type: 2}
