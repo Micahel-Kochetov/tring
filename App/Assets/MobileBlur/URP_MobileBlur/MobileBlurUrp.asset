@@ -16,7 +16,7 @@ MonoBehaviour:
   settings:
     Event: 500
     Algorithm: 1
-    BlurAmount: 0.29
+    BlurAmount: 0.15
     KernelSize: 3
     BlurMask: {fileID: 2800000, guid: 1e96c807bad42da4eaae628afb14c28b, type: 3}
     BlitMaterial: {fileID: 2100000, guid: c7bd3e5f09b365349b867aed8fd62efb, type: 2}
