@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: growring
-  productName: TRing
+  companyName: TRING
+  productName: TRING APPLICATION
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -149,7 +149,7 @@ PlayerSettings:
     iPhone: com.tring.com
   buildNumber:
     Standalone: 0
-    iPhone: 64
+    iPhone: 69
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
@@ -216,7 +216,7 @@ PlayerSettings:
   iOSRenderExtraFrameOnPause: 0
   iosCopyPluginsCodeInsteadOfSymlink: 0
   appleDeveloperTeamID: 3WG3MC7NRW
-  iOSManualSigningProvisioningProfileID: 4866bb0e-446c-437b-9305-b0ba0d68015d
+  iOSManualSigningProvisioningProfileID: 3f4b6ace-093e-4442-a6db-1f75a306fe12
   tvOSManualSigningProvisioningProfileID: 
   iOSManualSigningProvisioningProfileType: 1
   tvOSManualSigningProvisioningProfileType: 0
