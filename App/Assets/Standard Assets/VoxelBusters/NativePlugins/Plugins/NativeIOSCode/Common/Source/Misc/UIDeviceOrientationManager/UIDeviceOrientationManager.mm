@@ -64,20 +64,21 @@
 
 - (void)orientationChanged:(NSNotification *)note
 {
-	UIDeviceOrientation toOrientation	= [[note object] orientation];
-	UIDeviceOrientation fromOrientation	= self.currentOrientation;
-	NSLog(@"[OrientationManager] new orientation: %d", toOrientation);
-	
-	for (NSValue *nonRetainedObserver in self.observers)
-    {
-		id<UIDeviceOrientationObserver> observer	= [nonRetainedObserver nonretainedObjectValue];
-		
-		if (observer)
-			[observer didRotateToOrientation:toOrientation fromOrientation:fromOrientation];
-    }
-	
-	// Update value orientation
-	self.currentOrientation	= toOrientation;
+//	UIDeviceOrientation toOrientation	= [[note object] orientation];
+//	UIDeviceOrientation fromOrientation	= self.currentOrientation;
+//	NSLog(@"[OrientationManager] new orientation: %d", toOrientation);
+//
+//	for (NSValue *nonRetainedObserver in self.observers)
+//    {
+//		id<UIDeviceOrientationObserver> observer	= [nonRetainedObserver nonretainedObjectValue];
+//
+//		if (observer)
+//			[observer didRotateToOrientation:toOrientation fromOrientation:fromOrientation];
+//    }
+//
+//	// Update value orientation
+//	self.currentOrientation	= toOrientation;
+    NSLog(@"This code does not compile, so it is commented out.");
 }
 
 #pragma mark - Observer

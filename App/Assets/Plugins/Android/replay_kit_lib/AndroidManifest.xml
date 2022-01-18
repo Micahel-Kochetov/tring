@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--AUTO GENERATED MANIFEST FILE FROM AndroidManifestGenerator. DONT MODIFY HERE.-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.voxelbusters.replaykitplugin" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="28" />
+  <application>
+    <!--Custom File Provider. Sharing from internal folders-->
+    <provider android:name="com.voxelbusters.replaykit.extensions.FileProviderExtended" android:authorities="com.louisvuittontring.com.replaykit.fileprovider" android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/replay_kit_file_paths" />
+    </provider>
+  </application>
+  <!--Permissions-->
+  <!--Required for recording audio-->
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+</manifest>
