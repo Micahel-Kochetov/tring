@@ -16,7 +16,7 @@ EditorBuildSettings:
     guid: 6ab9602dc0aecb44db3612af7c0b1f6a
   - enabled: 1
     path: Assets/Scenes/TRing/ARRing/ARRing3D.unity
-    guid: fedbf3ad13d23274fbaa8576aeff14ff
+    guid: 62f8add9e06a8564080a8e8e5a3c1598
   - enabled: 1
     path: Assets/Scenes/TRing/ARRing/ARRingMobile.unity
     guid: 8b94e40e37faba1459d51af9caa0343e
