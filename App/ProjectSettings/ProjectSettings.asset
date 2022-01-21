@@ -149,7 +149,7 @@ PlayerSettings:
     iPhone: com.tring.com
   buildNumber:
     Standalone: 0
-    iPhone: 69
+    iPhone: 71
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
@@ -215,7 +215,7 @@ PlayerSettings:
   metalAPIValidation: 1
   iOSRenderExtraFrameOnPause: 0
   iosCopyPluginsCodeInsteadOfSymlink: 0
-  appleDeveloperTeamID: 3WG3MC7NRW
+  appleDeveloperTeamID: FTQZ8YW7TK
   iOSManualSigningProvisioningProfileID: 3f4b6ace-093e-4442-a6db-1f75a306fe12
   tvOSManualSigningProvisioningProfileID: 
   iOSManualSigningProvisioningProfileType: 1
