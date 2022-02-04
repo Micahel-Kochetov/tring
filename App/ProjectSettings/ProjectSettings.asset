@@ -149,7 +149,7 @@ PlayerSettings:
     iPhone: com.swarovskitring.com
   buildNumber:
     Standalone: 0
-    iPhone: 2
+    iPhone: 3
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
@@ -216,7 +216,7 @@ PlayerSettings:
   iOSRenderExtraFrameOnPause: 0
   iosCopyPluginsCodeInsteadOfSymlink: 0
   appleDeveloperTeamID: 3WG3MC7NRW
-  iOSManualSigningProvisioningProfileID: 4866bb0e-446c-437b-9305-b0ba0d68015d
+  iOSManualSigningProvisioningProfileID: e61423fb-ffda-4b0c-a339-46c91417f36d
   tvOSManualSigningProvisioningProfileID: 
   iOSManualSigningProvisioningProfileType: 1
   tvOSManualSigningProvisioningProfileType: 0
