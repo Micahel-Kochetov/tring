@@ -9,8 +9,6 @@ namespace Assets.Scripts.ColorCorrection
     public class SkinColorPlacement : MonoBehaviour
     {
         [SerializeField]
-        Camera viewCamera;
-        [SerializeField]
         CustomTrackableEventHandler vuforiaEventHandler;
         bool markerFound;
         [SerializeField]
@@ -36,6 +34,8 @@ namespace Assets.Scripts.ColorCorrection
         [SerializeField]
         TextureFormat readPixelsDestinationFormat;
 
+        Camera viewCamera;
+
         public float SkinColorAdditiveParameter
         {
             get; set;
@@ -48,6 +48,7 @@ namespace Assets.Scripts.ColorCorrection
             rt = new RenderTexture(Screen.width, Screen.height, 24, renderTextureFormat);
             var renderCameraGO = new GameObject();
             renderCamera = renderCameraGO.AddComponent<Camera>();
+            viewCamera = VuforiaARCameraController.Instance.Camera;
             SkinColorAdditiveParameter = 0;
             SetLayerAsync();
         }
