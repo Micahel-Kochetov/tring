@@ -51,10 +51,6 @@ namespace Assets.Scripts.States.ARRing
             recordVideoController = sceneUIContext.Container.Resolve<RecordVideoController>();
             recordVideoController.Init(Constants.CRecordVideoScreen);
 
-            CameraDevice.Instance.SetFlashTorchMode(false);
-            CameraDevice.Instance.SetFlashTorchMode(true);
-
-            appFocusService.OnFocusChange += OnFocusChangeHandler;
             preshareController = sceneUIContext.Container.Resolve<PreshareController>();
             preshareController.Init(Constants.CPreshareScreen);
         }
@@ -76,23 +72,6 @@ namespace Assets.Scripts.States.ARRing
             recordVideoController.Dispose();
             preshareController.Deactivate();
             preshareController.Dispose();
-            CameraDevice.Instance.SetFlashTorchMode(false);
-            appFocusService.OnFocusChange -= OnFocusChangeHandler;
-        }
-
-        private void OnFocusChangeHandler(bool hasFocus)
-        {
-            UnityEngine.Debug.Log("OnFocusChangeHandler " + hasFocus);
-            if (hasFocus)
-            {
-                TurnOnFlashAsync();
-            }
-        }
-
-        private async Task TurnOnFlashAsync()
-        {
-            await Task.Delay(2000);
-            CameraDevice.Instance.SetFlashTorchMode(true);
         }
     }
 }
