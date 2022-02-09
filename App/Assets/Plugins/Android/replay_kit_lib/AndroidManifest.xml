@@ -4,7 +4,7 @@
   <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="28" />
   <application>
     <!--Custom File Provider. Sharing from internal folders-->
-    <provider android:name="com.voxelbusters.replaykit.extensions.FileProviderExtended" android:authorities="com.TRING.TRINGAPPLICATION.replaykit.fileprovider" android:exported="false" android:grantUriPermissions="true">
+    <provider android:name="com.voxelbusters.replaykit.extensions.FileProviderExtended" android:authorities="com.tring.com.replaykit.fileprovider" android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/replay_kit_file_paths" />
     </provider>
   </application>
