@@ -1,0 +1,12 @@
+name: Sonar
+
+on:
+  push:
+    branches: [ sonar ]
+  pull_request:
+    branches: [ sonar ]
+      
+jobs:
+  build:
+  
+      runs-on: windows-latest
