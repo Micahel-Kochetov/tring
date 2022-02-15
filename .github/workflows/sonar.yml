@@ -2,17 +2,17 @@ name: Sonar
 
 on:
   push:
-    branches: [ sonar ]
+    branches: [ dev ]
   pull_request:
-    branches: [ sonar ]
+    branches: [ dev ]
       
 jobs:
   build:
   
       runs-on: windows-latest
-
-steps:
-      - name: sonar-scanner-install
+      
+      steps:
+      - name: sonar-scanner-and-nodejs-install
         run: |
           Invoke-RestMethod -Uri https://github.com/SonarSource/sonar-scanner-msbuild/releases/download/5.5.3.43281/sonar-scanner-msbuild-5.5.3.43281-net46.zip -OutFile sonar-scanner-msbuild-5.5.3.43281-net46.zip
           ls
