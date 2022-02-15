@@ -25,6 +25,6 @@ jobs:
         
       - name: sonar-scanner-run
         run: |
-          ls D:\
+          ls D:\a\
           D:\a\tring\tring\sonar-scanner-msbuild-5.5.3.43281-net46\SonarScanner.MSBuild.exe begin /k:"tring" /d:sonar.host.url="https://sonarqube.devsoftengi.space" /d:sonar.login="09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a"
           
