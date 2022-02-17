@@ -14,12 +14,12 @@ jobs:
       steps:
       - name: sonar-scanner-install
         run: |
-          #ls C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin
           Invoke-RestMethod -Uri https://github.com/SonarSource/sonar-scanner-msbuild/releases/download/5.5.3.43281/sonar-scanner-msbuild-5.5.3.43281-net46.zip -OutFile sonar-scanner-msbuild-5.5.3.43281-net46.zip
           Expand-Archive .\sonar-scanner-msbuild-5.5.3.43281-net46.zip -DestinationPath d:\sonar-scaner
           cmd
           curl -SL --output vs_buildtools.exe https://aka.ms/vs/17/release/vs_buildtools.exe
           .\vs_buildtools.exe --quiet --add Microsoft.VisualStudio.Workload.VCTools
+          ls C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin
                     
       - name: repo
         uses: actions/checkout@v1
@@ -27,5 +27,6 @@ jobs:
       - name: sonar-scanner-run
         run: |
           d:\sonar-scaner\SonarScanner.MSBuild.exe begin /k:"tring" /d:sonar.host.url="https://sonarqube.devsoftengi.space" /d:sonar.login="09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a"
-          MsBuild.exe /t:Rebuild
+          & "c:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\MSBuild.exe" /t:Rebuild
+          d:\sonar-scaner\SonarScanner.MSBuild.exe end /d:sonar.login="09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a"
           
