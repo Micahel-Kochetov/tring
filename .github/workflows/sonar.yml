@@ -9,7 +9,7 @@ on:
 jobs:
   build:
   
-      runs-on: windows-latest
+      runs-on: mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
       
       steps:
       - name: sonar-scanner-install
