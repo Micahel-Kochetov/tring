@@ -27,7 +27,7 @@ jobs:
       - name: sonar-scanner-run
         run: |
           #d:\sonar-scaner\SonarScanner.MSBuild.exe begin /k:"tring" /d:sonar.host.url="https://sonarqube.devsoftengi.space" /d:sonar.login="09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a"
-          cd "c:\Program Files\Microsoft Visual Studio\2022\Enterprise"
+          cd "c:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin"
           ls
           cd "c:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin"
           ls
