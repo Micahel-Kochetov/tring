@@ -9,12 +9,14 @@ on:
 jobs:
   build:
   
-      runs-on: mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
+      runs-on: windows-latast
       
       steps:
       - name: sonar-scanner-install
         run: |
-          Invoke-RestMethod -Uri https://download.visualstudio.microsoft.com/download/pr/928b2d78-4b74-4601-9c82-334cdbb1b3b4/ce4ff79bed538d9fde90f4ac1020ea59e02538ef7e10af3b97b687b89e8662a3/vs_BuildTools.exe
+          cmd
+          curl -SL --output vs_buildtools.exe https://aka.ms/vs/17/release/vs_buildtools.exe
+          exit
           .\vs_buildtools.exe --quiet --add Microsoft.VisualStudio.Workload.VCTools
           ls C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin
           Invoke-RestMethod -Uri https://github.com/SonarSource/sonar-scanner-msbuild/releases/download/5.5.3.43281/sonar-scanner-msbuild-5.5.3.43281-net46.zip -OutFile sonar-scanner-msbuild-5.5.3.43281-net46.zip
