@@ -17,8 +17,9 @@ jobs:
           cmd
           curl -SL --output vs_buildtools.exe https://aka.ms/vs/17/release/vs_buildtools.exe
           exit
+          echo 'vs install'
           .\vs_buildtools.exe --quiet --add Microsoft.VisualStudio.Workload.VCTools
-          ls C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin
+          #ls C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin
           Invoke-RestMethod -Uri https://github.com/SonarSource/sonar-scanner-msbuild/releases/download/5.5.3.43281/sonar-scanner-msbuild-5.5.3.43281-net46.zip -OutFile sonar-scanner-msbuild-5.5.3.43281-net46.zip
           Expand-Archive .\sonar-scanner-msbuild-5.5.3.43281-net46.zip -DestinationPath d:\sonar-scaner
                     
