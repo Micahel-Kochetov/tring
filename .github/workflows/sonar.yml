@@ -1,22 +1,15 @@
-name: Sonar
-
-on:
-  push:
-    branches: [ sonar ]
-  pull_request:
-    branches: [ sonar ]
-      
-uses: Secbyte/dotnet-sonarscanner@v2.3
+- name: Sonarscanner for dotnet
+  uses: Secbyte/dotnet-sonarscanner@v2.3
   with:
     buildCommand: dotnet build .
-    projectKey: tring
-    projectName: tring
-    sonarOrganisation: softengi
-    sonarHostname: https://sonarqube.devsoftengi.space/
+    testCommand: dotnet test .
+    projectKey: a-project-key
+    projectName: a-project-name
+    sonarOrganisation: an-org
     beginArguments: >
         /d:sonar.verbose="true"
         /d:sonar.cs.opencover.reportsPaths='"/path/to/coverage.xml","/path/to/coverage.2.xml"'
         /d:sonar.coverage.exclusions='"**/*.cs","**/*.md"'
   env:
-    SONAR_TOKEN: 09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a
-  #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
