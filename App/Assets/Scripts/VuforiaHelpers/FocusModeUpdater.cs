@@ -1,31 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 
 public class FocusModeUpdater : MonoBehaviour
 {
-    [SerializeField] private CameraDevice.FocusMode focusMode;
-    [SerializeField] private bool isSetOnStart;
+    [SerializeField] private FocusMode focusMode;
 
-    void Start()
+    private void Start()
     {
         UpdateFocusMode(focusMode);
     }
 
-    public void UpdateToContinuosAutoFocus()
+    void UpdateFocusMode(FocusMode newFocusMode)
     {
-        UpdateFocusMode(CameraDevice.FocusMode.FOCUS_MODE_CONTINUOUSAUTO);
-    }
-
-    public void UpdateToTriggerAutoFocus()
-    {
-        UpdateFocusMode(CameraDevice.FocusMode.FOCUS_MODE_TRIGGERAUTO);
-    }
-
-    public void UpdateFocusMode(CameraDevice.FocusMode newFocusMode)
-    {
+        VuforiaBehaviour.Instance.CameraDevice.SetFocusMode(newFocusMode);
         focusMode = newFocusMode;
-        CameraDevice.Instance.SetFocusMode(focusMode);
+    }
+
+    public void UpdateFocusModeToTriggerAuto()
+    {
+        UpdateFocusMode(FocusMode.FOCUS_MODE_TRIGGERAUTO);
+    }
+    
+    public void UpdateFocusModeToContinuousAuto()
+    {
+        UpdateFocusMode(FocusMode.FOCUS_MODE_CONTINUOUSAUTO);
     }
 }

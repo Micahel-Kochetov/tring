@@ -32,7 +32,6 @@ namespace Assets.Scripts.States.ARRing
         protected override async Task Initialize(SceneContext scene3DContext, SceneContext sceneUIContext, ActivateStateParameters args = null)
         {
             await base.Initialize(scene3DContext, sceneUIContext, args);
-            CameraDevice.Instance.SetFocusMode(CameraDevice.FocusMode.FOCUS_MODE_CONTINUOUSAUTO);
             vuforiaMarkersController = scene3DContext.Container.Resolve<VuforiaMarkersController>();
             showRingsController = scene3DContext.Container.Resolve<ShowRingController>();
             arringController = sceneUIContext.Container.Resolve<ARRingController>();

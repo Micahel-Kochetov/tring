@@ -130,7 +130,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6591376716038675430}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &272399055
+--- !u!4 &349049166 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 349049166, guid: 208e83c40564a9945b959044bc4b576c,
+    type: 3}
+  m_PrefabInstance: {fileID: 6591376716038675430}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &385633675 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 385633675, guid: 208e83c40564a9945b959044bc4b576c,
+    type: 3}
+  m_PrefabInstance: {fileID: 6591376716038675430}
+  m_PrefabAsset: {fileID: 0}
+--- !u!21 &511023803
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -139,8 +151,10 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'LV_1214_200_N11_0.Body_scaledMaterial
 
-    -9544'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    -17658Bright
+
+    -17658'
+  m_Shader: {fileID: 4800000, guid: 7e6d3c0df88f3ab458512f8282e449af, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
@@ -159,18 +173,6 @@ Material:
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
   m_BuildTextureStacks: []
---- !u!4 &349049166 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 349049166, guid: 208e83c40564a9945b959044bc4b576c,
-    type: 3}
-  m_PrefabInstance: {fileID: 6591376716038675430}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &385633675 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 385633675, guid: 208e83c40564a9945b959044bc4b576c,
-    type: 3}
-  m_PrefabInstance: {fileID: 6591376716038675430}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &519346192 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 519346192, guid: 208e83c40564a9945b959044bc4b576c,
@@ -184,6 +186,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1284023762893790, guid: 6dc31175e37aff34daebeb203658d13b, type: 3}
+      propertyPath: m_Name
+      value: ARCamera
+      objectReference: {fileID: 0}
     - target: {fileID: 4957124365044940, guid: 6dc31175e37aff34daebeb203658d13b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -216,28 +222,19 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 20669815964346966, guid: 6dc31175e37aff34daebeb203658d13b,
-        type: 3}
-      propertyPath: m_CullingMask.m_Bits
-      value: 4294967295
+    - target: {fileID: 4957124365044940, guid: 6dc31175e37aff34daebeb203658d13b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114607807713005228, guid: 6dc31175e37aff34daebeb203658d13b,
-        type: 3}
-      propertyPath: RingsCount
-      value: 21
+    - target: {fileID: 4957124365044940, guid: 6dc31175e37aff34daebeb203658d13b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114607807713005228, guid: 6dc31175e37aff34daebeb203658d13b,
-        type: 3}
-      propertyPath: ring.Array.data[0]
-      value: 
+    - target: {fileID: 4957124365044940, guid: 6dc31175e37aff34daebeb203658d13b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114669288422500152, guid: 6dc31175e37aff34daebeb203658d13b,
-        type: 3}
-      propertyPath: errorCanvas
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114607807713005228, guid: 6dc31175e37aff34daebeb203658d13b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6dc31175e37aff34daebeb203658d13b, type: 3}
 --- !u!20 &553209980 stripped
 Camera:
@@ -251,13 +248,13 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6591376716038675430}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &939171160
+--- !u!43 &838781625
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CylinderMesh-9544
+  m_Name: CylinderMesh-17658
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -582,7 +579,7 @@ PrefabInstance:
       objectReference: {fileID: 1213739334}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9f0724f9003a44091a4dd4f7656de6, type: 3}
---- !u!21 &1521154605
+--- !u!21 &1531524987
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -591,10 +588,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'LV_1214_200_N11_0.Body_scaledMaterial
 
-    -9544Bright
-
-    -9544'
-  m_Shader: {fileID: 4800000, guid: 7e6d3c0df88f3ab458512f8282e449af, type: 3}
+    -17658'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
@@ -684,17 +679,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 272399055}
+      objectReference: {fileID: 1531524987}
     - target: {fileID: 23328097604425954, guid: 208e83c40564a9945b959044bc4b576c,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 1521154605}
+      objectReference: {fileID: 511023803}
     - target: {fileID: 33937579185448892, guid: 208e83c40564a9945b959044bc4b576c,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 939171160}
+      objectReference: {fileID: 838781625}
     - target: {fileID: 114378668115203958, guid: 208e83c40564a9945b959044bc4b576c,
         type: 3}
       propertyPath: mSideLength
