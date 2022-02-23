@@ -6,3 +6,4 @@ App/Assets/Models/New[[:space:]]Models/shaders/CubeMaps/diamant.cubemap filter=l
 App/Assets/Models/New[[:space:]]Models/shaders/CubeMaps/diamant[[:space:]]2.cubemap filter=lfs diff=lfs merge=lfs -text
 App/Assets/Models/New[[:space:]]Models/sky[[:space:]]box/SkySerie[[:space:]]Freebie/FreebieHdri/sky[[:space:]]light[[:space:]]1.cubemap filter=lfs diff=lfs merge=lfs -text
 App/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-7_0_2.so filter=lfs diff=lfs merge=lfs -text
+*.tgz filter=lfs diff=lfs merge=lfs -text
