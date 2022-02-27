@@ -31,7 +31,8 @@ public class VuforiaARCameraController : MonoBehaviour
 
         if(isActive)
         {
-            TrackerManager.Instance.GetStateManager().ReassociateTrackables();
+            //TODO: find correct migrated method in Vuforia 10.
+            //TrackerManager.Instance.GetStateManager().ReassociateTrackables();
         }
     }
 }
