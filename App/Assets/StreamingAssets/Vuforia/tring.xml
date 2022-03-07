@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <CylinderTarget name="LV_3_1147_136" sideLength="0.519263"/>
     <CylinderTarget name="LV_1214_136_N0" sideLength="1.000000"/>
     <CylinderTarget name="LV_1214_200_N11_0" sideLength="1.000000"/>
   </Tracking>
