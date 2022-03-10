@@ -1,0 +1,39 @@
+name: Sonar
+
+on:
+  push:
+    branches: [ Scanner ]
+  pull_request:
+    branches: [ Scanner ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Checkout Github Action'
+        uses: actions/checkout@master
+        
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '3.1.x'
+     
+      - name: Install Sonar global tool
+        run: dotnet tool install --global dotnet-sonarscanner
+
+      - name: Begin Sonar scan
+        run: dotnet sonarscanner begin /k:"tring" /d:sonar.host.url="https://sonarqube.devsoftengi.space" /d:sonar.login="09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a"
+
+      - name: Build and run unit tests
+        run: |
+          #cd src
+          #dotnet restore "MySolution.sln"
+          #cd MyAPI
+          #dotnet build --no-restore
+          #cd -
+          #cd MyApiUnitTests
+          dotnet build --no-restore App\App.sln
+          #dotnet test --no-build --no-restore --verbosity normal -p:CollectCoverage=true -p:CoverletOutputFormat=opencover
+          
+      - name: End Sonar scan
+        run: dotnet sonarscanner end /d:sonar.login="09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a"
