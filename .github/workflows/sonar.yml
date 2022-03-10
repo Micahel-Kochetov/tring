@@ -26,12 +26,9 @@ jobs:
 
       - name: Build and run unit tests
         run: |
-          pwd
           cd App
-          dotnet new sln --name App.sln
-          ls
+          dotnet new sln --name App
           dotnet build --no-restore App.sln
-          #dotnet test --no-build --no-restore --verbosity normal -p:CollectCoverage=true -p:CoverletOutputFormat=opencover
           
       - name: End Sonar scan
         run: dotnet sonarscanner end /d:sonar.login="09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a"
