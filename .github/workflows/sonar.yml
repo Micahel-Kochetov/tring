@@ -27,8 +27,8 @@ jobs:
       - name: Build and run unit tests
         run: |
           cd App
-          dotnet new sln
-          ls
+          #dotnet new sln
+          #ls
           dotnet build --no-restore App.sln
           
       - name: End Sonar scan
