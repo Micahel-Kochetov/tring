@@ -7,31 +7,24 @@ on:
     branches: [ Scanner ]
 jobs:
   build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: 'Checkout Github Action'
-        uses: actions/checkout@master
-        
-      - name: Setup dotnet
-        uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: '6.0.x'
-     
-      - name: Install Sonar global tool
+  
+      runs-on: windows-latest
+      
+      steps:
+      - name: sonar-scanner-install
         run: |
-          dotnet tool install --global dotnet-sonarscanner
-          #dotnet add package 
-
-      - name: Begin Sonar scan
-        run: dotnet sonarscanner begin /k:"tring" /d:sonar.host.url="https://sonarqube.devsoftengi.space" /d:sonar.login="09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a"
-
-      - name: Build and run unit tests
+          Invoke-RestMethod -Uri https://github.com/SonarSource/sonar-scanner-msbuild/releases/download/5.5.3.43281/sonar-scanner-msbuild-5.5.3.43281-net46.zip -OutFile sonar-scanner-msbuild-5.5.3.43281-net46.zip
+          Expand-Archive .\sonar-scanner-msbuild-5.5.3.43281-net46.zip -DestinationPath d:\sonar-scaner
+          cmd
+          curl -SL --output vs_buildtools.exe https://aka.ms/vs/17/release/vs_buildtools.exe
+          .\vs_buildtools.exe --quiet --add Microsoft.VisualStudio.Workload.VCTools
+                    
+      - name: repo
+        uses: actions/checkout@v1
+        
+      - name: sonar-scanner-run
         run: |
           cd App
-          dotnet new sln
-          ls
-          dotnet build --no-restore App.sln
-          
-      - name: End Sonar scan
-        run: dotnet sonarscanner end /d:sonar.login="09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a"
+          d:\sonar-scaner\SonarScanner.MSBuild.exe begin /k:"tring" /d:sonar.host.url="https://sonarqube.devsoftengi.space" /d:sonar.login="09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a"
+          & "c:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\MSBuild.exe" /t:Rebuild
+          d:\sonar-scaner\SonarScanner.MSBuild.exe end /d:sonar.login="09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a"
