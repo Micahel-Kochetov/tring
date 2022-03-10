@@ -26,8 +26,10 @@ jobs:
 
       - name: Build and run unit tests
         run: |
+          pwd
           cd App
           dotnet new sln --name App.sln
+          ls
           dotnet build --no-restore App.sln
           #dotnet test --no-build --no-restore --verbosity normal -p:CollectCoverage=true -p:CoverletOutputFormat=opencover
           
