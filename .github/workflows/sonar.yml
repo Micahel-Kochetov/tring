@@ -1,11 +1,20 @@
-    - name: SonarScanner for .NET 6 with pull request decoration support
-      uses: highbyte/sonarscan-dotnet@v2.1.2
-      with:
-        # The key of the SonarQube project
-        sonarProjectKey: tring
-        # The name of the SonarQube project
-        sonarProjectName:  tring
-        # The SonarQube server URL. For SonarCloud, skip this setting.
-        sonarHostname:  https://sonarqube.devsoftengi.space
-  env:
-    SONAR_TOKEN: 09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a
+name: Sonar
+
+on:
+  push:
+    branches: [ Scanner ]
+  pull_request:
+    branches: [ Scanner ]
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: SonarScanner for .NET 6 with pull request decoration support
+        uses: highbyte/sonarscan-dotnet@v2.1.2
+        with:
+         sonarProjectKey: tring
+         sonarProjectName:  tring
+         sonarHostname:  https://sonarqube.devsoftengi.space
+    env:
+     SONAR_TOKEN: 09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a
