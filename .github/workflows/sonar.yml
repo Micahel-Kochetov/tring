@@ -16,7 +16,7 @@ jobs:
          sonarProjectKey: tring
          sonarProjectName:  tring
          sonarHostname: https://sonarqube.devsoftengi.space
-         #dotnetBuildArguments: ./App/App.sln
+         dotnetBuildArguments: ./src
          dotnetDisableTests: true
     env:
      SONAR_TOKEN: 09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a
