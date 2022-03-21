@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.1.0.0",
+        "fileVersion": "4.1.0-5.22116.13 (dbffaa4a)",
+        "semanticVersion": "4.1.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Standard%20Assets/VoxelBusters/NativePlugins/Editor/UpdateChecker.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 37,
+                  "endLine": 42,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        }
+      ],
+      "rules": {
+        "CS0618": {
+          "id": "CS0618",
+          "shortDescription": "Type or member is obsolete",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

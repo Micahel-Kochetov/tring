@@ -1,0 +1,14 @@
+﻿C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\Source\Editor\SceneParentLoading\SceneParentAutomaticLoader.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\Source\Editor\ZenUnityEditorUtil.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\Source\Editor\Editors\GameObjectContextEditor.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\Source\Editor\Editors\RunnableContextEditor.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\Source\Editor\ZenMenuItems.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\Source\Editor\Editors\ProjectContextEditor.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\Source\Editor\SceneParentLoading\DefaultSceneContractConfig.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\Source\Editor\Editors\SceneDecoratorContextEditor.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\Source\Editor\ObjectGraphVisualizer.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\Source\Editor\EditorStaticInstaller.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\Source\Editor\UnityInspectorListEditor.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\Source\Editor\EditorWindow\ZenjectEditorWindow.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\Source\Editor\Editors\SceneContextEditor.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\Source\Editor\Editors\ContextEditor.cs
