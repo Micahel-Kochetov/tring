@@ -1,1 +1,0 @@
-﻿C:\Users\Климнюк\tring\App\Assets\Editor\Migration\AddVuforiaEnginePackage.cs
