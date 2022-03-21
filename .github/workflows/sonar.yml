@@ -1,6 +1,12 @@
+name: Sonar
+
+on:
+  push:
+    branches: [ Scanner ]
+  pull_request:
+    branches: [ Scanner ]
 jobs:
   build:
-  
       runs-on: windows-latest
       
       steps:
