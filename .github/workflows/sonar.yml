@@ -10,9 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: SonarScanner
-        uses: highbyte/sonarscan-dotnet@v2.1.2
-        with:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+     - uses: actions/checkout@v2
+       with:
+        fetch-depth: '0'
+
+     - name: SonarScanner
+       uses: highbyte/sonarscan-dotnet@v2.1.2
+       with:
          sonarProjectKey: tring
          sonarProjectName:  tring
          sonarHostname: https://sonarqube.devsoftengi.space
@@ -20,4 +25,3 @@ jobs:
          dotnetDisableTests: true
     env:
      SONAR_TOKEN: 09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a
-
