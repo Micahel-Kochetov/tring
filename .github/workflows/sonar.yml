@@ -14,7 +14,7 @@ jobs:
         uses: highbyte/sonarscan-dotnet@v2.1.2
         with:
          sonarProjectKey: tring
-         #sonarProjectName:  tring
+         sonarProjectName:  tring
          sonarHostname:  https://sonarqube.devsoftengi.space
          dotnetBuildArguments: ./App/App.sln
     env:
