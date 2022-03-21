@@ -2,9 +2,9 @@ name: Sonar
 
 on:
   push:
-    branches: [ sonar ]
+    branches: [ Scanner ]
   pull_request:
-    branches: [ sonar ]
+    branches: [ Scanner ]
 jobs:
   build:
     runs-on: ubuntu-latest
