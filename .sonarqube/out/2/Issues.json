@@ -1,0 +1,321 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.1.0.0",
+        "fileVersion": "4.1.0-5.22116.13 (dbffaa4a)",
+        "semanticVersion": "4.1.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'NUnit' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectUnitTestFixture.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 7,
+                  "endLine": 1,
+                  "endColumn": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'NUnit' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectIntegrationTestFixture.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 7,
+                  "endLine": 7,
+                  "endColumn": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'NUnit' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectIntegrationTestFixture.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 7,
+                  "endLine": 8,
+                  "endColumn": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'NUnit' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/SceneTestFixture.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 7,
+                  "endLine": 5,
+                  "endColumn": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'SetUpAttribute' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectUnitTestFixture.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 10,
+                  "endLine": 19,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'SetUp' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectUnitTestFixture.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 10,
+                  "endLine": 19,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'TearDownAttribute' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectUnitTestFixture.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 10,
+                  "endLine": 25,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'TearDown' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectUnitTestFixture.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 10,
+                  "endLine": 25,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'SetUpAttribute' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectIntegrationTestFixture.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 10,
+                  "endLine": 40,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'SetUp' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectIntegrationTestFixture.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 10,
+                  "endLine": 40,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'SetUpAttribute' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/SceneTestFixture.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 10,
+                  "endLine": 87,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'SetUp' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/SceneTestFixture.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 10,
+                  "endLine": 87,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'TearDownAttribute' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectIntegrationTestFixture.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 10,
+                  "endLine": 137,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'TearDown' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectIntegrationTestFixture.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 10,
+                  "endLine": 137,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'TearDownAttribute' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/SceneTestFixture.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 10,
+                  "endLine": 101,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'TearDown' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/Zenject/OptionalExtras/TestFramework/SceneTestFixture.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 10,
+                  "endLine": 101,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rules": {
+        "CS0246": {
+          "id": "CS0246",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0246)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

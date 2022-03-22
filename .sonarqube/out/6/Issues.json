@@ -1,0 +1,1219 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.1.0.0",
+        "fileVersion": "4.1.0-5.22116.13 (dbffaa4a)",
+        "semanticVersion": "4.1.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS0234",
+          "level": "error",
+          "message": "The type or namespace name 'UI' does not exist in the namespace 'UnityEngine' (are you missing an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs",
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 19,
+                  "endLine": 2,
+                  "endColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0234",
+          "level": "error",
+          "message": "The type or namespace name 'EventSystems' does not exist in the namespace 'UnityEngine' (are you missing an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 19,
+                  "endLine": 3,
+                  "endColumn": 31
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0234",
+          "level": "error",
+          "message": "The type or namespace name 'UI' does not exist in the namespace 'UnityEngine' (are you missing an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/VoxelBusters/CrossPlatformReplayKit/Demo/Scripts/ReplayKitDemo.cs",
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 19,
+                  "endLine": 2,
+                  "endColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0234",
+          "level": "error",
+          "message": "The type or namespace name 'UI' does not exist in the namespace 'UnityEngine' (are you missing an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs",
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 19,
+                  "endLine": 2,
+                  "endColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0234",
+          "level": "error",
+          "message": "The type or namespace name 'EventSystems' does not exist in the namespace 'UnityEngine' (are you missing an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 19,
+                  "endLine": 3,
+                  "endColumn": 31
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0234",
+          "level": "error",
+          "message": "The type or namespace name 'UI' does not exist in the namespace 'UnityEngine' (are you missing an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs",
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 19,
+                  "endLine": 2,
+                  "endColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0234",
+          "level": "error",
+          "message": "The type or namespace name 'EventSystems' does not exist in the namespace 'UnityEngine' (are you missing an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 19,
+                  "endLine": 3,
+                  "endColumn": 31
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0234",
+          "level": "error",
+          "message": "The type or namespace name 'UI' does not exist in the namespace 'UnityEngine' (are you missing an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/VoxelBusters/CrossPlatformReplayKit/Demo/Scripts/ColorChange.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 19,
+                  "endLine": 4,
+                  "endColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0234",
+          "level": "error",
+          "message": "The type or namespace name 'UI' does not exist in the namespace 'UnityEngine' (are you missing an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs",
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 19,
+                  "endLine": 2,
+                  "endColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0234",
+          "level": "error",
+          "message": "The type or namespace name 'EventSystems' does not exist in the namespace 'UnityEngine' (are you missing an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 19,
+                  "endLine": 3,
+                  "endColumn": 31
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'IScrollHandler' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 55,
+                  "endLine": 12,
+                  "endColumn": 69
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'IBeginDragHandler' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 71,
+                  "endLine": 12,
+                  "endColumn": 88
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'IEndDragHandler' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 90,
+                  "endLine": 12,
+                  "endColumn": 105
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'IPointerClickHandler' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 45,
+                  "endLine": 12,
+                  "endColumn": 65
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'IPointerClickHandler' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 46,
+                  "endLine": 9,
+                  "endColumn": 66
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'IBeginDragHandler' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 68,
+                  "endLine": 9,
+                  "endColumn": 85
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'IDragHandler' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 87,
+                  "endLine": 9,
+                  "endColumn": 99
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'IEndDragHandler' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 101,
+                  "endLine": 9,
+                  "endColumn": 116
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'PointerEventData' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 25,
+                  "endLine": 17,
+                  "endColumn": 41
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'PointerEventData' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 28,
+                  "endLine": 25,
+                  "endColumn": 44
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'PointerEventData' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 26,
+                  "endLine": 30,
+                  "endColumn": 42
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Image' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 10,
+                  "endLine": 22,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'BaseEventData' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 37,
+                  "endLine": 38,
+                  "endColumn": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'BaseEventData' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 35,
+                  "endLine": 43,
+                  "endColumn": 48
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Text' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/VoxelBusters/CrossPlatformReplayKit/Demo/Scripts/ReplayKitDemo.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 17,
+                  "endLine": 12,
+                  "endColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'PointerEventData' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs",
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 31,
+                  "endLine": 129,
+                  "endColumn": 47
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'ScrollRect' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 10,
+                  "endLine": 14,
+                  "endColumn": 20
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'PointerEventData' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 31,
+                  "endLine": 86,
+                  "endColumn": 47
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'PointerEventData' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs",
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 28,
+                  "endLine": 160,
+                  "endColumn": 44
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'PointerEventData' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs",
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 23,
+                  "endLine": 173,
+                  "endColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Image' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 11,
+                  "endLine": 21,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Image' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/VoxelBusters/CrossPlatformReplayKit/Demo/Scripts/ColorChange.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 17,
+                  "endLine": 11,
+                  "endColumn": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'PointerEventData' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs",
+                "region": {
+                  "startLine": 179,
+                  "startColumn": 26,
+                  "endLine": 179,
+                  "endColumn": 42
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Text' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 11,
+                  "endLine": 25,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Image' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 11,
+                  "endLine": 27,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Image' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 11,
+                  "endLine": 17,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Text' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 11,
+                  "endLine": 33,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Text' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 11,
+                  "endLine": 27,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Text' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 11,
+                  "endLine": 29,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Text' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 11,
+                  "endLine": 31,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Standard%20Assets/VoxelBusters/Common/Utility/Web/Scripts/Request/FileDownload/DownloadAsset.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 36,
+                  "endLine": 11,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'BaseEventData' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs",
+                "region": {
+                  "startLine": 649,
+                  "startColumn": 23,
+                  "endLine": 649,
+                  "endColumn": 36
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Standard%20Assets/VoxelBusters/Common/Utility/Web/Scripts/Request/Base/WebRequest.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 22,
+                  "endLine": 50,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Standard%20Assets/VoxelBusters/Common/Utility/Web/Scripts/Request/GET/GETRequest.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 22,
+                  "endLine": 22,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'InputField' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs",
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 11,
+                  "endLine": 113,
+                  "endColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Image' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs",
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 11,
+                  "endLine": 116,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Image' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs",
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 11,
+                  "endLine": 119,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Image' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs",
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 11,
+                  "endLine": 121,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Image' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 11,
+                  "endLine": 123,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Text' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 11,
+                  "endLine": 126,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Text' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 11,
+                  "endLine": 128,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Text' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 11,
+                  "endLine": 130,
+                  "endColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'ScrollRect' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 11,
+                  "endLine": 143,
+                  "endColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/VoxelBusters/CrossPlatformReplayKit/Common/Utility/Web/Scripts/Request/Base/WebRequest.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 22,
+                  "endLine": 50,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/VoxelBusters/CrossPlatformReplayKit/Common/Utility/Web/Scripts/Request/POST/POSTRequest.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 22,
+                  "endLine": 20,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'PointerEventData' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 11,
+                  "endLine": 187,
+                  "endColumn": 27
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Standard%20Assets/VoxelBusters/Common/Utility/Web/Scripts/Request/Base/Request.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 15,
+                  "endLine": 25,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/VoxelBusters/CrossPlatformReplayKit/Common/Utility/Web/Scripts/Request/GET/GETRequest.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 22,
+                  "endLine": 22,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/VoxelBusters/CrossPlatformReplayKit/Common/Utility/Web/Scripts/Request/Base/Request.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 15,
+                  "endLine": 25,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Standard%20Assets/VoxelBusters/Common/Utility/Web/Scripts/Request/POST/POSTRequest.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 22,
+                  "endLine": 20,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BD%D1%8E%D0%BA/tring/App/Assets/Plugins/VoxelBusters/CrossPlatformReplayKit/Common/Utility/Web/Scripts/Request/FileDownload/DownloadAsset.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 36,
+                  "endLine": 11,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        }
+      ],
+      "rules": {
+        "CS0234": {
+          "id": "CS0234",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0234)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        },
+        "CS0246": {
+          "id": "CS0246",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0246)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        },
+        "CS0618": {
+          "id": "CS0618",
+          "shortDescription": "Type or member is obsolete",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

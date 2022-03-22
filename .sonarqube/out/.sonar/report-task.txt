@@ -1,0 +1,6 @@
+projectKey=tring
+serverUrl=https://sonarqube.devsoftengi.space
+serverVersion=7.9.1.27448
+dashboardUrl=https://sonarqube.devsoftengi.space/dashboard?id=tring
+ceTaskId=AX-w1ClHFSUIyKolvSkT
+ceTaskUrl=https://sonarqube.devsoftengi.space/api/ce/task?id=AX-w1ClHFSUIyKolvSkT

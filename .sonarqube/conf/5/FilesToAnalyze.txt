@@ -1,0 +1,4 @@
+﻿C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\MemoryPoolMonitor\Editor\DebugWindow\MpmView.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\MemoryPoolMonitor\Editor\DebugWindow\InPlaceStableSort.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\MemoryPoolMonitor\Editor\MpmSettingsInstaller.cs
+C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\MemoryPoolMonitor\Editor\DebugWindow\MpmWindow.cs
