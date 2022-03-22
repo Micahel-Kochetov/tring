@@ -1,9 +1,0 @@
-﻿C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\ReflectionBaking\Common\ReflectionBakingModuleEditor.cs
-C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\ReflectionBaking\Unity\ReflectionBakingMenuItems.cs
-C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\ReflectionBaking\Unity\ReflectionBakingInternalUtil.cs
-C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\ReflectionBaking\Unity\AssemblyPathRegistry.cs
-C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\ReflectionBaking\Unity\UnityAssemblyResolver.cs
-C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\ReflectionBaking\Unity\ZenjectReflectionBakingSettingsEditor.cs
-C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\ReflectionBaking\Common\CecilExtensions.cs
-C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\ReflectionBaking\Unity\ReflectionBakingBuildObserver.cs
-C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\ReflectionBaking\Unity\ZenjectReflectionBakingSettings.cs

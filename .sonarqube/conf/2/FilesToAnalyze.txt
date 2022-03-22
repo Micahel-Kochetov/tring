@@ -1,6 +1,0 @@
-﻿C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\TestFramework\ZenjectUnitTestFixture.cs
-C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\TestFramework\ZenjectIntegrationTestFixture.cs
-C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\TestFramework\SceneTestFixtureSceneReference.cs
-C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\TestFramework\SceneTestFixture.cs
-C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\TestFramework\ZenjectTestUtil.cs
-C:\Users\Климнюк\tring\App\Assets\Plugins\Zenject\OptionalExtras\TestFramework\ValidateOnlyAttribute.cs
