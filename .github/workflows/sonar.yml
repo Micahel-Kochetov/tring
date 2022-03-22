@@ -7,7 +7,7 @@ on:
     branches: [ Scanner ]
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: 'Checkout Github Action'
@@ -25,5 +25,4 @@ jobs:
         run: |
           dotnet sonarscanner begin /k:"tring" /d:sonar.host.url="https://sonarqube.devsoftengi.space" /d:sonar.login="09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a"
           dotnet build App/App.sln
-          ls App
           dotnet sonarscanner end /d:sonar.login="09c76e3588c0c06e1f84355d1c44d8c82a0e7f7a"
