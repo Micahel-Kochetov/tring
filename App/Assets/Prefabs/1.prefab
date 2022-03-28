@@ -563,4 +563,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   focusMode: 2
-  isSetOnStart: 0
+  isSetOnStart: 1
