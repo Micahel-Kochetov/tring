@@ -124,44 +124,13 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!21 &8639890
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'LV_1214_200_N11_0.Body_scaledMaterial
-
-    -24690Bright
-
-    -24690'
-  m_Shader: {fileID: 4800000, guid: 7e6d3c0df88f3ab458512f8282e449af, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b6499fb3203343d6af21a17a02223338, type: 3}
-        m_Scale: {x: -1, y: -1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
---- !u!43 &136300275
+--- !u!43 &198854589
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CylinderMesh-24690
+  m_Name: CylinderMesh-41578
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -335,19 +304,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6591376716038675430}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &349049166 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 349049166, guid: 208e83c40564a9945b959044bc4b576c,
-    type: 3}
-  m_PrefabInstance: {fileID: 6591376716038675430}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &385633675 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 385633675, guid: 208e83c40564a9945b959044bc4b576c,
-    type: 3}
-  m_PrefabInstance: {fileID: 6591376716038675430}
-  m_PrefabAsset: {fileID: 0}
---- !u!21 &475464730
+--- !u!21 &297878136
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -356,7 +313,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'LV_1214_200_N11_0.Body_scaledMaterial
 
-    -24690'
+    -41578'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -376,6 +333,18 @@ Material:
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
   m_BuildTextureStacks: []
+--- !u!4 &349049166 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 349049166, guid: 208e83c40564a9945b959044bc4b576c,
+    type: 3}
+  m_PrefabInstance: {fileID: 6591376716038675430}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &385633675 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 385633675, guid: 208e83c40564a9945b959044bc4b576c,
+    type: 3}
+  m_PrefabInstance: {fileID: 6591376716038675430}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &519346192 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 519346192, guid: 208e83c40564a9945b959044bc4b576c,
@@ -545,6 +514,106 @@ PrefabInstance:
       objectReference: {fileID: 1213739334}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9f0724f9003a44091a4dd4f7656de6, type: 3}
+--- !u!21 &1673640129
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'LV_1214_200_N11_0.Body_scaledMaterial
+
+    -41578Bright
+
+    -41578'
+  m_Shader: {fileID: 4800000, guid: 7e6d3c0df88f3ab458512f8282e449af, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b6499fb3203343d6af21a17a02223338, type: 3}
+        m_Scale: {x: -1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
+--- !u!1001 &1977302979162198560
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1977302979212996039, guid: d641a3778dc39450797b76b56d5f2066,
+        type: 3}
+      propertyPath: m_Name
+      value: VuforiaARCameraActivator
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977302979212996041, guid: d641a3778dc39450797b76b56d5f2066,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977302979212996041, guid: d641a3778dc39450797b76b56d5f2066,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977302979212996041, guid: d641a3778dc39450797b76b56d5f2066,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977302979212996041, guid: d641a3778dc39450797b76b56d5f2066,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977302979212996041, guid: d641a3778dc39450797b76b56d5f2066,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977302979212996041, guid: d641a3778dc39450797b76b56d5f2066,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977302979212996041, guid: d641a3778dc39450797b76b56d5f2066,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977302979212996041, guid: d641a3778dc39450797b76b56d5f2066,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977302979212996041, guid: d641a3778dc39450797b76b56d5f2066,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977302979212996041, guid: d641a3778dc39450797b76b56d5f2066,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977302979212996041, guid: d641a3778dc39450797b76b56d5f2066,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d641a3778dc39450797b76b56d5f2066, type: 3}
 --- !u!1001 &6591376716038675430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -616,17 +685,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 475464730}
+      objectReference: {fileID: 297878136}
     - target: {fileID: 23328097604425954, guid: 208e83c40564a9945b959044bc4b576c,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 8639890}
+      objectReference: {fileID: 1673640129}
     - target: {fileID: 33937579185448892, guid: 208e83c40564a9945b959044bc4b576c,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 136300275}
+      objectReference: {fileID: 198854589}
     - target: {fileID: 114378668115203958, guid: 208e83c40564a9945b959044bc4b576c,
         type: 3}
       propertyPath: mSideLength
