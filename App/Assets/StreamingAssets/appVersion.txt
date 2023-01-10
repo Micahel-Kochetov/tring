@@ -1,1 +1,1 @@
-{"Version":"0.1","BuildNumber":7,"BranchName":"swarowski"}
+{"Version":"0.1","BuildNumber":8,"BranchName":"swarowski"}
